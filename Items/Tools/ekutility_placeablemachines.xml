@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
   
-  <Item name="Diving Suit Locker" identifier="ekutility_divingsuitlocker" tags="container,divingsuitcontainer,divingsuitcontainerwindow" pickdistance="150" scale="0.5"
-  description="Storage for one diving suit, refills oxygen if powered. ( Place by pressing aim + use )" HideConditionBar="true" >
+  <Item name="" identifier="ekutility_divingsuitlocker" tags="container,divingsuitcontainer,divingsuitcontainerwindow" pickdistance="150" scale="0.5"
+   HideConditionBar="true" >
     <!--<Price locationtype="City" buyprice="40" />
     <Price locationtype="Outpost" buyprice="50" />
     <Price locationtype="Military" buyprice="50" />
@@ -66,8 +66,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Oxygen Tank Shelf" identifier="ekutility_oxygentankshelf" nameidentifier="oxygentankshelf" tags="container,oxygentankcontainer" pickdistance="50" scale="0.5"
-  description="Storage for three oxygen tanks, refills oxygen if powered. ( Place by pressing aim + use )" HideConditionBar="true" >
+  <Item name="" identifier="ekutility_oxygentankshelf" nameidentifier="oxygentankshelf" tags="container,oxygentankcontainer" pickdistance="50" scale="0.5"
+   HideConditionBar="true" >
     <!--<Price locationtype="City" buyprice="40" />
     <Price locationtype="Outpost" buyprice="50" />
     <Price locationtype="Military" buyprice="50" />
@@ -134,7 +134,7 @@
     </ItemContainer>
   </Item>
   
-  <Item name="Text Display" identifier="ekutility_placeabletextdisplay" scale="0.5">
+  <Item name="" identifier="ekutility_placeabletextdisplay" scale="0.5">
     <Price baseprice="125" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1" sold="false"/>
@@ -171,7 +171,7 @@
     </ConnectionPanel>
   </Item>
   
-  <Item name="Text Display (Long)" identifier="ekutility_placeabletextdisplaylong" scale="0.5">
+  <Item name="" identifier="ekutility_placeabletextdisplaylong" scale="0.5">
     <Price baseprice="125" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1" sold="false"/>
@@ -208,8 +208,8 @@
     </ConnectionPanel>
   </Item>
   
-  <Item name="Water Sprinkler" identifier="ekutility_portablespinkler" category="Equipment" Tags="smallitem,tool,signal" cargocontaineridentifier="metalcrate" requireaimtouse="true" characterusable="false"
-  description="A general-purpose sprinkler system for agricultural use or light fire suppression. Requires electricity. ( Place by pressing aim + use )" Scale="0.32" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ekutility_portablespinkler" category="Equipment" Tags="smallitem,tool,signal" cargocontaineridentifier="metalcrate" requireaimtouse="true" characterusable="false"
+   Scale="0.32" impactsoundtag="impact_metal_light" maxstacksize="2">
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="704,496,104,128" depth="0.55" canflipx="false" origin="0.38,0.5" />
     <Price baseprice="85" >
       <Price locationtype="outpost" multiplier="1" minavailable="2" />
@@ -262,8 +262,8 @@
   </Item>
 
 <!-- Todo: wait for this to work
-  <Item name="Water Sprinkler Timer" identifier="ekutility_portablespinkler_timerbox" category="Equipment" Tags="smallitem,tool,signal" cargocontaineridentifier="metalcrate"
-  description="A small electro-mechanical switch which can be used to turn sprinklers on and off on timed intervals. ( Place by pressing aim + use )" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ekutility_portablespinkler_timerbox" category="Equipment" Tags="smallitem,tool,signal" cargocontaineridentifier="metalcrate"
+   Scale="0.5" impactsoundtag="impact_metal_light">
     <Sprite texture="Content/Items/Electricity/signalcomp.png" depth="0.8" sourcerect="122,68,36,36" origin="0.5,0.5" />
     <Price baseprice="120" >
       <Price locationtype="outpost" multiplier="1" minavailable="2" />
@@ -309,7 +309,7 @@
   </Item>
 -->
   
-  <Item name="Secure Button (Captain)" identifier="ekutility_securebuttoncaptain" category="Electrical" tags="smallitem,button" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="8">
+  <Item name="" identifier="ekutility_securebuttoncaptain" category="Electrical" tags="smallitem,button" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="8">
     <Price baseprice="125" soldeverywhere="false"> <!-- What kind of literal psychopath made the default button price 150? -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1" sold="false"/>
@@ -346,7 +346,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Secure Button (Security Officer)" identifier="ekutility_securebuttonsecurityofficer" category="Electrical" tags="smallitem,button" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="8">
+  <Item name="" identifier="ekutility_securebuttonsecurityofficer" category="Electrical" tags="smallitem,button" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="8">
     <Price baseprice="125" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1" sold="false"/>
@@ -379,7 +379,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Secure Button (Medical Doctor)" identifier="ekutility_securebuttonmedicaldoctor" category="Electrical" tags="smallitem,button" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="8">
+  <Item name="" identifier="ekutility_securebuttonmedicaldoctor" category="Electrical" tags="smallitem,button" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="8">
     <Price baseprice="125" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1" sold="false"/>
@@ -412,7 +412,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Secure Button (Mechanic)" identifier="ekutility_securebuttonmechanic" category="Electrical" tags="smallitem,button" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="8">
+  <Item name="" identifier="ekutility_securebuttonmechanic" category="Electrical" tags="smallitem,button" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="8">
     <Price baseprice="125" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1" sold="false"/>
@@ -445,7 +445,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Secure Button (Engineer)" identifier="ekutility_securebuttonengineer" category="Electrical" tags="smallitem,button" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="8">
+  <Item name="" identifier="ekutility_securebuttonengineer" category="Electrical" tags="smallitem,button" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="8">
     <Price baseprice="125" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1" sold="false"/>
@@ -478,8 +478,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Junction Bus" identifier="ekutility_placeablejunction" tags="junctionbox" category="Electrical" aliases="auxiliary power bus"
-  description="A simple wall mounted electrical junction. ( Place by pressing aim + use )" scale="0.25" linkable="false" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="" identifier="ekutility_placeablejunction" tags="junctionbox" category="Electrical" aliases="auxiliary power bus"
+   scale="0.25" linkable="false" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <Price baseprice="175" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1" sold="false"/>
@@ -562,8 +562,8 @@
     </Repairable>
   </Item>
   
-  <Item name="Heavy Power Switch" identifier="ekutility_heavypowerswitch" category="Electrical" Tags="smallitem,signal,logic" maxstacksize="2" cargocontaineridentifier="metalcrate" 
-  description="An industrial-strength power disconnect, capable of handling a single-pin throughput of up to 5000kw. ( Place by pressing aim + use )" scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
+  <Item name="" identifier="ekutility_heavypowerswitch" category="Electrical" Tags="smallitem,signal,logic" maxstacksize="2" cargocontaineridentifier="metalcrate" 
+   scale="0.25" impactsoundtag="impact_metal_light" isshootable="true">
     <Price baseprice="165" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1" sold="false"/>
@@ -613,8 +613,8 @@
     </ConnectionPanel>
   </Item>
   
-  <Item name="Battery Assembly" identifier="ekutility_placeablebattery" tags="battery,batterycellrecharger" category="Electrical" 
-  description="Wall mounted heavy battery power stack. 2000kw capacity, 1500kw discharge rate. ( Place by pressing aim + use )" scale="0.5" linkable="false" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="" identifier="ekutility_placeablebattery" tags="battery,batterycellrecharger" category="Electrical" 
+   scale="0.5" linkable="false" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <Price baseprice="650" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1" sold="false"/>
@@ -704,7 +704,7 @@
   </Item>
   
   <!--
-  <Item name="Planter Cloche" identifier="ekutility_placeablegreenhouse" category="Material" Tags="planter,mediumitem" scale="0.5" isshootable="true">
+  <Item name="" identifier="ekutility_placeablegreenhouse" category="Material" Tags="planter,mediumitem" scale="0.5" isshootable="true">
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="896,384,128,128" depth="0.75" premultiplyalpha="false" origin="0.5,0.5" />
     <Body width="95" height="106" density="40" />
     <Price baseprice="120" >
@@ -758,8 +758,8 @@
   </Item>
   -->
   
-  <Item name="Terminal" identifier="ekutility_placeableterminal" category="Electrical" Tags="smallitem,logic" cargocontaineridentifier="metalcrate" scale="0.5"
-		description="Outputs a user-submitted string." impactsoundtag="impact_metal_light" isshootable="true" >
+  <Item name="" identifier="ekutility_placeableterminal" category="Electrical" Tags="smallitem,logic" cargocontaineridentifier="metalcrate" scale="0.5"
+		 impactsoundtag="impact_metal_light" isshootable="true" >
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="0,352,120,128" depth="0.78" canflipx="false" origin="0.5,0.5" />
     <Price baseprice="165" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false" />
@@ -800,8 +800,8 @@
     </ConnectionPanel>
   </Item>
 
-  <Item name="Small Pump" identifier="ekutility_placeablesmallpump" tags="pump" linkable="false" category="Machine" scale="0.5" 
-		description="Usable device for moving water." damagedbyexplosions="true" explosiondamagemultiplier="0.2" hideinmenus="false">
+  <Item name="" identifier="ekutility_placeablesmallpump" tags="pump" linkable="false" category="Machine" scale="0.5" 
+		 damagedbyexplosions="true" explosiondamagemultiplier="0.2" hideinmenus="false">
 	
 	<Price baseprice="250" soldeverywhere="false" minleveldifficulty="15">
       <Price locationtype="outpost" multiplier="1.1" sold="false" />
@@ -883,8 +883,8 @@
 	-->
   </Item>
 
-  <Item name="Fabricator" identifier="ekutility_placeablefabricator" tags="fabricator,donttakeitems" category="Machine" linkable="false" scale="0.5" 
-  description="A machine capable of manufacturing a wide range of items out of basic raw materials. ( Place by pressing aim + use )" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="" identifier="ekutility_placeablefabricator" tags="fabricator,donttakeitems" category="Machine" linkable="false" scale="0.5" 
+   damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <Price baseprice="400" soldeverywhere="false" minleveldifficulty="15">
       <Price locationtype="outpost" multiplier="1.1" sold="false" />
       <Price locationtype="city" multiplier="0.9" minavailable="1" />
@@ -987,8 +987,8 @@
 	</ItemContainer>
   </Item>
   
-  <Item name="Medical Fabricator" identifier="ekutility_placeablemedicalfabricator" tags="medicalfabricator,donttakeitems" category="Machine" linkable="false" scale="0.5" 
-  description="A machine that can be used to manufacture various medicines. ( Place by pressing aim + use )" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="" identifier="ekutility_placeablemedicalfabricator" tags="medicalfabricator,donttakeitems" category="Machine" linkable="false" scale="0.5" 
+   damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <Price baseprice="550" soldeverywhere="false" minleveldifficulty="15"> <!--530-->
       <Price locationtype="outpost" multiplier="1.1" sold="false" />
       <Price locationtype="city" multiplier="0.9" minavailable="1" />
@@ -1093,7 +1093,7 @@
   
   <Item
     name="Deconstructor" identifier="ekutility_placeabledeconstructor" tags="deconstructor,donttakeitems" category="Machine" linkable="false" scale="0.5"
-    description="Disassembles and breaks down items to reusable components and material bars. ( Place by pressing aim + use )" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+     damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <Price baseprice="350" soldeverywhere="false" minleveldifficulty="15">
       <Price locationtype="outpost" multiplier="1.1" sold="false" />
       <Price locationtype="city" multiplier="0.9" minavailable="1" />
@@ -1192,8 +1192,8 @@
 	</ItemContainer>
   </Item>
   
-  <Item name="Sonar Monitor" identifier="ekutility_placeablesonarmonitor" tags="command,sonarmonitor" category="Machine" linkable="true" allowedlinks="statusmonitor" scale="0.5" 
-  description="Usable device for observing the sub's sonar. ( Place by pressing aim + use )" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="" identifier="ekutility_placeablesonarmonitor" tags="command,sonarmonitor" category="Machine" linkable="true" allowedlinks="statusmonitor" scale="0.5" 
+   damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <Price baseprice="340" soldeverywhere="false" minleveldifficulty="15">
       <Price locationtype="outpost" multiplier="1.1" sold="false" />
       <Price locationtype="city" multiplier="0.9" minavailable="1" />
@@ -1300,8 +1300,8 @@
 
   </Item>
   
-  <Item name="Status Monitor" identifier="ekutility_placeablestatusmonitor" tags="command,statusmonitor" category="Machine" linkable="true" allowedlinks="navterminal" scale="0.5" 
-  description="Usable device for viewing a schematic of the sub as well as the status of each room. ( Place by pressing aim + use )" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="" identifier="ekutility_placeablestatusmonitor" tags="command,statusmonitor" category="Machine" linkable="true" allowedlinks="navterminal" scale="0.5" 
+   damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <Price baseprice="390" soldeverywhere="false" minleveldifficulty="15">
       <Price locationtype="outpost" multiplier="1.1" sold="false" />
       <Price locationtype="city" multiplier="0.9" minavailable="1" />

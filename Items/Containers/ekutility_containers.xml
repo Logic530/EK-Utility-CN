@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
 
-  <Item name="Small Shelf" identifier="ekutility_smallshelf" tags="cabinet" pickdistance="150" scale="0.5"
-  description="Basic wall-mounted storage solution. ( Place by pressing aim + use )" HideConditionBar="true" >
+  <Item name="" identifier="ekutility_smallshelf" tags="cabinet" pickdistance="150" scale="0.5"
+   HideConditionBar="true" >
     <!--<Price locationtype="City" buyprice="40" />
     <Price locationtype="Outpost" buyprice="50" />
     <Price locationtype="Military" buyprice="50" />
@@ -46,8 +46,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Shelf" identifier="ekutility_mediumshelf" aliases="medium shelf" tags="cabinet" pickdistance="150" scale="0.5"
-  description="Basic wall-mounted storage solution. ( Place by pressing aim + use )" HideConditionBar="true" >
+  <Item name="" identifier="ekutility_mediumshelf" aliases="medium shelf" tags="cabinet" pickdistance="150" scale="0.5"
+   HideConditionBar="true" >
     <!--<Price locationtype="City" buyprice="75" />
     <Price locationtype="Outpost" buyprice="80" />
     <Price locationtype="Military" buyprice="80" />
@@ -93,8 +93,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Large Railgun Shell Rack" identifier="ekutility_shellrack" tags="cabinet" pickdistance="150" scale="0.5"
-  description="A metal frame designed to hold railgun shells. ( Place by pressing aim + use )">
+  <Item name="" identifier="ekutility_shellrack" tags="cabinet" pickdistance="150" scale="0.5"
+  >
     <!--<Price locationtype="City" buyprice="50" />
     <Price locationtype="Outpost" buyprice="60" />
     <Price locationtype="Military" buyprice="40" />-->
@@ -129,8 +129,8 @@
     </ItemContainer>
   </Item>
   
-  <Item name="Huge Railgun Shell Rack" identifier="ekutility_shellrack_huge" tags="cabinet" pickdistance="150" scale="0.5"
-  description="A wall-mounted magazine designed to hold many railgun shells. ( Place by pressing aim + use )">
+  <Item name="" identifier="ekutility_shellrack_huge" tags="cabinet" pickdistance="150" scale="0.5"
+  >
     <!--<Price locationtype="City" buyprice="50" />
     <Price locationtype="Outpost" buyprice="60" />
     <Price locationtype="Military" buyprice="40" />-->
@@ -170,8 +170,8 @@
     </ItemContainer>
   </Item>
   
-  <Item name="Crate Rack" identifier="ekutility_craterack" tags="container,crateshelf,coilgunammoshelf,coilgunammocontainer,cargocontainer,ammocontainer" pickdistance="150" 
-  description="A shelf for neatly storing cargo crates. ( Place by pressing aim + use )" scale="0.5" >
+  <Item name="" identifier="ekutility_craterack" tags="container,crateshelf,coilgunammoshelf,coilgunammocontainer,cargocontainer,ammocontainer" pickdistance="150" 
+   scale="0.5" >
     <!--<Price locationtype="City" buyprice="50" />
     <Price locationtype="Outpost" buyprice="60" />
     <Price locationtype="Military" buyprice="40" />-->
@@ -209,8 +209,8 @@
     </ItemContainer>
   </Item>
   
-  <Item name="Tall Crate Rack" identifier="ekutility_craterack_tall" tags="container,crateshelf,coilgunammoshelf,coilgunammocontainer,cargocontainer,ammocontainer" pickdistance="150" 
-  description="A taller shelf for neatly storing cargo crates. ( Place by pressing aim + use )" scale="0.5" >
+  <Item name="" identifier="ekutility_craterack_tall" tags="container,crateshelf,coilgunammoshelf,coilgunammocontainer,cargocontainer,ammocontainer" pickdistance="150" 
+   scale="0.5" >
     <!--<Price locationtype="City" buyprice="50" />
     <Price locationtype="Outpost" buyprice="60" />
     <Price locationtype="Military" buyprice="40" />-->
@@ -248,8 +248,8 @@
     </ItemContainer>
   </Item>
   
-  <Item name="Climate-Controlled Crate Rack" identifier="ekutility_craterack_freezer" tags="container,crateshelf,coilgunammoshelf,coilgunammocontainer,cargocontainer,ek_cratefreezer,ammocontainer" pickdistance="150" 
-  description="An enclosed crate shelf with controls for temperature or humidity sensitive cargo. Requires electricity. ( Place by pressing aim + use )" scale="0.5" fireproof="true" waterproof="true" >
+  <Item name="" identifier="ekutility_craterack_freezer" tags="container,crateshelf,coilgunammoshelf,coilgunammocontainer,cargocontainer,ek_cratefreezer,ammocontainer" pickdistance="150" 
+   scale="0.5" fireproof="true" waterproof="true" >
     <!--<Price locationtype="City" buyprice="50" />
     <Price locationtype="Outpost" buyprice="60" />
     <Price locationtype="Military" buyprice="40" />-->
@@ -324,8 +324,8 @@
 
   </Item>
   
-  <Item name="Chemlight Box (Red)" identifier="ekutility_chemlightboxred" category="Equipment" aliases="glowstick box (red),chemlight box red,glowstick box red" tags="mediumitem,ekutility_smallbox,toolbox"
-  description="Box of chemlights; a disposable single-use light source. Red in color." scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
+  <Item name="" identifier="ekutility_chemlightboxred" category="Equipment" aliases="glowstick box (red),chemlight box red,glowstick box red" tags="mediumitem,ekutility_smallbox,toolbox"
+   scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
     <!--<Price locationtype="City" buyprice="150" />
     <Price locationtype="Outpost" buyprice="175" />
     <Price locationtype="Military" buyprice="125" />
@@ -364,8 +364,8 @@
     </LightComponent>
   </Item>
   
-  <Item name="Chemlight Box (Green)" identifier="ekutility_chemlightboxgreen" category="Equipment" aliases="glowstick box (green),chemlight box green,glowstick box green" tags="mediumitem,ekutility_smallbox,toolbox"
-  description="Box of chemlights; a disposable single-use light source. Green in color." scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
+  <Item name="" identifier="ekutility_chemlightboxgreen" category="Equipment" aliases="glowstick box (green),chemlight box green,glowstick box green" tags="mediumitem,ekutility_smallbox,toolbox"
+   scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
     <!--<Price locationtype="City" buyprice="150" />
     <Price locationtype="Outpost" buyprice="175" />
     <Price locationtype="Military" buyprice="125" />
@@ -404,8 +404,8 @@
     </LightComponent>
   </Item>
   
-  <Item name="Chemlight Box (Blue)" identifier="ekutility_chemlightboxblue" category="Equipment" aliases="glowstick box (blue),chemlight box blue,glowstick box blue" tags="mediumitem,ekutility_smallbox,toolbox"
-  description="Box of chemlights; a disposable single-use light source. Blue in color." scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
+  <Item name="" identifier="ekutility_chemlightboxblue" category="Equipment" aliases="glowstick box (blue),chemlight box blue,glowstick box blue" tags="mediumitem,ekutility_smallbox,toolbox"
+   scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
     <!--<Price locationtype="City" buyprice="150" />
     <Price locationtype="Outpost" buyprice="175" />
     <Price locationtype="Military" buyprice="125" />
@@ -444,8 +444,8 @@
     </LightComponent>
   </Item>
   
-  <Item name="Chemlight Box (Yellow)" identifier="ekutility_chemlightboxyellow" category="Equipment" aliases="glowstick box (yellow),chemlight box yellow,glowstick box yellow" tags="mediumitem,ekutility_smallbox,toolbox"
-  description="Box of chemlights; a disposable single-use light source. Amber in color." scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
+  <Item name="" identifier="ekutility_chemlightboxyellow" category="Equipment" aliases="glowstick box (yellow),chemlight box yellow,glowstick box yellow" tags="mediumitem,ekutility_smallbox,toolbox"
+   scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
     <!--<Price locationtype="City" buyprice="150" />
     <Price locationtype="Outpost" buyprice="175" />
     <Price locationtype="Military" buyprice="125" />
@@ -484,8 +484,8 @@
     </LightComponent>
   </Item>
   
-  <Item name="Rolling Cart" identifier="ekutility_cart_depthcharge" tags="coilgunammoshelf,container,coilgunammocontainer,ammocontainer" pickdistance="75" scale="0.6"
-  description="A sturdy metal cart for transporting items like metal crates, depth charge shells, and diving suits." >
+  <Item name="" identifier="ekutility_cart_depthcharge" tags="coilgunammoshelf,container,coilgunammocontainer,ammocontainer" pickdistance="75" scale="0.6"
+   >
     <!--<Price locationtype="City" buyprice="70" />
     <Price locationtype="Outpost" buyprice="80" />
     <Price locationtype="Military" buyprice="60" />
@@ -522,8 +522,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Hand Truck" identifier="ekutility_handtruck" pickdistance="75" scale="0.6"
-  description="A simple hand truck for moving heavy railgun shells with ease." >
+  <Item name="" identifier="ekutility_handtruck" pickdistance="75" scale="0.6"
+   >
     <!--<Price locationtype="City" buyprice="70" />
     <Price locationtype="Outpost" buyprice="80" />
     <Price locationtype="Military" buyprice="60" />
@@ -561,8 +561,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Fuelrod Handling Truck" identifier="ekutility_handtruck_reactorfuel" category="Equipment" Tags="reactor" pickdistance="75" scale="0.6"
-  description="A hand truck with shielded pig for moving fuel rods outside the reactor." >
+  <Item name="" identifier="ekutility_handtruck_reactorfuel" category="Equipment" Tags="reactor" pickdistance="75" scale="0.6"
+   >
 	
     <Price baseprice="100" >
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
@@ -595,8 +595,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Artifact Container" identifier="ekutility_artifactbox" aliases="artifact crate,artifact box" scale="0.4" sonarsize="3" fireproof="true" waterproof="true"
-  description="A large heavily-insulated container designed to hold artifacts for transportation and study." pickdistance="60" impactsoundtag="impact_metal_heavy" HideConditionBar="true">
+  <Item name="" identifier="ekutility_artifactbox" aliases="artifact crate,artifact box" scale="0.4" sonarsize="3" fireproof="true" waterproof="true"
+   pickdistance="60" impactsoundtag="impact_metal_heavy" HideConditionBar="true">
     <!--<Price locationtype="City" buyprice="240" />
     <Price locationtype="Research" buyprice="140" />-->
 	
@@ -641,8 +641,8 @@
     <LightComponent LightColor="250,220,190,100" range="125" IsOn="true" />
   </Item>
 
-  <Item name="Industrial Strength Crate" identifier="ekutility_storagecrate" tags="crate" scale="0.5" fireproof="true" waterproof="true" 
-  description="A rugged watertight container for storage and transportation." linkable="true" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" >
+  <Item name="" identifier="ekutility_storagecrate" tags="crate" scale="0.5" fireproof="true" waterproof="true" 
+   linkable="true" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" >
 
     <Price baseprice="110" minleveldifficulty="25">
       <Price locationtype="outpost" multiplier="1.25" minavailable="3" />
@@ -671,8 +671,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Cargo Crate Blocker" identifier="ekutility_crateblocker" tags="mediumitem,crate" scale="0.5" fireproof="true" waterproof="true" maxstacksize="4"
-  description="An empty storage spacer. Can be used to prevent placing cargo in unused crate slots." pickdistance="150" impactsoundtag="impact_metal_heavy" >
+  <Item name="" identifier="ekutility_crateblocker" tags="mediumitem,crate" scale="0.5" fireproof="true" waterproof="true" maxstacksize="4"
+   pickdistance="150" impactsoundtag="impact_metal_heavy" >
 
     <Price baseprice="25" >
       <Price locationtype="outpost" multiplier="1.25" minavailable="5" />
@@ -694,8 +694,8 @@
     <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-30,14" handle2="30,14" aimable="false" msg="ItemMsgPickUpSelect" />
   </Item>
 
-  <Item name="Material Storage Locker" identifier="ekutility_materiallocker" tags="cabinet" pickdistance="150" scale="0.5"
-  description="A heavy storage locker for organization. ( Place by pressing aim + use )" HideConditionBar="true" >
+  <Item name="" identifier="ekutility_materiallocker" tags="cabinet" pickdistance="150" scale="0.5"
+   HideConditionBar="true" >
 	
     <Price baseprice="120" minleveldifficulty="25">
       <Price locationtype="outpost" multiplier="1" minavailable="3"/>
@@ -746,8 +746,8 @@
  <!-- 42 -->
 
 <!-- Old Crate Transport Mule -->
-  <Item name="Crate Transport Mule" identifier="ekutility_mulecargo" category="Equipment" Tags="container,provocative" cargocontaineridentifier="metalcrate" 
-  description="Self-propelled underwater sled capable of carrying 4 cargo crates." Scale="0.5" impactsoundtag="impact_metal_light" isshootable="true">
+  <Item name="" identifier="ekutility_mulecargo" category="Equipment" Tags="container,provocative" cargocontaineridentifier="metalcrate" 
+   Scale="0.5" impactsoundtag="impact_metal_light" isshootable="true">
 
     <Price baseprice="400" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.1" sold="false"/>
@@ -816,8 +816,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Secure Locker (Captain)" identifier="ekutility_securelockercaptain" tags="cabinet" pickdistance="150" scale="0.5" fireproof="true" waterproof="true"
-  description="Lockable storage for small- and medium-sized items. ( Place by pressing aim + use )" HideConditionBar="true" >
+  <Item name="" identifier="ekutility_securelockercaptain" tags="cabinet" pickdistance="150" scale="0.5" fireproof="true" waterproof="true"
+   HideConditionBar="true" >
 
     <Price baseprice="120" >
       <Price locationtype="outpost" multiplier="1" minavailable="3"/>
@@ -867,8 +867,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Secure Locker (Security Officer)" identifier="ekutility_securelockersecurityofficer" tags="cabinet" pickdistance="150" scale="0.5" fireproof="true" waterproof="true"
-  description="Lockable storage for small- and medium-sized items. ( Place by pressing aim + use )" HideConditionBar="true" >
+  <Item name="" identifier="ekutility_securelockersecurityofficer" tags="cabinet" pickdistance="150" scale="0.5" fireproof="true" waterproof="true"
+   HideConditionBar="true" >
 
     <Price baseprice="120" >
       <Price locationtype="outpost" multiplier="1" minavailable="3"/>
@@ -918,8 +918,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Secure Locker (Medical Doctor)" identifier="ekutility_securelockermedicaldoctor" tags="cabinet" pickdistance="150" scale="0.5" fireproof="true" waterproof="true"
-  description="Lockable storage for small- and medium-sized items. ( Place by pressing aim + use )" HideConditionBar="true" >
+  <Item name="" identifier="ekutility_securelockermedicaldoctor" tags="cabinet" pickdistance="150" scale="0.5" fireproof="true" waterproof="true"
+   HideConditionBar="true" >
 
     <Price baseprice="140" >
       <Price locationtype="outpost" multiplier="1" minavailable="3"/>
@@ -972,8 +972,8 @@
     </ItemContainer>
   </Item>
   
-  <Item name="Secure Locker (Mechanic)" identifier="ekutility_securelockermechanic" tags="cabinet" pickdistance="150" scale="0.5" fireproof="true" waterproof="true"
-  description="Lockable storage for small- and medium-sized items. ( Place by pressing aim + use )" HideConditionBar="true" >
+  <Item name="" identifier="ekutility_securelockermechanic" tags="cabinet" pickdistance="150" scale="0.5" fireproof="true" waterproof="true"
+   HideConditionBar="true" >
 
     <Price baseprice="140" >
       <Price locationtype="outpost" multiplier="1" minavailable="3"/>
@@ -1026,8 +1026,8 @@
     </ItemContainer>
   </Item>
   
-  <Item name="Secure Locker (Engineer)" identifier="ekutility_securelockerengineer" tags="cabinet" pickdistance="150" scale="0.5" fireproof="true" waterproof="true"
-  description="Lockable storage for small- and medium-sized items. ( Place by pressing aim + use )" HideConditionBar="true" >
+  <Item name="" identifier="ekutility_securelockerengineer" tags="cabinet" pickdistance="150" scale="0.5" fireproof="true" waterproof="true"
+   HideConditionBar="true" >
   
     <Price baseprice="140" >
       <Price locationtype="outpost" multiplier="1" minavailable="3"/>

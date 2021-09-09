@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
 
-  <Item name="Text Label" identifier="ekutility_label_text" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A blank label card with room for written information." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true" HideConditionBar="true">
+  <Item name="" identifier="ekutility_label_text" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true" HideConditionBar="true">
     <trigger x="20" y="-10" width="122" height="44" />
     <Deconstruct time="1"/>
     <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_containers.png" sourcerect="302,512,162,64" depth="0.72" origin="0.5,0.5" />
@@ -21,8 +21,8 @@
   </Item>
 
   <!-- Raw Resources -->
-  <Item name="Iron Label" identifier="ekutility_label_iron" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of iron on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_iron" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -36,8 +36,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Aluminium Label" identifier="ekutility_label_aluminium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of aluminium on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_aluminium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="448,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -51,8 +51,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Copper Label" identifier="ekutility_label_copper" tags="smallitem" pickdistance="150" scale="0.28"
-  description="A label card with a picture of copper on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_copper" tags="smallitem" pickdistance="150" scale="0.28"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -66,8 +66,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Titanium Label" identifier="ekutility_label_titanium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of titanium on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_titanium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -81,8 +81,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Carbon Label" identifier="ekutility_label_carbon" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of carbon on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_carbon" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -96,8 +96,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Lead Label" identifier="ekutility_label_lead" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of lead on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_lead" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="768,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -111,8 +111,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Tin Label" identifier="ekutility_label_tin" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of tin on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_tin" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -126,8 +126,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Zinc Label" identifier="ekutility_label_zinc" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of zinc on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_zinc" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="640,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -141,8 +141,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Silicon Label" identifier="ekutility_label_silicon" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of silicon on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_silicon" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="960,128,64,64" depth="0.71" origin="0.5,0.5" />
@@ -156,8 +156,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Uranium Label" identifier="ekutility_label_uranium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of uranium on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_uranium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="898,192,61,63" depth="0.71" origin="0.5,0.5" />
@@ -171,8 +171,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Thorium Label" identifier="ekutility_label_thorium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of thorium on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_thorium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="960,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -187,8 +187,8 @@
   </Item>
   
   <!-- Composite Resources -->
-  <Item name="Steel Label" identifier="ekutility_label_steel" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of steel on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_steel" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="640,128,64,64" depth="0.71" origin="0.5,0.5" />
@@ -202,8 +202,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Titanium-Aluminium Alloy Label" identifier="ekutility_label_titaniumaluminiumalloy" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of titanium-aluminium alloy on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_titaniumaluminiumalloy" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="192,768,64,64" depth="0.71" origin="0.5,0.5" />
@@ -217,8 +217,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Plastic Label" identifier="ekutility_label_plastic" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of plastic on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_plastic" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="896,128,64,64" depth="0.71" origin="0.5,0.5" />
@@ -232,8 +232,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Rubber Label" identifier="ekutility_label_rubber" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of rubber on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_rubber" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="0,770,64,64" depth="0.71" origin="0.5,0.5" />
@@ -247,8 +247,8 @@
     </Holdable>
   </Item>
 
-  <Item name="FPGA Circuit Label" identifier="ekutility_label_fpgacircuit" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of an fpga circuit on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_fpgacircuit" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,64,64,64" depth="0.71" origin="0.5,0.5" />
@@ -262,8 +262,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Organic Fiber Label" identifier="ekutility_label_organicfiber" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of organic fiber on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_organicfiber" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,768,64,64" depth="0.71" origin="0.5,0.5" />
@@ -277,8 +277,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Ballistic Fiber Label" identifier="ekutility_label_ballisticfiber" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of ballistic fiber on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_ballisticfiber" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="706,770,62,61" depth="0.71" origin="0.5,0.5" />
@@ -293,8 +293,8 @@
   </Item>
 
   <!-- Alien Resources -->
-  <Item name="Physicorium Label" identifier="ekutility_label_physicorium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of physicorium alloy on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_physicorium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,832,64,64" depth="0.71" origin="0.5,0.5" />
@@ -308,8 +308,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Fulgurium Label" identifier="ekutility_label_fulgurium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of fulgurium on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_fulgurium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,832,64,64" depth="0.71" origin="0.5,0.5" />
@@ -323,8 +323,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Sulphurite Label" identifier="ekutility_label_sulphuriteshard" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of sulphurite on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_sulphuriteshard" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="128,832,64,64" depth="0.71" origin="0.5,0.5" />
@@ -338,8 +338,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Oxygenite Label" identifier="ekutility_label_oxygeniteshard" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of oxygenite on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_oxygeniteshard" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="192,832,64,64" depth="0.71" origin="0.5,0.5" />
@@ -353,8 +353,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Incendium Label" identifier="ekutility_label_incendium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of incendium on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_incendium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="256,832,64,64" depth="0.71" origin="0.5,0.5" />
@@ -368,8 +368,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Dementonite Label" identifier="ekutility_label_dementonite" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of dementonite fiber on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_dementonite" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="0,832,64,64" depth="0.71" origin="0.5,0.5" />
@@ -384,8 +384,8 @@
   </Item>
 
   <!-- Chemical Resources -->
-  <Item name="Flash Powder Label" identifier="ekutility_label_flashpowder" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of flash powder on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_flashpowder" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,256,64,64" depth="0.71" origin="0.5,0.5" />
@@ -399,8 +399,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Lithium Label" identifier="ekutility_label_lithium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of lithium on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_lithium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="0,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -414,8 +414,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Sodium Label" identifier="ekutility_label_sodium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of sodium on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_sodium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -429,8 +429,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Magnesium Label" identifier="ekutility_label_magnesium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of magnesium on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_magnesium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="192,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -444,8 +444,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Potassium Label" identifier="ekutility_label_potassium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of potassium on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_potassium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="128,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -459,8 +459,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Chlorine Label" identifier="ekutility_label_chlorine" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of chlorine on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_chlorine" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="0,256,64,64" depth="0.71" origin="0.5,0.5" />
@@ -474,8 +474,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Calcium Label" identifier="ekutility_label_calcium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of calcium on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_calcium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="256,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -489,8 +489,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Phosphorus Label" identifier="ekutility_label_phosphorus" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of phosphorus on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_phosphorus" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,192,64,64" depth="0.71" origin="0.5,0.5" />
@@ -504,8 +504,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Ethanol Label" identifier="ekutility_label_ethanol" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of ethanol on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_ethanol" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="256,768,64,64" depth="0.71" origin="0.5,0.5" />
@@ -519,8 +519,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Sulphuric Acid Label" identifier="ekutility_label_sulphuricacid" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of sulphuric acid on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_sulphuricacid" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,768,64,64" depth="0.71" origin="0.5,0.5" />
@@ -539,8 +539,8 @@
   
 
   <!-- Medical Resources -->
-  <Item name="Bandage Label" identifier="ekutility_label_bandage" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a bandage on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_bandage" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="128,448,64,64" depth="0.71" origin="0.5,0.5" />
@@ -554,8 +554,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Plastiseal Label" identifier="ekutility_label_plastiseal" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of plastiseal on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_plastiseal" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="960,768,64,64" depth="0.71" origin="0.5,0.5" />
@@ -569,8 +569,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Antibiotic Glue Label" identifier="ekutility_label_antibioticglue" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of antibiotic glue on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_antibioticglue" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="0,448,64,64" depth="0.71" origin="0.5,0.5" />
@@ -584,8 +584,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Tonic Liquid Label" identifier="ekutility_label_tonicliquid" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of tonic liquid on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_tonicliquid" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -599,8 +599,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Saline Label" identifier="ekutility_label_saline" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of saline on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_saline" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="960,640,64,64" depth="0.71" origin="0.5,0.5" />
@@ -614,8 +614,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Blood Pack Label" identifier="ekutility_label_bloodpack" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a blood pack on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_bloodpack" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="896,640,64,64" depth="0.71" origin="0.5,0.5" />
@@ -629,8 +629,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Adrenaline Label" identifier="ekutility_label_adrenaline" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of adrenaline on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_adrenaline" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,768,64,64" depth="0.71" origin="0.5,0.5" />
@@ -644,8 +644,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Opium Label" identifier="ekutility_label_opium" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of opium on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_opium" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,768,64,64" depth="0.71" origin="0.5,0.5" />
@@ -659,8 +659,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Elastin Label" identifier="ekutility_label_elastin" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of elastin on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_elastin" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="768,768,64,64" depth="0.71" origin="0.5,0.5" />
@@ -674,8 +674,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Alien Blood Label" identifier="ekutility_label_alienblood" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of alien blood on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_alienblood" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="448,771,64,64" depth="0.71" origin="0.5,0.5" />
@@ -689,8 +689,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Adrenaline Gland Label" identifier="ekutility_label_adrenalinegland" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of an adrenaline gland on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_adrenalinegland" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="896,768,64,64" depth="0.71" origin="0.5,0.5" />
@@ -704,8 +704,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Swim Bladder Label" identifier="ekutility_label_swimbladder" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a swim bladder on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_swimbladder" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -719,8 +719,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Paralyxis Label" identifier="ekutility_label_paralyxis" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of paralyxis on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_paralyxis" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="960,832,64,64" depth="0.71" origin="0.5,0.5" />
@@ -734,8 +734,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Velonaceps Calyx Label" identifier="ekutility_label_huskeggs" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of velonaceps calyx on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_huskeggs" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,448,64,64" depth="0.71" origin="0.5,0.5" />
@@ -750,8 +750,8 @@
   </Item>
 
   <!-- Plants & Gardening -->
-  <Item name="Fiber Plant Label" identifier="ekutility_label_fiberplant" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a fiber plant on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_fiberplant" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_labels_fixed.png" sourcerect="0,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -765,8 +765,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Elastin Plant Label" identifier="ekutility_label_elastinplant" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of an elastin plant on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_elastinplant" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_labels_fixed.png" sourcerect="64,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -780,8 +780,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Aquatic Poppy Label" identifier="ekutility_label_aquaticpoppy" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of an aquatic poppy on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_aquaticpoppy" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_labels_fixed.png" sourcerect="128,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -795,8 +795,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Yeast Mushroom Label" identifier="ekutility_label_yeastshroom" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a yeast mushroom on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_yeastshroom" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_labels_fixed.png" sourcerect="192,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -810,8 +810,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Slime Bacteria Label" identifier="ekutility_label_slimebacteria" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of slime bacteria on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_slimebacteria" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_labels_fixed.png" sourcerect="0,64,64,64" depth="0.71" origin="0.5,0.5" />
@@ -825,8 +825,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Pomegrenade Label" identifier="ekutility_label_creepingorange" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a pomegrenade on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_creepingorange" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="960,640,64,64" depth="0.71" origin="0.5,0.5" />
@@ -840,8 +840,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Tobacco Bud Label" identifier="ekutility_label_tobaccobud" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a tobacco bud on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_tobaccobud" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="896,640,64,64" depth="0.71" origin="0.5,0.5" />
@@ -855,8 +855,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Salt Bulb Label" identifier="ekutility_label_saltbulb" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a salt bulb on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_saltbulb" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="960,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -870,8 +870,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Raptorbane Label" identifier="ekutility_label_raptorbane" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of raptorbane on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_raptorbane" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="960,768,64,64" depth="0.71" origin="0.5,0.5" />
@@ -887,8 +887,8 @@
   
   <!-- Medical Products & Toxins -->
 
-  <Item name="Stabilozine Label" identifier="ekutility_label_stabilozine" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of stabilozine on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_stabilozine" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,640,64,64" depth="0.71" origin="0.5,0.5" />
@@ -902,8 +902,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Morphine Label" identifier="ekutility_label_morphine" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of morphine on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_morphine" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="256,448,64,64" depth="0.71" origin="0.5,0.5" />
@@ -917,8 +917,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Fentanyl Label" identifier="ekutility_label_fentanyl" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of fentanyl on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_fentanyl" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,448,64,64" depth="0.71" origin="0.5,0.5" />
@@ -932,8 +932,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Deusizine Label" identifier="ekutility_label_deusizine" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of deusizine on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_deusizine" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -947,8 +947,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Naloxone Label" identifier="ekutility_label_naloxone" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of naloxone on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_naloxone" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,448,64,64" depth="0.71" origin="0.5,0.5" />
@@ -962,8 +962,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Haloperidol Label" identifier="ekutility_label_haloperidol" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of haloperidol on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_haloperidol" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,640,64,64" depth="0.71" origin="0.5,0.5" />
@@ -977,8 +977,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Methamphetamine Label" identifier="ekutility_label_methamphetamine" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of methamphetamine on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_methamphetamine" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,448,64,64" depth="0.71" origin="0.5,0.5" />
@@ -992,8 +992,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Anabolic Steroids Label" identifier="ekutility_label_steroids" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of anabolic steroids on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_steroids" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,448,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1007,8 +1007,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Hyperzine Label" identifier="ekutility_label_hyperzine" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of hyperzine on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_hyperzine" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="640,448,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1022,8 +1022,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Liquid Oxygenite Label" identifier="ekutility_label_liquidoxygenite" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of liquid oxygenite on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_liquidoxygenite" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,640,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1037,8 +1037,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Broad-spectrum Antibiotics Label" identifier="ekutility_label_antibiotics" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of broad-spectrum antibiotics on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_antibiotics" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1052,8 +1052,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Chloral Hydrate Label" identifier="ekutility_label_chloralhydrate" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of chloral hydrate on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_chloralhydrate" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="640,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1067,8 +1067,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Calyxanide Label" identifier="ekutility_label_calyxanide" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of calyxanide on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_calyxanide" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="896,448,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1082,8 +1082,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Raptorbane Extract Label" identifier="ekutility_label_raptorbaneextract" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of raptorbane extract on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_raptorbaneextract" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas2.png" sourcerect="128,320,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1097,8 +1097,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Pomegrenade Extract Label" identifier="ekutility_label_pomegrenadeextract" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of pomegrenade extract on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_pomegrenadeextract" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas2.png" sourcerect="0,384,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1112,8 +1112,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Cyanide Label" identifier="ekutility_label_cyanide" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of cyanide on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_cyanide" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="192,640,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1127,8 +1127,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Cyanide Antidote Label" identifier="ekutility_label_cyanideantidote" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of cyanide antidote on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_cyanideantidote" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="192,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1142,8 +1142,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Sufforin Label" identifier="ekutility_label_sufforin" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of sufforin on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_sufforin" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,640,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1157,8 +1157,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Sufforin Antidote Label" identifier="ekutility_label_sufforinantidote" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of sufforin antidote on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_sufforinantidote" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1172,8 +1172,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Morbusine Label" identifier="ekutility_label_morbusine" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of morbusine on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_morbusine" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,640,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1187,8 +1187,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Morbusine Antidote Label" identifier="ekutility_label_morbusineantidote" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of morbusine antidote on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_morbusineantidote" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1202,8 +1202,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Radiotoxin Label" identifier="ekutility_label_radiotoxin" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of radiotoxinon it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_radiotoxin" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="128,640,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1217,8 +1217,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Antirad Label" identifier="ekutility_label_antirad" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of antirad on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_antirad" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="128,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1232,8 +1232,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Deliriumine Label" identifier="ekutility_label_deliriumine" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of deliriumine on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_deliriumine" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="448,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1247,8 +1247,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Deliriumine Antidote Label" identifier="ekutility_label_deliriumineantidote" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of deliriumine antidote on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_deliriumineantidote" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1262,8 +1262,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Paralyzant Label" identifier="ekutility_label_paralyzant" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of paralyzant on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_paralyzant" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="896,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1277,8 +1277,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Anaparalyzant Label" identifier="ekutility_label_antiparalysis" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of anaparalyzant on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_antiparalysis" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="960,704,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1293,8 +1293,8 @@
   </Item>
   
   <!-- Reactor Fuel -->
-  <Item name="Fuel Rod Label" identifier="ekutility_label_reactorfuel" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a welding fuel tank on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_reactorfuel" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,64,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1309,8 +1309,8 @@
   </Item>
   
   <!-- Tools -->
-  <Item name="Wrench Label" identifier="ekutility_label_wrench" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a wrench on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_wrench" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="448,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1324,8 +1324,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Screwdriver Label" identifier="ekutility_label_screwdriver" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a screwdriver on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_screwdriver" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1339,8 +1339,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Crowbar Label" identifier="ekutility_label_crowbar" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a crowbar on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_crowbar" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1354,8 +1354,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Welding Tool Label" identifier="ekutility_label_weldingtool" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a welding tool on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_weldingtool" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,64,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1369,8 +1369,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Plasma Cutter Label" identifier="ekutility_label_plasmacutter" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a plasma cutter on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_plasmacutter" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1384,8 +1384,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Flamer Label" identifier="ekutility_label_flamer" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a flamer on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_flamer" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,64,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1399,8 +1399,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Fire Extinguisher Label" identifier="ekutility_label_fireextinguisher" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a fire extinguisher on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_fireextinguisher" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="0,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1414,8 +1414,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Flare Label" identifier="ekutility_label_flare" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a flare on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_flare" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="640,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1429,8 +1429,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Flashlight Label" identifier="ekutility_label_flashlight" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a flashlight on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_flashlight" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,320,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1444,8 +1444,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Oxygen Tank Label" identifier="ekutility_label_oxygentank" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of an oxygen tank on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_oxygentank" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="896,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1459,8 +1459,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Welding Fuel Tank Label" identifier="ekutility_label_weldingfueltank" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a welding fuel tank on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_weldingfueltank" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="960,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1474,8 +1474,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Battery Cell Label" identifier="ekutility_label_batterycell" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a battery cell on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_batterycell" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1489,8 +1489,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Fulgurium Battery Cell Label" identifier="ekutility_label_fulguriumbatterycell" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a fulgurium battery cell on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_fulguriumbatterycell" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,832,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1504,8 +1504,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Headset Label" identifier="ekutility_label_headset" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a headset on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_headset" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="256,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1519,8 +1519,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Diving Mask Label" identifier="ekutility_label_divingmask" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a diving mask on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_divingmask" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,320,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1534,8 +1534,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Underwater Scooter Label" identifier="ekutility_label_underwaterscooter" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of an underwater scooter on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_underwaterscooter" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="256,128,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1549,8 +1549,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Handheld Sonar Label" identifier="ekutility_label_handheldsonar" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a handheld sonar on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_handheldsonar" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1564,8 +1564,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Sonar Beacon Label" identifier="ekutility_label_sonarbeacon" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a sonar beacon sonar on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_sonarbeacon" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,320,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1580,8 +1580,8 @@
   </Item>
 
   <!-- Modded Tools -->
-  <Item name="Electric Drill Label" identifier="ekutility_label_miningdrill" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of an electric drill on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_miningdrill" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="128,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1595,8 +1595,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Metallic Foam Canister Label" identifier="ekutility_label_metalfoam_tank" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a metallic foam canister on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_metalfoam_tank" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="128,256,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1610,8 +1610,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Metallic Foam Sprayer Label" identifier="ekutility_label_metalfoam_gun" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a metallic foam sprayer on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_metalfoam_gun" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="128,608,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1625,8 +1625,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Ion Pulse Cutter Label" identifier="ekutility_label_pulsecutter" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of an ion pulse cutter on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_pulsecutter" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="128,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1640,8 +1640,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Laser Bore Label" identifier="ekutility_label_laserdrill" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of a laser bore on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_laserdrill" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="228,576,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1655,8 +1655,8 @@
     </Holdable>
   </Item>
 
-  <Item name="Arc Welder Label" identifier="ekutility_label_arcwelder" tags="smallitem" pickdistance="150" scale="0.26"
-  description="A label card with a picture of an arc welder on it." impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
+  <Item name="" identifier="ekutility_label_arcwelder" tags="smallitem" pickdistance="150" scale="0.26"
+   impactsoundtag="impact_soft" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true" hideinmenus="true">
     <trigger x="21" y="-16" width="30" height="30" />
     <Deconstruct time="1"/>
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="832,0,64,64" depth="0.71" origin="0.5,0.5" />
@@ -1676,8 +1676,8 @@
 
 
   <!-- Label Printer starts here -->
-  <Item name="Label Printer" identifier="ekutility_labelprinter" scale="0.32" category="Equipment" tags="mediumitem" cargocontaineridentifier="metalcrate" 
-  description="A quartermaster's best friend. This handheld device can scan and print sorting labels for most common cargo items." impactsoundtag="impact_metal_light" HideConditionBar="true">
+  <Item name="" identifier="ekutility_labelprinter" scale="0.32" category="Equipment" tags="mediumitem" cargocontaineridentifier="metalcrate" 
+   impactsoundtag="impact_metal_light" HideConditionBar="true">
     <!-- <Price locationtype="Research" buyprice="150" /> -->
 	
     <Price baseprice="150" soldeverywhere="false" minleveldifficulty="15">
