@@ -166,7 +166,7 @@
     <entitydescription.ekutility_densifiedmaterial_antiparalysis>装箱的麻痹治愈剂，便于储存和运输。</entitydescription.ekutility_densifiedmaterial_antiparalysis>
 
     <!--./EK Utilities/Items/Diving/ekutility_divinggear.xml-->
-    <entityname.ekutility_reinforcedtank_oxygen>>强化氧气罐</entityname.ekutility_reinforcedtank_oxygen>
+    <entityname.ekutility_reinforcedtank_oxygen>强化氧气罐</entityname.ekutility_reinforcedtank_oxygen>
     <entitydescription.ekutility_reinforcedtank_oxygen>经强化的氧气罐，耐冲击和高温。</entitydescription.ekutility_reinforcedtank_oxygen>
     <entityname.ekutility_reinforcedtank_oxygenite>强化氧矿罐</entityname.ekutility_reinforcedtank_oxygenite>
     <entitydescription.ekutility_reinforcedtank_oxygenite>经强化的氧气罐，耐冲击和高温。</entitydescription.ekutility_reinforcedtank_oxygenite>
