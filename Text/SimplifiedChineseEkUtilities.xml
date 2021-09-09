@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文(简体)">
-    <!--EK Utility Simplified Chinese Language File By Logic_530-->
+<infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文(简体)">   <!--EK Utility Simplified Chinese Language File By Logic_530-->
 
+    <!--./EK Utilities/Items/overwrite_tools.xml-->
+
+    <!--./EK Utilities/Items/overwrite_alienitems.xml-->
+
+    <!--./Items/Materials/ekutility_densifiedmaterials.xml-->
     <entityname.ekutility_densifiedmaterial_iron>>一箱铁</entityname.ekutility_densifiedmaterial_iron>
     <entitydescription.ekutility_densifiedmaterial_iron>装箱的铁，便于储存和运输。</entitydescription.ekutility_densifiedmaterial_iron>
     <entityname.ekutility_densifiedmaterial_aluminium>一箱铝</entityname.ekutility_densifiedmaterial_aluminium>
@@ -173,7 +177,9 @@
     <entityname.ekutility_advancedsonarbeacon>高级声纳信标</entityname.ekutility_advancedsonarbeacon>
     <entitydescription.ekutility_advancedsonarbeacon>手持式定位信标发射器，对进行舱外活动很有帮助。</entitydescription.ekutility_advancedsonarbeacon>
     <entityname.ekutility_Utility_hardsuit>多功能压力服MK1</entityname.ekutility_Utility_hardsuit>
-    <entitydescription.ekutility_Utility_hardsuit>坚固的压力套装，专为施工，采矿和救助操作而设计。[额定6000米]</entitydescription.ekutility_Utility_hardsuit>
+    <entitydescription.ekutility_Utility_hardsuit>坚固的压力套装，专为施工，采矿和救助操作而设计,提供一定的高温和电击保护的同时允许使用者正常操作各种工具装备。[额定6000米]</entitydescription.ekutility_Utility_hardsuit>
+    <entityname.ekutility_utility_hardsuit_paintmechanic>多功能压力服MK1（机修工涂装）</entityname.ekutility_utility_hardsuit_paintmechanic>
+    <entitydescription.ekutility_utility_hardsuit_paintmechanic>坚固的压力套装，专为施工，采矿和救助操作而设计,提供一定的高温和电击保护的同时允许使用者正常操作各种工具装备。[额定6000米]</entitydescription.ekutility_utility_hardsuit_paintmechanic>
     <entityname.ekutility_oxygencell1>氧气单元 Mk-I</entityname.ekutility_oxygencell1>
     <entitydescription.ekutility_oxygencell1>利用化学试剂产生氧气的潜水服一次性氧气源，能提供大量氧气。</entitydescription.ekutility_oxygencell1>
     <entityname.ekutility_oxygencell2>氧气单元 Mk-II</entityname.ekutility_oxygencell2>
@@ -234,6 +240,8 @@
     <entitydescription.ekutility_portablepump>[未完成的物品，仅作调试功能]</entitydescription.ekutility_portablepump>
     <entityname.ekutility_incendiumfuelrod>燃素燃料棒</entityname.ekutility_incendiumfuelrod>
     <entitydescription.ekutility_incendiumfuelrod>用于反应堆发电的浓缩燃素棒，比铀燃料棒产生更多热量、使用寿命更长。</entitydescription.ekutility_incendiumfuelrod>
+    <entityname.ekutility_supplypouch>装备袋</entityname.ekutility_supplypouch>
+    <entitydescription.ekutility_supplypouch>一个用来装工具和药品的口袋。</entitydescription.ekutility_supplypouch>
 
     <!--./EK Utilities/Items/Tools/ekutility_placeablemachines.xml-->
     <entityname.ekutility_divingsuitlocker>潜水服柜</entityname.ekutility_divingsuitlocker>
