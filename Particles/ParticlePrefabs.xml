@@ -304,7 +304,7 @@
     drawtarget="Both"
     blendstate="Additive"
     loopanim="False">
-    <sprite texture="Mods/EK Utilities/Particles/ek_muzzleflashlaser.png" sourcerect="0,0,256,256" premultiplyalpha="false" origin="0.5,0.5"/>
+    <sprite texture="Mods/EK Utility CN/Particles/ek_muzzleflashlaser.png" sourcerect="0,0,256,256" premultiplyalpha="false" origin="0.5,0.5"/>
   </eklaserborebreak>
 
   <eklaserboreflame
@@ -334,10 +334,10 @@
     drawtarget="Both"
     blendstate="Additive"
     loopanim="False">
-    <sprite texture="Mods/EK Utilities/Particles/ek_muzzleflashgauss_flame.png" sourcerect="0,0,128,128" premultiplyalpha="false" origin="0,0.5"/>
-    <sprite texture="Mods/EK Utilities/Particles/ek_muzzleflashgauss_flame.png" sourcerect="128,0,128,128" premultiplyalpha="false" origin="0,0.5"/>
-    <sprite texture="Mods/EK Utilities/Particles/ek_muzzleflashgauss_flame.png" sourcerect="0,128,128,128" premultiplyalpha="false" origin="0,0.5"/>
-    <sprite texture="Mods/EK Utilities/Particles/ek_muzzleflashgauss_flame.png" sourcerect="128,128,128,128" premultiplyalpha="false" origin="0,0.5"/>
+    <sprite texture="Mods/EK Utility CN/Particles/ek_muzzleflashgauss_flame.png" sourcerect="0,0,128,128" premultiplyalpha="false" origin="0,0.5"/>
+    <sprite texture="Mods/EK Utility CN/Particles/ek_muzzleflashgauss_flame.png" sourcerect="128,0,128,128" premultiplyalpha="false" origin="0,0.5"/>
+    <sprite texture="Mods/EK Utility CN/Particles/ek_muzzleflashgauss_flame.png" sourcerect="0,128,128,128" premultiplyalpha="false" origin="0,0.5"/>
+    <sprite texture="Mods/EK Utility CN/Particles/ek_muzzleflashgauss_flame.png" sourcerect="128,128,128,128" premultiplyalpha="false" origin="0,0.5"/>
   </eklaserboreflame>
 
   <eklaserborespark
@@ -437,7 +437,7 @@
     blendstate="Additive"
     animduration="1"
     loopanim="False">
-    <sprite texture="Mods/EK Utilities/Particles/ek_lightflare1.png" sourcerect="0,0,256,256" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="Mods/EK Utility CN/Particles/ek_lightflare1.png" sourcerect="0,0,256,256" origin="0.5,0.5" premultiplyalpha="false" />
   </eklaserboreflare>
 
 </prefabs>

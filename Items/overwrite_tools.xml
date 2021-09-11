@@ -17,7 +17,7 @@
       <Price locationtype="mine" multiplier="0.9" minavailable="10" />
     </Price>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,64,64,64" origin="0.5,0.5" />
-    <Sprite texture="Mods/EK Utilities/Items/overwrite_tools.png" sourcerect="0,3,152,88" depth="0.55" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/overwrite_tools.png" sourcerect="0,3,152,88" depth="0.55" origin="0.5,0.5" />
     <!-- the item takes 10 seconds to break down in a deconstructor and turns into steel and plastic -->
     <Deconstruct time="10">
       <Item identifier="steel" />
@@ -117,7 +117,7 @@
       <RequiredItem identifier="plastic" />
     </Fabricate>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,0,64,64" origin="0.5,0.5" />
-    <Sprite texture="Mods/EK Utilities/Items/overwrite_tools.png" sourcerect="0,166,159,87" depth="0.55" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/overwrite_tools.png" sourcerect="0,166,159,87" depth="0.55" origin="0.5,0.5" />
     <Body radius="40" width="60" density="40" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-67,-21" handle2="-25,-25" msg="ItemMsgPickUpSelect" />
     <RepairTool firedamage="25.0" structurefixamount="-0.2" range="150" barrelpos="45,10" combatpriority="30" repairmultiple="true" repairthroughwalls="false" maxoverlappingwalldist="0.0" repairthroughholes="true" levelwallfixamount="-5.0" targetforce="10">

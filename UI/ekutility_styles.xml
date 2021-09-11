@@ -8,7 +8,7 @@
     color="255,255,255,255"
     hovercolor="255,255,255,255"
     selectedcolor="255,255,255,255">
-    <Sprite texture="Mods/Ek Utilities/Items/Tools/gui_compass.png" sourcerect="0,0,768,768" tile="false"/>
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/gui_compass.png" sourcerect="0,0,768,768" tile="false"/>
   </ek_gyrocompass>
 </override>
 

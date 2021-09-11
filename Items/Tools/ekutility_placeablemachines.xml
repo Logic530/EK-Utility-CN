@@ -33,8 +33,8 @@
       <RequiredItem identifier="plastic" />
       <RequiredItem identifier="rubber" />
     </Fabricate>
-    <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_containers2.png" depth="0.69" canflipx="false" sourcerect="544,384,112,272" origin="0.5,0.5" />
-    <DecorativeSprite texture="Mods/EK Utilities/Items/Containers/ekutility_containers2.png" sourcerect="656,384,112,272" depth="0.65" origin="0.5,0.5"/>
+    <Sprite texture="Mods/EK Utility CN/Items/Containers/ekutility_containers2.png" depth="0.69" canflipx="false" sourcerect="544,384,112,272" origin="0.5,0.5" />
+    <DecorativeSprite texture="Mods/EK Utility CN/Items/Containers/ekutility_containers2.png" sourcerect="656,384,112,272" depth="0.65" origin="0.5,0.5"/>
     <Body width="102" height="258" density="25" />
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="10.0" holdpos="50,-30" handle1="-15,15" handle2="-15,15" attachable="true" aimable="false">
       <RequiredItem identifier="wrench" type="Equipped" />
@@ -98,7 +98,7 @@
       <RequiredItem identifier="plastic" />
       <RequiredItem identifier="zinc" />
     </Fabricate>
-    <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_containers2.png" depth="0.7" canflipx="false" sourcerect="704,288,112,96" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Containers/ekutility_containers2.png" depth="0.7" canflipx="false" sourcerect="704,288,112,96" origin="0.5,0.5" />
     <Body width="102" height="84" density="25" />
 	<Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="10.0" holdpos="50,-30" handle1="-15,15" handle2="-15,15" attachable="true" aimable="false">
       <RequiredItem identifier="wrench" type="Equipped" />
@@ -154,7 +154,7 @@
       <RequiredItem identifier="plastic" />
       <RequiredItem identifier="fpgacircuit" />
     </Fabricate>
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" depth="0.82" canflipx="false" sourcerect="0,288,144,64"/>
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" depth="0.82" canflipx="false" sourcerect="0,288,144,64"/>
     <Body width="128" height="50" density="25" />
     <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="false">
       <RequiredItem identifier="wrench" type="Equipped" />
@@ -191,14 +191,14 @@
       <RequiredItem identifier="plastic" />
       <RequiredItem identifier="fpgacircuit" />
     </Fabricate>
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" depth="0.82" canflipx="false" sourcerect="144,288,288,64"/>
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" depth="0.82" canflipx="false" sourcerect="144,288,288,64"/>
     <Body width="272" height="50" density="25" />
     <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="false">
       <RequiredItem identifier="wrench" type="Equipped" />
     </Holdable>
     <ItemLabel scrollable="true" padding="14,5,14,12" textcolor="1,1,1,1">
       <LightComponent range="10.0" lightcolor="1.0,1.0,1.0,0.1" IsOn="true" castshadows="false">
-        <sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="432,288,272,48"  depth="0.025" origin="0.497,0.56" alpha="1.0"/>
+        <sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="432,288,272,48"  depth="0.025" origin="0.497,0.56" alpha="1.0"/>
       </LightComponent>
     </ItemLabel>
     <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
@@ -210,7 +210,7 @@
   
   <Item name="" identifier="ekutility_portablespinkler" category="Equipment" Tags="smallitem,tool,signal" cargocontaineridentifier="metalcrate" requireaimtouse="true" characterusable="false"
    Scale="0.32" impactsoundtag="impact_metal_light" maxstacksize="2">
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="704,496,104,128" depth="0.55" canflipx="false" origin="0.38,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_tools.png" sourcerect="704,496,104,128" depth="0.55" canflipx="false" origin="0.38,0.5" />
     <Price baseprice="85" >
       <Price locationtype="outpost" multiplier="1" minavailable="2" />
       <Price locationtype="city" multiplier="1.2" minavailable="2" />
@@ -243,7 +243,7 @@
       <ParticleEmitter particle="waterdrop" velocitymin="0.0" velocitymax="700.0" particlespersecond="50" anglemin="-45" anglemax="45" />
       <!--<ParticleEmitterHitStructure particle="mist" particlespersecond="20" anglemin="-360" anglemax="360" velocitymin="-100" velocitymax="100" />
       <ParticleEmitterHitCharacter particle="mist" particlespersecond="20" anglemin="-360" anglemax="360" velocitymin="-100" velocitymax="100" />-->
-      <sound file="Mods/EK Utilities/Items/Tools/sprinkler_loop.ogg" type="OnUse" range="500.0" loop="true" />
+      <sound file="Mods/EK Utility CN/Items/Tools/sprinkler_loop.ogg" type="OnUse" range="500.0" loop="true" />
       <StatusEffect type="OnNotContained" target="This" setvalue="true" requireaimtouse="false" />
       <StatusEffect type="OnContained" target="This" setvalue="true" requireaimtouse="true" />
     </RepairTool>
@@ -321,7 +321,7 @@
 	80
 	45
 	-->
-    <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_containers2.png" sourcerect="768,384,40,56" depth="0.8" canflipx="false" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Containers/ekutility_containers2.png" sourcerect="768,384,40,56" depth="0.8" canflipx="false" origin="0.5,0.5" />
     <Deconstruct time="10">
       <Item identifier="fpgacircuit" />
       <Item identifier="plastic" />
@@ -354,7 +354,7 @@
       <Price locationtype="military" multiplier="1" sold="false"/>
       <Price locationtype="mine" multiplier="1" sold="false"/>
     </Price>
-    <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_containers2.png" sourcerect="768,440,40,56" depth="0.8" canflipx="false" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Containers/ekutility_containers2.png" sourcerect="768,440,40,56" depth="0.8" canflipx="false" origin="0.5,0.5" />
     <Deconstruct time="10">
       <Item identifier="fpgacircuit" />
       <Item identifier="plastic" />
@@ -387,7 +387,7 @@
       <Price locationtype="military" multiplier="1" sold="false"/>
       <Price locationtype="mine" multiplier="1" sold="false"/>
     </Price>
-    <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_containers2.png" sourcerect="768,496,40,56" depth="0.8" canflipx="false" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Containers/ekutility_containers2.png" sourcerect="768,496,40,56" depth="0.8" canflipx="false" origin="0.5,0.5" />
     <Deconstruct time="10">
       <Item identifier="fpgacircuit" />
       <Item identifier="plastic" />
@@ -420,7 +420,7 @@
       <Price locationtype="military" multiplier="1" sold="false"/>
       <Price locationtype="mine" multiplier="1" sold="false"/>
     </Price>
-    <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_containers2.png" sourcerect="768,552,40,56" depth="0.8" canflipx="false" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Containers/ekutility_containers2.png" sourcerect="768,552,40,56" depth="0.8" canflipx="false" origin="0.5,0.5" />
     <Deconstruct time="10">
       <Item identifier="fpgacircuit" />
       <Item identifier="plastic" />
@@ -453,7 +453,7 @@
       <Price locationtype="military" multiplier="1" sold="false"/>
       <Price locationtype="mine" multiplier="1" sold="false"/>
     </Price>
-    <Sprite texture="Mods/EK Utilities/Items/Containers/ekutility_containers2.png" sourcerect="768,608,40,56" depth="0.8" canflipx="false" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Containers/ekutility_containers2.png" sourcerect="768,608,40,56" depth="0.8" canflipx="false" origin="0.5,0.5" />
     <Deconstruct time="10">
       <Item identifier="fpgacircuit" />
       <Item identifier="plastic" />
@@ -511,9 +511,9 @@
     </Fabricate>
 	
     <UpgradePreviewSprite texture="Content/UI/WeaponUI.png" sourcerect="99,961,28,32" origin="0.5,0.45" />
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="0,0,224,136" depth="0.8" canflipx="false" origin="0.5,0.5" />
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="224,0,224,136" depth="0.8" maxcondition="80" fadein="true" />
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="448,0,224,136" depth="0.8" maxcondition="5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="0,0,224,136" depth="0.8" canflipx="false" origin="0.5,0.5" />
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="224,0,224,136" depth="0.8" maxcondition="80" fadein="true" />
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="448,0,224,136" depth="0.8" maxcondition="5" />
     <InfectedSprite texture="Content/Items/Gardening/ballastflora.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
     <DamagedInfectedSprite texture="Content/Items/Gardening/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
     <Body width="205" height="120" density="25" />
@@ -528,11 +528,11 @@
       </StatusEffect>
     </PowerTransfer>
     <LightComponent range="10.0" lightcolor="255,255,255,0" powerconsumption="1" IsOn="true" castshadows="false" allowingameediting="false" Flicker="0.4" Flickerspeed="0.3">
-      <sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="512,136,64,64" depth="0.1" origin="1.45,1.3" alpha="1.0" />
+      <sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="512,136,64,64" depth="0.1" origin="1.45,1.3" alpha="1.0" />
       <IsActive targetitemcomponent="PowerTransfer" overload="eq False" />
     </LightComponent>
     <LightComponent range="10.0" lightcolor="255,255,225,0" powerconsumption="1" IsOn="false" castshadows="false" allowingameediting="false" blinkfrequency="3">
-      <sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="576,136,64,64" depth="0.1" origin="1.05,1.3" alpha="1.0" />
+      <sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="576,136,64,64" depth="0.1" origin="1.05,1.3" alpha="1.0" />
       <IsActive targetitemcomponent="PowerTransfer" overload="eq True" />
     </LightComponent>
     <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
@@ -590,7 +590,7 @@
       <RequiredItem identifier="fpgacircuit" />
       <RequiredItem identifier="plastic" />
     </Fabricate>
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="0,136,96,136" depth="0.8" canflipx="false" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="0,136,96,136" depth="0.8" canflipx="false" origin="0.5,0.5" />
     <Body width="80" height="122" density="30" />
     <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetachWrench" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="false">
       <RequiredItem identifier="wrench" type="Equipped" />
@@ -599,7 +599,7 @@
       <GuiFrame relativesize="0.2,0.14" minsize="450,160" anchor="Center" style="ItemUI" />
     </RelayComponent>
     <LightComponent range="10.0" lightcolor="150,125,100,0" powerconsumption="1" IsOn="true" castshadows="false" allowingameediting="false" Flicker="0.3" Flickerspeed="0.2">
-      <sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="96,136,40,24" depth="0.1" origin="0.5,1.9" alpha="1.0" />
+      <sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="96,136,40,24" depth="0.1" origin="0.5,1.9" alpha="1.0" />
       <IsActive targetitemcomponent="RelayComponent" ison="eq True" />
     </LightComponent>
     <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
@@ -646,9 +646,9 @@
     </Fabricate>
 	
     <UpgradePreviewSprite texture="Content/UI/WeaponUI.png" sourcerect="64,961,32,22" origin="0.5,0.45" />
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="144,136,120,152" depth="0.8" canflipx="false" origin="0.5,0.5" />
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="264,136,120,152" depth="0.8" maxcondition="80" fadein="true" />
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="384,136,120,152" depth="0.8" maxcondition="5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="144,136,120,152" depth="0.8" canflipx="false" origin="0.5,0.5" />
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="264,136,120,152" depth="0.8" maxcondition="80" fadein="true" />
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="384,136,120,152" depth="0.8" maxcondition="5" />
     <Body width="110" height="140" density="30" />
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="false">
       <RequiredItem identifier="wrench" type="Equipped" />
@@ -664,7 +664,7 @@
       </StatusEffect>
     </PowerContainer>
     <LightComponent range="10.0" lightcolor="175,175,175,0" powerconsumption="1" IsOn="true" castshadows="false" allowingameediting="false" Flicker="0.3" Flickerspeed="0.2">
-      <sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="96,160,48,16" depth="0.1" origin="0.5,3.2" alpha="1.0" />
+      <sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="96,160,48,16" depth="0.1" origin="0.5,3.2" alpha="1.0" />
       <IsActive targetitemcomponent="PowerContainer" ChargePercentage="gt 0.01" />
     </LightComponent>
     <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
@@ -760,7 +760,7 @@
   
   <Item name="" identifier="ekutility_placeableterminal" category="Electrical" Tags="smallitem,logic" cargocontaineridentifier="metalcrate" scale="0.5"
 		 impactsoundtag="impact_metal_light" isshootable="true" >
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="0,352,120,128" depth="0.78" canflipx="false" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="0,352,120,128" depth="0.78" canflipx="false" origin="0.5,0.5" />
     <Price baseprice="165" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="1.2" sold="false" />
@@ -829,11 +829,11 @@
     </Deconstruct>
 
     <UpgradePreviewSprite texture="Content/UI/WeaponUI.png" sourcerect="448,960,64,64" origin="0.5,0.45" />
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" depth="0.8" canflipx="false" sourcerect="128,352,144,80" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" depth="0.8" canflipx="false" sourcerect="128,352,144,80" origin="0.5,0.5" />
     <InfectedSprite texture="Content/Items/Pump/Pumps.png" sourcerect="528,723,219,132" origin="0.5,0.5"/>
     <DamagedInfectedSprite texture="Content/Items/Gardening/ballastflora_burned.png" sourcerect="273,708,219,132" origin="0.5,0.5"/>
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="272,352,144,80" depth="0.8" maxcondition="80" fadein="true" />
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="416,352,144,80" depth="0.8" maxcondition="0" />
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="272,352,144,80" depth="0.8" maxcondition="80" fadein="true" />
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="416,352,144,80" depth="0.8" maxcondition="0" />
 
     <Body width="120" height="78" density="30" />
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="false">
@@ -917,17 +917,17 @@
     </Deconstruct>
 
     <UpgradePreviewSprite scale="2.5" texture="Content/UI/WeaponUI.png" sourcerect="256,960,64,64" origin="0.5,0.45" />
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" sourcerect="0,0,256,176" depth="0.8" canflipx="false"/>
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" sourcerect="256,0,256,176" depth="0.8" maxcondition="80" fadein="true" />
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" sourcerect="0,192,256,176" depth="0.8" maxcondition="0" />
-    <DecorativeSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" depth="0.84" offset="38,24" sourcerect="256,288,144,88"/>
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" sourcerect="0,0,256,176" depth="0.8" canflipx="false"/>
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" sourcerect="256,0,256,176" depth="0.8" maxcondition="80" fadein="true" />
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" sourcerect="0,192,256,176" depth="0.8" maxcondition="0" />
+    <DecorativeSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" depth="0.84" offset="38,24" sourcerect="256,288,144,88"/>
 
-    <DecorativeSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" sourcerect="0,384,128,64" depth="0.82" origin="0.5,0.97" offset="140,0" offsetanim="Noise" offsetanimspeed="0.75" >
+    <DecorativeSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" sourcerect="0,384,128,64" depth="0.82" origin="0.5,0.97" offset="140,0" offsetanim="Noise" offsetanimspeed="0.75" >
       <AnimationConditional Voltage="gt 0.5" targetitemcomponent="Fabricator" />
       <AnimationConditional IsActive="True" targetitemcomponent="Fabricator" />
       <IsActiveConditional Condition="gt 0.0" />
     </DecorativeSprite>
-    <DecorativeSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" sourcerect="128,384,144,64" depth="0.83" origin="0.5,0.97" offset="-140,0" offsetanim="Noise" offsetanimspeed="0.6" >
+    <DecorativeSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" sourcerect="128,384,144,64" depth="0.83" origin="0.5,0.97" offset="-140,0" offsetanim="Noise" offsetanimspeed="0.6" >
       <AnimationConditional Voltage="gt 0.5" targetitemcomponent="Fabricator" />
       <AnimationConditional IsActive="True" targetitemcomponent="Fabricator" />
       <IsActiveConditional Condition="gt 0.0" />
@@ -940,11 +940,11 @@
     </Holdable>
 
     <LightComponent range="10.0" lightcolor="255,255,255,0" powerconsumption="5"  IsOn="true" castshadows="false" allowingameediting="false" Flicker="0.2" Flickerspeed="0.7">
-      <sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" depth="0.025" sourcerect="264,200,208,80" origin="0.5,0.92" alpha="1.0" />
+      <sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" depth="0.025" sourcerect="264,200,208,80" origin="0.5,0.92" alpha="1.0" />
     </LightComponent>
     <Fabricator canbeselected="true" powerconsumption="350.0" msg="ItemMsgInteractSelect" fabricationspeed="0.6">
       <GuiFrame relativesize="0.4,0.45" style="ItemUI" anchor="Center" />
-      <sound file="Mods/EK Utilities/Items/Tools/fabricator_utility.ogg" type="OnActive" range="1000.0" loop="true"/>
+      <sound file="Mods/EK Utility CN/Items/Tools/fabricator_utility.ogg" type="OnActive" range="1000.0" loop="true"/>
       <poweronsound file="Content/Items/PowerOnLight1.ogg" range="600" loop="false" />
       <StatusEffect type="InWater" target="This" condition="-0.5" />
       <StatusEffect type="OnContained" target="This" setvalue="true" canbeselected="false" />
@@ -1021,17 +1021,17 @@
     </Deconstruct>
 
     <UpgradePreviewSprite scale="2.5" texture="Content/UI/WeaponUI.png" sourcerect="256,960,64,64" origin="0.5,0.45" />
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" sourcerect="0,448,256,224" depth="0.8" canflipx="false"/>
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" sourcerect="256,448,256,224" depth="0.8" maxcondition="80" fadein="true" />
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" sourcerect="0,672,256,224" depth="0.8" maxcondition="0" />
-    <DecorativeSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" depth="0.84" offset="0,28" sourcerect="256,672,96,96"/>
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" sourcerect="0,448,256,224" depth="0.8" canflipx="false"/>
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" sourcerect="256,448,256,224" depth="0.8" maxcondition="80" fadein="true" />
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" sourcerect="0,672,256,224" depth="0.8" maxcondition="0" />
+    <DecorativeSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" depth="0.84" offset="0,28" sourcerect="256,672,96,96"/>
 
-    <DecorativeSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" sourcerect="256,768,96,32" depth="0.82" origin="0.5,0" offset="0,5" offsetanim="Sine" offsetanimspeed="5" >
+    <DecorativeSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" sourcerect="256,768,96,32" depth="0.82" origin="0.5,0" offset="0,5" offsetanim="Sine" offsetanimspeed="5" >
       <AnimationConditional Voltage="gt 0.5" targetitemcomponent="Fabricator" />
       <AnimationConditional IsActive="True" targetitemcomponent="Fabricator" />
       <IsActiveConditional Condition="gt 0.0" />
     </DecorativeSprite>
-    <DecorativeSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" sourcerect="256,800,32,80" depth="0.83" origin="0.5,0.95" offset="140,0" offsetanim="Noise" offsetanimspeed="0.15" >
+    <DecorativeSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" sourcerect="256,800,32,80" depth="0.83" origin="0.5,0.95" offset="140,0" offsetanim="Noise" offsetanimspeed="0.15" >
       <AnimationConditional Voltage="gt 0.5" targetitemcomponent="Fabricator" />
       <AnimationConditional IsActive="True" targetitemcomponent="Fabricator" />
       <IsActiveConditional Condition="gt 0.0" />
@@ -1044,11 +1044,11 @@
     </Holdable>
 
     <LightComponent range="10.0" lightcolor="255,255,255,0" powerconsumption="5"  IsOn="true" castshadows="false" allowingameediting="false" Flicker="0.2" Flickerspeed="0.7">
-      <sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" depth="0.025" sourcerect="264,200,208,80" origin="0.5,0.92" alpha="1.0" />
+      <sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" depth="0.025" sourcerect="264,200,208,80" origin="0.5,0.92" alpha="1.0" />
     </LightComponent>
     <Fabricator canbeselected="true" powerconsumption="350.0" msg="ItemMsgInteractSelect" fabricationspeed="0.6">
       <GuiFrame relativesize="0.4,0.45" style="ItemUI" anchor="Center" />
-      <sound file="Mods/EK Utilities/Items/Tools/fabricator_utility.ogg" type="OnActive" range="1000.0" loop="true"/>
+      <sound file="Mods/EK Utility CN/Items/Tools/fabricator_utility.ogg" type="OnActive" range="1000.0" loop="true"/>
       <poweronsound file="Content/Items/PowerOnLight1.ogg" range="600" loop="false" />
       <StatusEffect type="InWater" target="This" condition="-0.5" />
       <StatusEffect type="OnContained" target="This" setvalue="true" canbeselected="false" />
@@ -1126,10 +1126,10 @@
     </Deconstruct>
 
     <UpgradePreviewSprite scale="2.5" texture="Content/UI/WeaponUI.png" sourcerect="320,960,64,64" origin="0.5,0.45" />
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" depth="0.8" canflipx="false" sourcerect="512,0,176,208"/>
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" sourcerect="688,0,176,208" depth="0.8" maxcondition="80" fadein="true" />
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" sourcerect="512,208,176,208" depth="0.8" maxcondition="0" />
-    <DecorativeSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablefabricator.png" depth="0.84" offset="0,18" sourcerect="692,212,72,40"/>
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" depth="0.8" canflipx="false" sourcerect="512,0,176,208"/>
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" sourcerect="688,0,176,208" depth="0.8" maxcondition="80" fadein="true" />
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" sourcerect="512,208,176,208" depth="0.8" maxcondition="0" />
+    <DecorativeSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablefabricator.png" depth="0.84" offset="0,18" sourcerect="692,212,72,40"/>
     <DecorativeSprite texture="Content/Items/Fabricators/FabricatorsAndDeconstructors.png" depth="0.81" offset="-20,0" sourcerect="800,532,64,64" origin="0.5,0.5" rotationspeed="-720">
       <AnimationConditional Voltage="gt 0.5" targetitemcomponent="Deconstructor" />
       <AnimationConditional IsActive="True" targetitemcomponent="Deconstructor" />
@@ -1224,9 +1224,9 @@
       <Item identifier="wificomponent"/>
       <Item identifier="fpgacircuit"/>
     </Deconstruct>
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeableconsoles.png" sourcerect="0,0,192,224" depth="0.8" canflipx="false"/>
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeableconsoles.png" sourcerect="192,0,192,224" depth="0.8" maxcondition="80" fadein="true" />
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeableconsoles.png" sourcerect="192,224,192,224" depth="0.8" maxcondition="0" />
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeableconsoles.png" sourcerect="0,0,192,224" depth="0.8" canflipx="false"/>
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeableconsoles.png" sourcerect="192,0,192,224" depth="0.8" maxcondition="80" fadein="true" />
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeableconsoles.png" sourcerect="192,224,192,224" depth="0.8" maxcondition="0" />
 	
     <Body width="160" height="200" density="40" />
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="false">
@@ -1235,7 +1235,7 @@
     </Holdable>
 
     <LightComponent range="10.0" lightcolor="255,255,255,0" powerconsumption="5"  IsOn="true" castshadows="false" allowingameediting="false" Flicker="0.2" Flickerspeed="0.7">
-      <sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeableconsoles.png" depth="0.025" sourcerect="16,240,160,160" origin="0.5,0.5" alpha="1.0" />
+      <sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeableconsoles.png" depth="0.025" sourcerect="16,240,160,160" origin="0.5,0.5" alpha="1.0" />
     </LightComponent>
 
     <aitarget sightrange="200" soundrange="10000" staticsight="true" fadeouttime="5" />
@@ -1332,9 +1332,9 @@
       <Item identifier="wificomponent"/>
       <Item identifier="fpgacircuit"/>
     </Deconstruct>
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeableconsoles.png" sourcerect="384,0,192,192" depth="0.8" canflipx="false"/>
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeableconsoles.png" sourcerect="576,0,192,192" depth="0.8" maxcondition="80" fadein="true" />
-    <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeableconsoles.png" sourcerect="384,192,192,192" depth="0.8" maxcondition="0" />
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeableconsoles.png" sourcerect="384,0,192,192" depth="0.8" canflipx="false"/>
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeableconsoles.png" sourcerect="576,0,192,192" depth="0.8" maxcondition="80" fadein="true" />
+    <BrokenSprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeableconsoles.png" sourcerect="384,192,192,192" depth="0.8" maxcondition="0" />
 	
     <Body width="160" height="160" density="40" />
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="false">
@@ -1343,7 +1343,7 @@
     </Holdable>
 
     <LightComponent range="10.0" lightcolor="255,255,255,0" powerconsumption="5"  IsOn="true" castshadows="false" allowingameediting="false" Flicker="0.2" Flickerspeed="0.7">
-      <sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeableconsoles.png" depth="0.025" sourcerect="592,208,160,160" origin="0.5,0.5" alpha="1.0" />
+      <sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeableconsoles.png" depth="0.025" sourcerect="592,208,160,160" origin="0.5,0.5" alpha="1.0" />
     </LightComponent>
 
     <MiniMap requirewaterdetectors="False" requireoxygendetectors="False" showhullintegrity="True" MinVoltage="0.5" PowerConsumption="100" canbeselected="true" msg="ItemMsgInteractSelect" allowuioverlap="true">
