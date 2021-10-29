@@ -4,7 +4,7 @@
 
 <Items>
 
-  <Item name="" identifier="weldingtool" category="Equipment" Tags="smallitem,weldingequipment,tool" cargocontaineridentifier="metalcrate" description="" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="weldingtool" category="Equipment" Tags="smallitem,weldingequipment,tool" cargocontaineridentifier="metalcrate"  Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="engcab" minamount="2" maxamount="4" spawnprobability="1"/>
     <PreferredContainer primary="supplycab" minamount="1" maxamount="1" spawnprobability="0.125"/>
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -98,7 +98,7 @@
     </Quality>
   </Item>
   
-  <Item name="" identifier="plasmacutter" category="Equipment" Tags="smallitem,cuttingequipment,tool" cargocontaineridentifier="metalcrate" description="" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="plasmacutter" category="Equipment" Tags="smallitem,cuttingequipment,tool" cargocontaineridentifier="metalcrate"  Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1"/>
     <PreferredContainer primary="engcab" minamount="1" maxamount="2" spawnprobability="1"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.125"/>

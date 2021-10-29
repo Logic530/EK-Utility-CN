@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
 
-  <Item name="Reinforced Oxygen Tank" identifier="ekutility_reinforcedtank_oxygen" aliases="ekutility_heavytank_oxygen,heavy oxygen tank" category="Equipment,Misc" Tags="smallitem,oxygensource,oxygentank,refillableoxygensource" cargocontaineridentifier="metalcrate" scale="0.3" 
-  description="High-pressure composite tank, resistant to puncture and heat." impactsoundtag="impact_metal_light" maxstacksize="4">
+  <Item name="" identifier="ekutility_reinforcedtank_oxygen" aliases="ekutility_heavytank_oxygen,heavy oxygen tank" category="Equipment,Misc" Tags="smallitem,oxygensource,oxygentank,refillableoxygensource" cargocontaineridentifier="metalcrate" scale="0.3" 
+   impactsoundtag="impact_metal_light" maxstacksize="4">
     <!--<Price locationtype="City" buyprice="110" />
     <Price locationtype="Research" buyprice="125" />
     <Price locationtype="Military" buyprice="130" />
@@ -46,8 +46,8 @@
     <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect"/>
   </Item>
 
-  <Item name="Reinforced Oxygenite Tank" identifier="ekutility_reinforcedtank_oxygenite" aliases="ekutility_heavytank_oxygenite,heavy oxygenite tank" category="Equipment,Misc" Tags="smallitem,oxygensource,oxygenitetank" scale="0.3" 
-  description="High-pressure composite tank, resistant to puncture and heat." impactsoundtag="impact_metal_light" maxstacksize="4">
+  <Item name="" identifier="ekutility_reinforcedtank_oxygenite" aliases="ekutility_heavytank_oxygenite,heavy oxygenite tank" category="Equipment,Misc" Tags="smallitem,oxygensource,oxygenitetank" scale="0.3" 
+   impactsoundtag="impact_metal_light" maxstacksize="4">
     <!--<Price locationtype="Research" buyprice="300" />-->
 
     <Price baseprice="300" soldeverywhere="false" minleveldifficulty="25">
@@ -84,8 +84,8 @@
     <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect"/>
   </Item> 
 
-  <Item name="Rebreather Unit" identifier="ekutility_rebreatherunit" aliases="rebreather,ekutility_rebreather" category="Equipment,Misc" Tags="smallitem,oxygensource,oxygentank,refillableoxygensource" cargocontaineridentifier="metalcrate" scale="0.3" 
-  description="Experimental self-contained rebreather unit, its connections are designed to be compatible with most standard coalition diving equipment. Requires batteries and internal oxygen storage to function." impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ekutility_rebreatherunit" aliases="rebreather,ekutility_rebreather" category="Equipment,Misc" Tags="smallitem,oxygensource,oxygentank,refillableoxygensource" cargocontaineridentifier="metalcrate" scale="0.3" 
+   impactsoundtag="impact_metal_light">
     <!--<Price locationtype="Research" buyprice="255" />-->
     <!--<Price locationtype="Military" buyprice="300" />-->
 	
@@ -144,8 +144,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Jetscooter" identifier="ekutility_jetscooter" aliases="ekutility_experimentalscooter" category="Equipment" Tags="smallitem,provocative,scooter,underwaterscooter,light" cargocontaineridentifier="metalcrate" 
-  description="Advanced underwater propulsion device. Features improved battery lifetime and a built-in sonar navigation system." Scale="0.32" impactsoundtag="impact_metal_light" isshootable="true">
+  <Item name="" identifier="ekutility_jetscooter" aliases="ekutility_experimentalscooter" category="Equipment" Tags="smallitem,provocative,scooter,underwaterscooter,light" cargocontaineridentifier="metalcrate" 
+   Scale="0.32" impactsoundtag="impact_metal_light" isshootable="true">
     <!--<Price locationtype="Research" buyprice="160" />-->
 
     <Price baseprice="170" soldeverywhere="false" minleveldifficulty="25">
@@ -225,7 +225,7 @@
     <AiTarget soundrange="2000"/>
   </Item>
 
-<!--  <Item name="Advanced Sonar Beacon" identifier="ekutility_advancedsonarbeacon" category="Equipment" Tags="smallitem,sonar" preferredcontainers="locker" cargocontaineridentifier="metalcrate" Scale="0.32" impactsoundtag="impact_metal_light">
+<!--  <Item name="" identifier="ekutility_advancedsonarbeacon" category="Equipment" Tags="smallitem,sonar" preferredcontainers="locker" cargocontaineridentifier="metalcrate" Scale="0.32" impactsoundtag="impact_metal_light">
     <Price locationtype="City" buyprice="100" />
     <Price locationtype="Research" buyprice="100" />
     <Price locationtype="Military" buyprice="150" />
@@ -283,8 +283,8 @@
     </ItemContainer>
   </Item> -->
 
-  <Item name="Advanced Sonar Beacon" identifier="ekutility_advancedsonarbeacon" category="Equipment" Tags="smallitem,sonar" cargocontaineridentifier="metalcrate"
-	description="A handheld positional beacon transmitter, an invaluable tool for extravehicular operations." Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ekutility_advancedsonarbeacon" category="Equipment" Tags="smallitem,sonar" cargocontaineridentifier="metalcrate"
+	 Scale="0.35" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="crewcab,supplycab"/>
     <!--<Price locationtype="City" buyprice="150" />
     <Price locationtype="Research" buyprice="150" />
@@ -358,8 +358,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="Utility Mk-I Hardsuit" identifier="ekutility_Utility_hardsuit" aliases="utility_hardsuit,industrial hardsuit,industrial_hardsuit" category="Equipment" tags="diving,provocative,deepdiving,divingsuit,light,ekutility_utility_hardsuit" scale="0.5" fireproof="true" 
-  description="A rugged pressure suit designed for shipyard construction, mining, and salvage operations. The suit provides moderate insulation from electrical and thermal hazards, while manipulator gloves allow the wearer to operate tools and equiptment as normal. [ Rated 6000m ]" allowdroppingonswap="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekutility_Utility_hardsuit" aliases="utility_hardsuit,industrial hardsuit,industrial_hardsuit" category="Equipment" tags="diving,provocative,deepdiving,divingsuit,light,ekutility_utility_hardsuit" scale="0.5" fireproof="true" 
+   allowdroppingonswap="true" impactsoundtag="impact_metal_heavy">
     <!--
 	"A rugged pressure suit designed for construction, mining, and salvage operations."
 	
@@ -582,8 +582,8 @@
 	-->
   </Item>
 
-  <Item name="Utility Mk-I Hardsuit (Mechanic)" identifier="ekutility_utility_hardsuit_paintmechanic" aliases="utility_hardsuit,industrial hardsuit,industrial_hardsuit" category="Equipment" tags="diving,provocative,deepdiving,divingsuit,light,ekutility_utility_hardsuit" scale="0.5" fireproof="true" 
-  description="A rugged pressure suit designed for shipyard construction, mining, and salvage operations. The suit provides moderate insulation from electrical and thermal hazards, while manipulator gloves allow the wearer to operate tools and equiptment as normal. [ Rated 6000m ]" allowdroppingonswap="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekutility_utility_hardsuit_paintmechanic" aliases="utility_hardsuit,industrial hardsuit,industrial_hardsuit" category="Equipment" tags="diving,provocative,deepdiving,divingsuit,light,ekutility_utility_hardsuit" scale="0.5" fireproof="true" 
+   allowdroppingonswap="true" impactsoundtag="impact_metal_heavy">
     <!--
 	"A rugged pressure suit designed for construction, mining, and salvage operations."
 	
@@ -796,8 +796,8 @@
 	-->
   </Item>
 
-  <Item name="Oxygen Cell Mk-I" identifier="ekutility_oxygencell1" category="Equipment,Misc" maxstacksize="3" Tags="smallitem,oxygensource,tag_oxygencell1" cargocontaineridentifier="metalcrate" scale="0.3"
-    description="Hardsuit non-rechargable oxygen supply which utilizes chemical reagents to produce a large density of oxygen."  impactsoundtag="impact_metal_light" >
+  <Item name="" identifier="ekutility_oxygencell1" category="Equipment,Misc" maxstacksize="3" Tags="smallitem,oxygensource,tag_oxygencell1" cargocontaineridentifier="metalcrate" scale="0.3"
+      impactsoundtag="impact_metal_light" >
     <PreferredContainer primary="oxygentankcontainer,divingcab"/>
     <Price baseprice="120" soldeverywhere="false" minleveldifficulty="25"> <!-- Why does a vanilla oxygen tank sell for more than twice it's value? -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
@@ -833,8 +833,8 @@
     <Holdable canbecombined="true" slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect"/>
   </Item>
 
-  <Item name="Oxygen Cell Mk-II" identifier="ekutility_oxygencell2" category="Equipment,Misc" maxstacksize="3" Tags="smallitem,oxygensource,tag_oxygencell2" cargocontaineridentifier="metalcrate" scale="0.3"
-    description="Hardsuit non-rechargable oxygen supply which utilizes chemical reagents to produce a large density of oxygen."  impactsoundtag="impact_metal_light" >
+  <Item name="" identifier="ekutility_oxygencell2" category="Equipment,Misc" maxstacksize="3" Tags="smallitem,oxygensource,tag_oxygencell2" cargocontaineridentifier="metalcrate" scale="0.3"
+      impactsoundtag="impact_metal_light" >
     <PreferredContainer primary="oxygentankcontainer,divingcab"/>
     <Price baseprice="185" soldeverywhere="false" > <!-- Why does a vanilla oxygen tank sell for more than twice it's value? -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
