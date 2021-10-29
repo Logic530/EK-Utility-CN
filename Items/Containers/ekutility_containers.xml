@@ -596,7 +596,7 @@
   </Item>
 
   <Item name="" identifier="ekutility_artifactbox" aliases="artifact crate,artifact box" tags="mobilecontainer,artifactcontainer" scale="0.4" sonarsize="3" fireproof="true" waterproof="true"
-  description="" pickdistance="60" impactsoundtag="impact_metal_heavy" HideConditionBar="true">
+   pickdistance="60" impactsoundtag="impact_metal_heavy" HideConditionBar="true">
     <!--<Price locationtype="City" buyprice="240" />
     <Price locationtype="Research" buyprice="140" />-->
 	

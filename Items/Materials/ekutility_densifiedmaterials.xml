@@ -942,8 +942,8 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Depleted Uranium" identifier="ekutility_densifiedmaterial_depleteduranium" aliases="ekutility_bulkcrate_depleteduranium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
-    description="A bulk storage/transportation container of depleted uranium." >
+  <Item name="" identifier="ekutility_densifiedmaterial_depleteduranium" aliases="ekutility_bulkcrate_depleteduranium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
+     >
 
     <PreferredContainer primary="abandonedstoragecab" minamount="0" maxamount="1" spawnprobability="1"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.02"/>

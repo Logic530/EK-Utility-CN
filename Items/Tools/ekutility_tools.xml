@@ -161,8 +161,8 @@
   </Item>
 
 <!-- Unfortunately repair bonuses cannot be linked to conditionals.
-  <Item name="Torque Wrench" identifier="ekutility_poweredwrench" category="Equipment" maxstacksize="1" Tags="smallitem,tool,wrench" cargocontaineridentifier="metalcrate" 
-  description="Battery-powered wrench with articulating head. Allows for rapid mechanical repairs." Scale="0.32" impactsoundtag="impact_metal_light" addedrepairspeedmultiplier="1.5" hideconditionbar="true" hideconditionintooltip="true" >
+  <Item name="" identifier="ekutility_poweredwrench" category="Equipment" maxstacksize="1" Tags="smallitem,tool,wrench" cargocontaineridentifier="metalcrate" 
+   Scale="0.32" impactsoundtag="impact_metal_light" addedrepairspeedmultiplier="1.5" hideconditionbar="true" hideconditionintooltip="true" >
 
     <Price baseprice="175" minleveldifficulty="20" >
       <Price locationtype="outpost" multiplier="1" minavailable="3" />
@@ -213,8 +213,8 @@
   -->
 	
   <!--
-  <Item name="Soldering Omnitool" identifier="ekutility_poweredscrewdriver" category="Equipment" maxstacksize="1" Tags="smallitem,tool,screwdriver" cargocontaineridentifier="metalcrate" 
-  description="Multipurpose electrical soldering gun. Allows for rapid electrical repairs." Scale="0.32" impactsoundtag="impact_metal_light" addedrepairspeedmultiplier="1.5" hideconditionbar="true" hideconditionintooltip="true" >
+  <Item name="" identifier="ekutility_poweredscrewdriver" category="Equipment" maxstacksize="1" Tags="smallitem,tool,screwdriver" cargocontaineridentifier="metalcrate" 
+   Scale="0.32" impactsoundtag="impact_metal_light" addedrepairspeedmultiplier="1.5" hideconditionbar="true" hideconditionintooltip="true" >
 
     <Price baseprice="225" minleveldifficulty="20" >
       <Price locationtype="outpost" multiplier="1" minavailable="3" />
@@ -270,7 +270,7 @@
   -->
 
   <Item name="" identifier="ekutility_metalfoam_tank" aliases="metal foam canister, metal foam tank, metallic foam tank" category="Equipment" Tags="smallitem,weldingequipment,tool,explosive" cargocontaineridentifier="metalcrate" scale="0.3" 
-  description="" impactsoundtag="impact_metal_light" maxstacksize="2">
+   impactsoundtag="impact_metal_light" maxstacksize="2">
     <!--<Price locationtype="Research" buyprice="175" />-->
 	
     <PreferredContainer primary="ekutility_metalfoam_gun" spawnprobability="1"/>
@@ -397,7 +397,7 @@
   </Item>
 
   <Item name="" identifier="ekutility_ioncutter" aliases="ion cutter,pulse cutter,ekutility_pulsecutter,ekutility_ioncutter" category="Equipment" Tags="smallitem,cuttingequipment,tools,flashlight" cargocontaineridentifier="metalcrate" 
-  description="" Scale="0.32" impactsoundtag="impact_metal_light">
+   Scale="0.32" impactsoundtag="impact_metal_light">
     <!--<Price locationtype="Research" buyprice="320" />
     <Price locationtype="Military" buyprice="340" />
     <Price locationtype="Mine" buyprice="380" />-->
@@ -859,7 +859,7 @@
   </Item>
   
   <Item name="" identifier="ekutility_advancedheadset" scale="0.5" category="Equipment" tags="smallitem,headset" 
-  description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+   cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <!--<PreferredContainer primary="divingcab,crewcab" minamount="0" maxamount="2" spawnprobability="0.5"/>
     <PreferredContainer primary="storagecab"/>-->
     <!--<Price locationtype="Research" buyprice="150" />
@@ -1156,8 +1156,8 @@
   </Item>
 
 
-  <Item name="Logistics PDA" identifier="ekutility_pdacargo" category="Equipment" Tags="smallitem,tool,sonar" 
-  cargocontaineridentifier="metalcrate" description="Handheld computer which displays ship logistics and cargo information from the onboard diagnostics network."
+  <Item name="" identifier="ekutility_pdacargo" category="Equipment" Tags="smallitem,tool,sonar" 
+  cargocontaineridentifier="metalcrate" 
   Scale="0.3" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="engcab" minamount="1" maxamount="1" spawnprobability="0.15"/>
     <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
@@ -1516,7 +1516,7 @@
   </Item>
 
   <Item name="" identifier="ekutility_repairgrenade_effect" Scale="0.5" impactsoundtag="impact_soft" hideinmenus="true">
-    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_tools.png" depth="0.6" sourcerect="0,0,1,1" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" depth="0.6" sourcerect="0,0,1,1" origin="0.5,0.5" />
     <ItemComponent characterusable="false">
       
       <StatusEffect type="Always" target="This" condition="-50" >
