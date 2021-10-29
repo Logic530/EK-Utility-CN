@@ -449,11 +449,11 @@
         </LightComponent>
       </sprite>
       <!--
-	  <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="Waist" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+	  <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="Waist" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="true" origin="0.4397959,0.7111111" sourcerect="0,416,96,112"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="RightHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="RightHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="true" origin="0.5576271,0.484375" sourcerect="192,16,64,112"/> 
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="LeftHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="LeftHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="true" origin="0.5576271,0.484375" sourcerect="192,144,64,112"/>
       <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="RightArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="true" origin="0.4868421,0.3658537" sourcerect="128,0,64,128"/>
@@ -472,31 +472,31 @@
       <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="LeftFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="true" origin="0.4520548,0.4117647" sourcerect="0,256,80,112"/>
 	  -->
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="Waist" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="Waist" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.44,0.71" sourcerect="0,416,96,112" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="RightForearm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="RightForearm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.35" sourcerect="192,16,64,112" scale="0.43"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="LeftForearm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="LeftForearm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.35" sourcerect="192,144,64,112" scale="0.43"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="RightHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="RightHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.5" sourcerect="0,0,1,1" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="LeftHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="LeftHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.5" sourcerect="0,0,1,1" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="RightArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="RightArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.45" sourcerect="128,0,64,128" scale="0.43"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="LeftArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="LeftArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.45" sourcerect="128,128,64,128" scale="0.43"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="RightThigh" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="RightThigh" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.5" sourcerect="80,256,96,160" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="LeftThigh" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="LeftThigh" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.5" sourcerect="176,256,96,160" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="RightLeg" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="RightLeg" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.5" sourcerect="96,416,80,112" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="LeftLeg" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="LeftLeg" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.5" sourcerect="176,416,80,112" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="RightFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="RightFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.45,0.45" sourcerect="0,256,80,112" scale="0.4" rotation="90"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit.png" limb="LeftFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit.png" limb="LeftFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.45,0.45" sourcerect="0,256,80,112" scale="0.4" rotation="90"/>
 
       <StatusEffect type="OnContained" target="Contained" Condition="1.0">
@@ -644,7 +644,7 @@
 	<Holdable slots="RightHand+LeftHand" msg="ItemMsgPickUpUse" controlpose="true" holdpos="0,-50" handle1="-10,-20" handle2="10,-20" holdangle="45" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
 	
     <Wearable slots="OuterClothes" msg="ItemMsgEquipSelect">
-      <sprite texture="Mods/EK Utilities/Items/Diving/ekutility_divinglockersprites_paintmechanic.png" limb="Head" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/ekutility_divinglockersprites_paintmechanic.png" limb="Head" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inheritorigin="false" inherittexturescale="false" sourcerect="256,0,96,96" origin="0.55,0.53" scale="0.4">
         <LightComponent canbeselected="false" AllowInGameEditing="false" range="400.0" lightcolor="250,200,170,40" powerconsumption="10" IsOn="true">
           <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
@@ -653,7 +653,7 @@
           <LightTexture texture="Mods/EK Utility CN/Lights/pointlight_bright.png" origin="0.5, 0.56" size="1.0,1.0" />
         </LightComponent>
       </sprite>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="Torso" inheritlimbdepth="true" hidelimb="true" hideotherwearables="false" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="Torso" inheritlimbdepth="true" hidelimb="true" hideotherwearables="false" 
 	  inheritorigin="false" inherittexturescale="false" origin="0.6,0.48" sourcerect="0,0,128,256" scale="0.4">
         <LightComponent canbeselected="false" AllowInGameEditing="false" range="500.0" lightcolor="250,200,170,200" powerconsumption="10" IsOn="true">
           <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
@@ -663,11 +663,11 @@
         </LightComponent>
       </sprite>
 	  <!--
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="Waist" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="Waist" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="true" origin="0.4397959,0.7111111" sourcerect="0,416,96,112"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="true" origin="0.5576271,0.484375" sourcerect="192,16,64,112"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="true" origin="0.5576271,0.484375" sourcerect="192,144,64,112"/>
       <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="true" origin="0.4868421,0.3658537" sourcerect="128,0,64,128"/>
@@ -686,31 +686,31 @@
       <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="true" origin="0.4520548,0.4117647" sourcerect="0,256,80,112"/>
 	  -->
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="Waist" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="Waist" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.44,0.71" sourcerect="0,416,96,112" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightForearm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightForearm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.35" sourcerect="192,16,64,112" scale="0.43"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftForearm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftForearm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.35" sourcerect="192,144,64,112" scale="0.43"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.5" sourcerect="0,0,1,1" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.5" sourcerect="0,0,1,1" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.45" sourcerect="128,0,64,128" scale="0.43"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.45" sourcerect="128,128,64,128" scale="0.43"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightThigh" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightThigh" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.5" sourcerect="80,256,96,160" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftThigh" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftThigh" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.5" sourcerect="176,256,96,160" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightLeg" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightLeg" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.5" sourcerect="96,416,80,112" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftLeg" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftLeg" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.5,0.5" sourcerect="176,416,80,112" scale="0.4"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="RightFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.45,0.45" sourcerect="0,256,80,112" scale="0.4" rotation="90"/>
-      <sprite texture="Mods/EK Utilities/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
+      <sprite texture="Mods/EK Utility CN/Items/Diving/utility_diving_suit_paintmechanic.png" limb="LeftFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" 
 	  inherittexturescale="false" origin="0.45,0.45" sourcerect="0,256,80,112" scale="0.4" rotation="90"/>
 
       <StatusEffect type="OnContained" target="Contained" Condition="1.0">

@@ -976,7 +976,7 @@
 	  <RequiredItem identifier="depletedfuel" />
 	  <RequiredItem identifier="depletedfuel" />
     </Fabricate>
-    <Sprite texture="Mods/EK Utilities/Items/Materials/ekutility_densifiedmaterials.png" depth="0.55" sourcerect="784,576,112,96" />
+    <Sprite texture="Mods/EK Utility CN/Items/Materials/ekutility_densifiedmaterials.png" depth="0.55" sourcerect="784,576,112,96" />
     <Body width="110" height="80" density="25" />
     <Holdable slots="RightHand+LeftHand" holdpos="50,0" handle1="4,22" handle2="4,22" aimable="false" msg="ItemMsgPickUpSelect" canBeCombined="true" removeOnCombined="true">
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.7" setvalue="true" />
