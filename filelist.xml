@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="EK Utility CN" path="Mods/EK Utility CN/filelist.xml" corepackage="false" gameversion="0.14.6.0" steamworkshopid="2405314431" installtime="1625150550">
+<contentpackage name="EK Utility CN" path="Mods/EK Utility CN/filelist.xml" corepackage="false" gameversion="0.15.12.0" steamworkshopid="2405314431" installtime="1625150550">
   <Item file="Mods/EK Utility CN/Items/overwrite_tools.xml" />
   <Item file="Mods/EK Utility CN/Items/overwrite_alienitems.xml" />
   <Item file="Mods/EK Utility CN/Items/Materials/ekutility_densifiedmaterials.xml" />
