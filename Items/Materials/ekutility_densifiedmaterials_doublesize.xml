@@ -3,7 +3,7 @@
 
   <!-- Raw Resources -->
 
-  <Item name="Crate of Iron" identifier="ekutility_bulkcrate_iron" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_iron" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw iron." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="0.35"/>
@@ -60,7 +60,7 @@
 	-->
   </Item>
 
-  <Item name="Crate of Aluminium" identifier="ekutility_bulkcrate_aluminium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_aluminium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw aluminium." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="0.25"/>
@@ -112,7 +112,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Copper" identifier="ekutility_bulkcrate_copper" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_copper" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw copper." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.20"/>
@@ -164,7 +164,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Titanium" identifier="ekutility_bulkcrate_titanium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_titanium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw titanium." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.25"/>
@@ -216,7 +216,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Carbon" identifier="ekutility_bulkcrate_carbon" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_carbon" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw carbon." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.25"/>
@@ -268,7 +268,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Lead" identifier="ekutility_bulkcrate_lead" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_lead" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw lead." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -320,7 +320,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Tin" identifier="ekutility_bulkcrate_tin" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_tin" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw tin." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -372,7 +372,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Zinc" identifier="ekutility_bulkcrate_zinc" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_zinc" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw zinc." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -424,7 +424,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Silicon" identifier="ekutility_bulkcrate_silicon" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_silicon" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw silicon." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -476,7 +476,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Steel Bars" identifier="ekutility_bulkcrate_steel" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_steel" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of steel bars." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -528,7 +528,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Titanium Alloy Bars" identifier="ekutility_bulkcrate_titaniumaluminiumalloy" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_titaniumaluminiumalloy" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of titanium-aluminium alloy bars." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -580,7 +580,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Plastic" identifier="ekutility_bulkcrate_plastic" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_plastic" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw plastic." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -632,7 +632,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Rubber" identifier="ekutility_bulkcrate_rubber" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_rubber" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw rubber." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -684,7 +684,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of FPGA Circuits" identifier="ekutility_bulkcrate_fpgacircuit" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_fpgacircuit" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of FPGA circuits." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -736,7 +736,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Organic Fiber" identifier="ekutility_bulkcrate_organicfiber" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_organicfiber" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of organic fiber." >
 	
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
@@ -788,7 +788,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Ballistic Fiber" identifier="ekutility_bulkcrate_ballisticfiber" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_ballisticfiber" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of ballistic fiber." >
 	
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
@@ -840,7 +840,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Uranium" identifier="ekutility_bulkcrate_uranium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_uranium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw uranium." >
 
     <PreferredContainer primary="storagecab,reactorcab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -891,7 +891,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Thorium" identifier="ekutility_bulkcrate_thorium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_thorium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raw thorium." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -944,7 +944,7 @@
   
   <!-- Chemical Resources -->
   
-  <Item name="Crate of Flash Powder" identifier="ekutility_bulkcrate_flashpowder" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_flashpowder" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of flash powder." >
 	
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
@@ -996,7 +996,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Lithium" identifier="ekutility_bulkcrate_lithium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_lithium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of lithium." >
 	
     <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -1049,7 +1049,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Sodium" identifier="ekutility_bulkcrate_sodium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_sodium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of sodium." >
 	
     <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -1102,7 +1102,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Magnesium" identifier="ekutility_bulkcrate_magnesium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_magnesium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of magnesium." >
 	
     <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -1155,7 +1155,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Potassium" identifier="ekutility_bulkcrate_potassium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_potassium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of potassium." >
 	
     <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -1208,7 +1208,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Chlorine" identifier="ekutility_bulkcrate_chlorine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_chlorine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of chlorine." >
 	
     <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -1261,7 +1261,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Calcium" identifier="ekutility_bulkcrate_calcium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_calcium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of calcium." >
 	
     <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -1314,7 +1314,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Phosphorus" identifier="ekutility_bulkcrate_phosphorus" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_phosphorus" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of phosphorus." >
 	
     <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -1367,7 +1367,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Ethanol" identifier="ekutility_bulkcrate_ethanol" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_ethanol" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of ethanol." >
 	
     <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -1420,7 +1420,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Sulphuric Acid" identifier="ekutility_bulkcrate_sulphuricacid" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_sulphuricacid" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of sulphuric acid." >
 	
     <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -1474,7 +1474,7 @@
   
   <!-- Explosives -->
   
-  <Item name="Crate of UEX" identifier="ekutility_bulkcrate_uex" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_uex" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of UEX." >
 	
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="2" spawnprobability="0.2"/>
@@ -1526,7 +1526,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of C-4" identifier="ekutility_bulkcrate_c4block" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_c4block" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of C-4." >
 	
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -1578,7 +1578,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Compound-N" identifier="ekutility_bulkcrate_compoundn" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_compoundn" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of compound-N." >
 	
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -1630,7 +1630,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of IC-4" identifier="ekutility_bulkcrate_ic4block" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_ic4block" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of IC-4." >
 	
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
@@ -1684,7 +1684,7 @@
   
   <!-- Alien Resources -->
   
-  <Item name="Crate of Physicorium" identifier="ekutility_bulkcrate_physicorium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_physicorium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of physicorium." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
@@ -1736,7 +1736,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Fulgurium" identifier="ekutility_bulkcrate_fulgurium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_fulgurium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of fulgurium." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
@@ -1788,7 +1788,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Sulphurite" identifier="ekutility_bulkcrate_sulphuriteshard" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_sulphuriteshard" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of sulphurite." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
@@ -1840,7 +1840,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Oxygenite" identifier="ekutility_bulkcrate_oxygeniteshard" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_oxygeniteshard" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of oxygenite." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
@@ -1892,7 +1892,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Incendium" identifier="ekutility_bulkcrate_incendium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_incendium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of incendium." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
@@ -1944,7 +1944,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Dementonite" identifier="ekutility_bulkcrate_dementonite" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_dementonite" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of dementonite." >
 
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
@@ -1998,7 +1998,7 @@
   
   <!-- Medical Resources -->
   
-  <Item name="Crate of Bandages" identifier="ekutility_bulkcrate_antibleeding1" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_antibleeding1" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of medical bandages." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
@@ -2050,7 +2050,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Plastiseal" identifier="ekutility_bulkcrate_antibleeding2" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_antibleeding2" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of plastiseal." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="2" spawnprobability="0.35"/>
@@ -2102,7 +2102,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Antibiotic Glue" identifier="ekutility_bulkcrate_antibleeding3" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_antibleeding3" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of antibiotic glue." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
@@ -2154,7 +2154,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Tonic Liquid" identifier="ekutility_bulkcrate_tonicliquid" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_tonicliquid" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of tonic liquid." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
@@ -2206,7 +2206,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Saline" identifier="ekutility_bulkcrate_antibloodloss1" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_antibloodloss1" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of medical saline." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
@@ -2258,7 +2258,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Blood Packs" identifier="ekutility_bulkcrate_antibloodloss2" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_antibloodloss2" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A medical transport container of blood packs." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
@@ -2310,7 +2310,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Adrenaline" identifier="ekutility_bulkcrate_adrenaline" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_adrenaline" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of medical adrenaline." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
@@ -2362,7 +2362,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Opium" identifier="ekutility_bulkcrate_opium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_opium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of opium." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="2" spawnprobability="0.35"/>
@@ -2414,7 +2414,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Elastin" identifier="ekutility_bulkcrate_elastin" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_elastin" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of elastin." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
@@ -2466,7 +2466,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Alien Blood" identifier="ekutility_bulkcrate_alienblood" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_alienblood" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A medical transport container of alien blood samples." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
@@ -2518,7 +2518,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Adrenaline Glands" identifier="ekutility_bulkcrate_adrenalinegland" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_adrenalinegland" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A medical transport container of adrenaline gland samples." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
@@ -2570,7 +2570,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Swim Bladder" identifier="ekutility_bulkcrate_swimbladder" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_swimbladder" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A medical transport container of swim bladder samples." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
@@ -2622,7 +2622,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Paralyxis" identifier="ekutility_bulkcrate_paralyxis" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_paralyxis" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A medical transport container of paralyxis samples." >
 	
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
@@ -2674,7 +2674,7 @@
     </Holdable>
   </Item>
 
-  <Item name="Crate of Velonaceps Calyx" identifier="ekutility_bulkcrate_huskeggs" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_huskeggs" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A medical transport container of velonaceps calyx egg samples." >
 	
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>-->
@@ -2728,7 +2728,7 @@
   
 <!-- Medical Products & Toxins -->
   
-  <Item name="Crate of Stabilozine" identifier="ekutility_bulkcrate_stabilozine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_stabilozine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of stabilozine." >
 
     <PreferredContainer primary="medcab" minamount="0" maxamount="2" spawnprobability="0.2"/>
@@ -2780,7 +2780,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Morphine" identifier="ekutility_bulkcrate_morphine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_morphine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of morphine." >
 
     <PreferredContainer primary="medcab" minamount="0" maxamount="2" spawnprobability="0.3"/>
@@ -2832,7 +2832,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Fentanyl" identifier="ekutility_bulkcrate_fentanyl" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_fentanyl" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of fentanyl." >
 
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -2884,7 +2884,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Deusizine" identifier="ekutility_bulkcrate_deusizine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_deusizine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of deusizine." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.1"/>-->
@@ -2936,7 +2936,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Naloxone" identifier="ekutility_bulkcrate_naloxone" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_naloxone" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of naloxone." >
 
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
@@ -2988,7 +2988,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Haloperidol" identifier="ekutility_bulkcrate_haloperidol" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_haloperidol" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of haloperidol." >
 
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -3040,7 +3040,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Methamphetamine" identifier="ekutility_bulkcrate_meth" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_meth" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of methamphetamine." >
 
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.05"/>
@@ -3092,7 +3092,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Anabolic Steroids" identifier="ekutility_bulkcrate_steroids" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_steroids" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of anabolic steroids." >
 
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -3144,7 +3144,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Hyperzine" identifier="ekutility_bulkcrate_hyperzine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_hyperzine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of hyperzine." >
 
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.05"/>
@@ -3196,7 +3196,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Liquid Oxygenite" identifier="ekutility_bulkcrate_liquidoxygenite" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_liquidoxygenite" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of liquid oxygenite." >
 
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.05"/>
@@ -3248,7 +3248,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Broad-spectrum Antibiotics" identifier="ekutility_bulkcrate_antibiotics" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_antibiotics" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of liquid oxygenite." >
 
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -3300,7 +3300,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Chloral Hydrate" identifier="ekutility_bulkcrate_chloralhydrate" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_chloralhydrate" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of chloral hydrate." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -3352,7 +3352,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Calyxanide" identifier="ekutility_bulkcrate_calyxanide" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_calyxanide" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of chloral hydrate." >
 
     <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>
@@ -3404,7 +3404,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Raptor Bane Extract" identifier="ekutility_bulkcrate_raptorbaneextract" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_raptorbaneextract" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of raptor bane extract." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -3456,7 +3456,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Pomegrenade Extract" identifier="ekutility_bulkcrate_pomegrenadeextract" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_pomegrenadeextract" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of pomegrenade extract." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -3508,7 +3508,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Cyanide" identifier="ekutility_bulkcrate_cyanide" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_cyanide" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of cyanide." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -3560,7 +3560,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Cyanide Antidote" identifier="ekutility_bulkcrate_cyanideantidote" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_cyanideantidote" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of cyanide antidote." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -3612,7 +3612,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Sufforin" identifier="ekutility_bulkcrate_sufforin" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_sufforin" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of sufforin." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -3664,7 +3664,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Sufforin Antidote" identifier="ekutility_bulkcrate_sufforinantidote" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_sufforinantidote" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of sufforin antidote." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -3716,7 +3716,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Morbusine" identifier="ekutility_bulkcrate_morbusine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_morbusine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of morbusine." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -3768,7 +3768,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Morbusine Antidote" identifier="ekutility_bulkcrate_morbusineantidote" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_morbusineantidote" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of morbusine antidote." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -3820,7 +3820,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Radiotoxin" identifier="ekutility_bulkcrate_radiotoxin" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_radiotoxin" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of radiotoxin." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -3872,7 +3872,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Antirad" identifier="ekutility_bulkcrate_antirad" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_antirad" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of antirad." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -3924,7 +3924,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Deliriumine" identifier="ekutility_bulkcrate_deliriumine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_deliriumine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of deliriumine." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -3976,7 +3976,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Deliriumine Antidote" identifier="ekutility_bulkcrate_deliriumineantidote" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_deliriumineantidote" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of deliriumine antidote." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -4028,7 +4028,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Paralyzant" identifier="ekutility_bulkcrate_paralyzant" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_paralyzant" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of paralyzant." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
@@ -4080,7 +4080,7 @@
     </Holdable>
   </Item>
   
-  <Item name="Crate of Anaparalyzant" identifier="ekutility_bulkcrate_antiparalysis" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
+  <Item name="" identifier="ekutility_bulkcrate_antiparalysis" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="2"
     description="A bulk storage/transportation container of anaparalyzant." >
 
     <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->

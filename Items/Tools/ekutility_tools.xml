@@ -331,7 +331,7 @@
     </LightComponent>
   </Item>
 
-  <Item name="" aliases="metallic foam gun,metal foam sprayer,metal foam gun" identifier="ekutility_metalfoam_gun" category="Equipment" Tags="smallitem,weldingequipment,tools" preferredcontainers="suppliescabinet,locker" cargocontaineridentifier="metalcrate" 
+  <Item name="" identifier="ekutility_metalfoam_gun" category="Equipment" Tags="smallitem,weldingequipment,tools" preferredcontainers="suppliescabinet,locker" cargocontaineridentifier="metalcrate" 
    Scale="0.32" impactsoundtag="impact_metal_light">
     <!--<Price locationtype="Research" buyprice="280" />-->
 	
@@ -1210,7 +1210,7 @@
     </ItemContainer>
   </Item>
 
-  <Item name="" aliases="patching kit" identifier="ekutility_hullrepairkit" category="Equipment" Tags="smallitem,weldingequipment,tools" preferredcontainers="suppliescabinet,locker" cargocontaineridentifier="metalcrate" 
+  <Item name="" identifier="ekutility_hullrepairkit" category="Equipment" Tags="smallitem,weldingequipment,tools" preferredcontainers="suppliescabinet,locker" cargocontaineridentifier="metalcrate" 
    Scale="0.32" impactsoundtag="impact_metal_light">
     <!--<Price locationtype="City" buyprice="30" />
     <Price locationtype="Research" buyprice="35" />
