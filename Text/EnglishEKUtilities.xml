@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
 
-<!--./EK Utilities/Items/overwrite_tools.xml-->
+<!--./Items/overwrite_tools.xml-->
 
-<!--./EK Utilities/Items/overwrite_alienitems.xml-->
+<!--./Items/overwrite_alienitems.xml-->
 
 <!--./Items/Materials/ekutility_densifiedmaterials.xml-->
 <entityname.ekutility_densifiedmaterial_iron>Crate of Iron</entityname.ekutility_densifiedmaterial_iron>
@@ -42,6 +42,8 @@
 <entitydescription.ekutility_densifiedmaterial_uranium>A bulk storage/transportation container of raw uranium.</entitydescription.ekutility_densifiedmaterial_uranium>
 <entityname.ekutility_densifiedmaterial_thorium>Crate of Thorium</entityname.ekutility_densifiedmaterial_thorium>
 <entitydescription.ekutility_densifiedmaterial_thorium>A bulk storage/transportation container of raw thorium.</entitydescription.ekutility_densifiedmaterial_thorium>
+<entityname.ekutility_densifiedmaterial_depleteduranium>Crate of Depleted Uranium</entityname.ekutility_densifiedmaterial_depleteduranium>
+<entitydescription.ekutility_densifiedmaterial_depleteduranium>A bulk storage/transportation container of depleted uranium.</entitydescription.ekutility_densifiedmaterial_depleteduranium>
 <entityname.ekutility_densifiedmaterial_flashpowder>Crate of Flash Powder</entityname.ekutility_densifiedmaterial_flashpowder>
 <entitydescription.ekutility_densifiedmaterial_flashpowder>A bulk storage/transportation container of flash powder.</entitydescription.ekutility_densifiedmaterial_flashpowder>
 <entityname.ekutility_densifiedmaterial_lithium>Crate of Lithium</entityname.ekutility_densifiedmaterial_lithium>
@@ -193,7 +195,7 @@
 <entityname.ekutility_miningdrill>Electric Drill</entityname.ekutility_miningdrill>
 <entitydescription.ekutility_miningdrill>Industral strength handheld drill. Used for mining and salvage operations.</entitydescription.ekutility_miningdrill>
 <entityname.ekutility_metalfoam_tank>Metallic Foam Canister</entityname.ekutility_metalfoam_tank>
-<entitydescription.ekutility_metalfoam_tank>Contains an advanced metal-catalyst dissolution used to rapidly repair hull damage, for use in the Metallic Foam Sprayer. Danger: Highly toxic.</entitydescription.ekutility_metalfoam_tank>
+<entitydescription.ekutility_metalfoam_tank>Contains an advanced metal-catalyst dissolution used to rapidly repair hull damage, for use in the Metallic Foam Sprayer. Danger: Highly toxic, Do not open.</entitydescription.ekutility_metalfoam_tank>
 <entityname.ekutility_metalfoam_gun>Metallic Foam Sprayer</entityname.ekutility_metalfoam_gun>
 <entitydescription.ekutility_metalfoam_gun>Advanced hull sealing technology. Utilizes a special chemical-metalloid formula extruded through a heated nozzle to rapidly repair fractured or punctured hull sections.</entitydescription.ekutility_metalfoam_gun>
 <entityname.ekutility_ioncutter>Ion Pulse Cutter</entityname.ekutility_ioncutter>
@@ -226,6 +228,8 @@
 <entitydescription.ekutility_electroflare>A small self-contained lighting unit. Can be recharged at a charging dock.</entitydescription.ekutility_electroflare>
 <entityname.ekutility_pda>Status PDA</entityname.ekutility_pda>
 <entitydescription.ekutility_pda>Handheld computer which displays local structural and atmospheric information from the onboard diagnostics network.</entitydescription.ekutility_pda>
+<entityname.ekutility_pdacargo>Logistics PDA</entityname.ekutility_pdacargo>
+<entitydescription.ekutility_pdacargo>Handheld computer which displays ship logistics and cargo information from the onboard diagnostics network.</entitydescription.ekutility_pdacargo>
 <entityname.ekutility_hullrepairkit>Hull Patching Kit</entityname.ekutility_hullrepairkit>
 <entitydescription.ekutility_hullrepairkit>A low-tech solution for temporary hull repairs. Consumes steel bars to repair structural damage.</entitydescription.ekutility_hullrepairkit>
 <entityname.ekutility_laserdrill>Laser Bore</entityname.ekutility_laserdrill>
@@ -276,6 +280,8 @@
 <entitydescription.ekutility_placeablesmallpump>Usable device for moving water.</entitydescription.ekutility_placeablesmallpump>
 <entityname.ekutility_placeablefabricator>Fabricator</entityname.ekutility_placeablefabricator>
 <entitydescription.ekutility_placeablefabricator>A machine capable of manufacturing a wide range of items out of basic raw materials. ( Place by pressing aim + use )</entitydescription.ekutility_placeablefabricator>
+<entityname.ekutility_placeablefabricator_adaptive>Fabricator (Adaptive)</entityname.ekutility_placeablefabricator_adaptive>
+<entitydescription.ekutility_placeablefabricator_adaptive>An improved fabricator unit with adaptive control computer and improved manufacturing tolerances. Lower calibration skill requirements. ( Place by pressing aim + use )</entitydescription.ekutility_placeablefabricator_adaptive>
 <entityname.ekutility_placeablemedicalfabricator>Medical Fabricator</entityname.ekutility_placeablemedicalfabricator>
 <entitydescription.ekutility_placeablemedicalfabricator>A machine that can be used to manufacture various medicines. ( Place by pressing aim + use )</entitydescription.ekutility_placeablemedicalfabricator>
 <entityname.ekutility_placeabledeconstructor>Deconstructor</entityname.ekutility_placeabledeconstructor>

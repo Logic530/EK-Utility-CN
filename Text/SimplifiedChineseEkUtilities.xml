@@ -42,6 +42,8 @@
     <entitydescription.ekutility_densifiedmaterial_uranium>装箱的铀，便于储存和运输。</entitydescription.ekutility_densifiedmaterial_uranium>
     <entityname.ekutility_densifiedmaterial_thorium>一箱钍</entityname.ekutility_densifiedmaterial_thorium>
     <entitydescription.ekutility_densifiedmaterial_thorium>装箱的钍，便于储存和运输。</entitydescription.ekutility_densifiedmaterial_thorium>
+    <entityname.ekutility_densifiedmaterial_depleteduranium>一箱贫铀</entityname.ekutility_densifiedmaterial_depleteduranium>
+    <entitydescription.ekutility_densifiedmaterial_depleteduranium>装箱的贫铀，便于储存和运输。</entitydescription.ekutility_densifiedmaterial_depleteduranium>
     <entityname.ekutility_densifiedmaterial_flashpowder>一箱闪光粉</entityname.ekutility_densifiedmaterial_flashpowder>
     <entitydescription.ekutility_densifiedmaterial_flashpowder>装箱的闪光粉，便于储存和运输。</entitydescription.ekutility_densifiedmaterial_flashpowder>
     <entityname.ekutility_densifiedmaterial_lithium>一箱锂</entityname.ekutility_densifiedmaterial_lithium>
@@ -193,7 +195,7 @@
     <entityname.ekutility_miningdrill>电钻</entityname.ekutility_miningdrill>
     <entitydescription.ekutility_miningdrill>工业手持钻。用于采矿和打捞作业。</entitydescription.ekutility_miningdrill>
     <entityname.ekutility_metalfoam_tank>金属泡沫罐</entityname.ekutility_metalfoam_tank>
-    <entitydescription.ekutility_metalfoam_tank>内含金属泡沫和催化剂，用于快速修复船体损伤,与金属泡沫喷雾机配合使用。危险:剧毒。</entitydescription.ekutility_metalfoam_tank>
+    <entitydescription.ekutility_metalfoam_tank>内含金属泡沫和催化剂，用于快速修复船体损伤,与金属泡沫喷雾机配合使用。危险:剧毒，严禁破拆。</entitydescription.ekutility_metalfoam_tank>
     <entityname.ekutility_metalfoam_gun>金属泡沫喷雾机</entityname.ekutility_metalfoam_gun>
     <entitydescription.ekutility_metalfoam_gun>先进的船体修复科技。通过加热喷嘴喷出化学金属泡沫快速修复船体。</entitydescription.ekutility_metalfoam_gun>
     <entityname.ekutility_ioncutter>离子脉冲切割器</entityname.ekutility_ioncutter>
@@ -226,6 +228,8 @@
     <entitydescription.ekutility_electroflare>小型照明设备。可以在充电座充电。</entitydescription.ekutility_electroflare>
     <entityname.ekutility_pda>状态监控器</entityname.ekutility_pda>
     <entitydescription.ekutility_pda>手持计算机，可显示来舰载诊断网络的船舱完整性和空气质量信息。</entitydescription.ekutility_pda>
+    <entityname.ekutility_pdacargo>物流监控器</entityname.ekutility_pdacargo>
+    <entitydescription.ekutility_pdacargo>手持计算机，可显示来舰载诊断网络的物流和货物信息。</entitydescription.ekutility_pdacargo>
     <entityname.ekutility_hullrepairkit>船体修补工具</entityname.ekutility_hullrepairkit>
     <entitydescription.ekutility_hullrepairkit>简易船体修补方案。需要使用钢筋。</entitydescription.ekutility_hullrepairkit>
     <entityname.ekutility_laserdrill>激光钻机</entityname.ekutility_laserdrill>
@@ -276,6 +280,8 @@
     <entitydescription.ekutility_placeablesmallpump>抽水用的设备</entitydescription.ekutility_placeablesmallpump>
     <entityname.ekutility_placeablefabricator>加工台</entityname.ekutility_placeablefabricator>
     <entitydescription.ekutility_placeablefabricator>能用基本原料制造多种产品的机器。 （按瞄准+使用即可放置）</entitydescription.ekutility_placeablefabricator>
+    <entityname.ekutility_placeablefabricator_adaptive>加工台 （自适应）</entityname.ekutility_placeablefabricator_adaptive>
+    <entitydescription.ekutility_placeablefabricator_adaptive>能用基本原料制造多种产品的机器。改进的版本带有辅助控制计算机，降低所需的技能等级。（按瞄准+使用即可放置）</entitydescription.ekutility_placeablefabricator_adaptive>
     <entityname.ekutility_placeablemedicalfabricator>医药加工台</entityname.ekutility_placeablemedicalfabricator>
     <entitydescription.ekutility_placeablemedicalfabricator>可合成多种医疗用品的机器。 （按瞄准+使用即可放置）</entitydescription.ekutility_placeablemedicalfabricator>
     <entityname.ekutility_placeabledeconstructor>解构仪</entityname.ekutility_placeabledeconstructor>
