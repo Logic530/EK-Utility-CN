@@ -7,8 +7,8 @@
     startrotationmin="0"
     startrotationmax="360"
     rotatetodirection="False"
-    drag="80"
-    waterdrag="95"
+    drag="0.6"
+    waterdrag="0.8"
     velocitychange="0,-3"
     velocitychangewater="0,-1"
     collisionradius="10"
@@ -59,15 +59,15 @@
     startrotationmin="0"
     startrotationmax="360"
     rotatetodirection="False"
-    drag="80"
-    waterdrag="95"
+    drag="0.6"
+    waterdrag="0.8"
     velocitychange="0,-3"
     velocitychangewater="0,-1"
     collisionradius="10"
     usecollision="True"
     deleteoncollision="false"
     friction="0.9"
-    restitution="0.0"
+    restitution="0.01"
     startsizemin="1.5,1.5"
     startsizemax="3,3"
     sizechangemin="-1.5,-1.5"
@@ -104,6 +104,61 @@
       sourcerect="208,64,48,32" />
   </ekmetalfoamspray>
 
+  <ekmetalfoamlumps
+    lifetime="6"
+	lifetimemin="3"
+    angularvelocitymin="-90"
+    angularvelocitymax="90"
+    startrotationmin="0"
+    startrotationmax="360"
+    rotatetodirection="False"
+    drag="0.6"
+    waterdrag="0.8"
+    velocitychange="0,-8"
+    velocitychangewater="0,-6"
+    collisionradius="10"
+    usecollision="True"
+    deleteoncollision="False"
+    friction="0.9"
+    restitution="0.01"
+    startsizemin="0.5,0.5"
+    startsizemax="1.2,1.2"
+    sizechangemin="0.5,0.5"
+    sizechangemax="1,1"
+    growtime="0.01"
+    startcolor="200,50,50,255"
+    middlecolor="110,100,100,50"
+    usemiddlecolor="True"
+    endcolor="100,80,80,0"
+    drawtarget="Both"
+    blendstate="AlphaBlend"
+    animduration="1"
+    loopanim="True"
+    startdelaymin="0"
+    startdelaymax="0">
+    <sprite
+      texture="Content/Particles/ParticleAtlas.png"
+      sourcerect="0,64,32,32" />
+    <sprite
+      texture="Content/Particles/ParticleAtlas.png"
+      sourcerect="32,64,32,32" />
+    <sprite
+      texture="Content/Particles/ParticleAtlas.png"
+      sourcerect="64,64,32,32" />
+    <sprite
+      texture="Content/Particles/ParticleAtlas.png"
+      sourcerect="96,64,32,32" />
+    <sprite
+      texture="Content/Particles/ParticleAtlas.png"
+      sourcerect="128,64,32,32" />
+    <sprite
+      texture="Content/Particles/ParticleAtlas.png"
+      sourcerect="160,64,48,32" />
+    <sprite
+      texture="Content/Particles/ParticleAtlas.png"
+      sourcerect="208,64,48,32" />
+  </ekmetalfoamlumps>
+
   <ekmetalfoamimpact
     lifetime="3"
     angularvelocitymin="-90"
@@ -111,10 +166,10 @@
     startrotationmin="0"
     startrotationmax="360"
     rotatetodirection="False"
-    drag="80"
-    waterdrag="95"
-    velocitychange="0,0"
-    velocitychangewater="0,0"
+    drag="0.6"
+    waterdrag="0.8"
+    velocitychange="0,-0.1"
+    velocitychangewater="0,-0.1"
     collisionradius="2"
     usecollision="True"
     deleteoncollision="false"
@@ -163,8 +218,8 @@
     startrotationmin="0"
     startrotationmax="360"
     rotatetodirection="False"
-    drag="80"
-    waterdrag="95"
+    drag="0.6"
+    waterdrag="0.8"
     velocitychange="0,-2.5"
     velocitychangewater="0,-1.5"
     collisionradius="2"

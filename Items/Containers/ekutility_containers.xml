@@ -595,8 +595,8 @@
     </ItemContainer>
   </Item>
 
-  <Item name="" identifier="ekutility_artifactbox" aliases="artifact crate,artifact box" scale="0.4" sonarsize="3" fireproof="true" waterproof="true"
-   pickdistance="60" impactsoundtag="impact_metal_heavy" HideConditionBar="true">
+  <Item name="" identifier="ekutility_artifactbox" aliases="artifact crate,artifact box" tags="mobilecontainer,artifactcontainer" scale="0.4" sonarsize="3" fireproof="true" waterproof="true"
+  description="" pickdistance="60" impactsoundtag="impact_metal_heavy" HideConditionBar="true">
     <!--<Price locationtype="City" buyprice="240" />
     <Price locationtype="Research" buyprice="140" />-->
 	
@@ -628,10 +628,11 @@
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.4" setvalue="true" />
     </Holdable>
     <ItemContainer autofill="False" capacity="1" slotsperrow="1" maxstacksize="1" canbeselected="false" hideitems="true" msg="ItemMsgInteractSelect">
-      <Containable identifiers="alien" >
-        <StatusEffect type="OnContaining" target="This" Condition="-5.0" disabledeltatime="true">
+      <Containable identifiers="alienartifact" >
+		<StatusEffect type="OnContaining" target="This" Condition="-5.0" disabledeltatime="true">
           <Conditional Condition="eq 100" />
         </StatusEffect>
+		<!-- Legacy behavior maintained for old artifact mods. -->
         <StatusEffect type="OnContaining" targettype="Contained" targets="ekutility_compatibleartifact" Condition="0" setvalue="true" />
       </Containable>
       <StatusEffect type="Always" target="This" Condition="5.0" disabledeltatime="true" delay="0.5">
