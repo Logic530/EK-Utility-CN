@@ -6,7 +6,7 @@
   <Item name="Crate of Iron" identifier="ekutility_densifiedmaterial_iron" aliases="ekutility_bulkcrate_iron" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of raw iron." >
 
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="0.35"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="50" soldeverywhere="false" minleveldifficulty="15"> <!-- 5 -->
       <Price locationtype="outpost" multiplier="1.3" sold="false"/>
@@ -63,7 +63,7 @@
   <Item name="Crate of Aluminium" identifier="ekutility_densifiedmaterial_aluminium" aliases="ekutility_bulkcrate_aluminium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of raw aluminium." >
 
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="0.25"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="0.15"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="400" soldeverywhere="false" minleveldifficulty="15"> <!-- 40 -->
       <Price locationtype="outpost" multiplier="1.3" sold="false"/>
@@ -167,7 +167,7 @@
   <Item name="Crate of Titanium" identifier="ekutility_densifiedmaterial_titanium" aliases="ekutility_bulkcrate_titanium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of raw titanium." >
 
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.25"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.04"/>
     <Price baseprice="650" soldeverywhere="false" minleveldifficulty="15"> <!-- 65 -->
       <Price locationtype="outpost" multiplier="1.3" sold="false"/>
@@ -219,7 +219,7 @@
   <Item name="Crate of Carbon" identifier="ekutility_densifiedmaterial_carbon" aliases="ekutility_bulkcrate_carbon" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of raw carbon." >
 
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.25"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.04"/>
     <Price baseprice="100" soldeverywhere="false" minleveldifficulty="15"> <!-- 10 -->
       <Price locationtype="outpost" multiplier="1.3" sold="false"/>
@@ -687,7 +687,7 @@
   <Item name="Crate of FPGA Circuits" identifier="ekutility_densifiedmaterial_fpgacircuit" aliases="ekutility_bulkcrate_fpgacircuit" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of FPGA circuits." >
 
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.04"/>
     <Price baseprice="800" > <!-- 80 -->
       <Price locationtype="outpost" multiplier="1" sold="true" minavailable="1"/>
@@ -739,7 +739,7 @@
   <Item name="Crate of Organic Fiber" identifier="ekutility_densifiedmaterial_organicfiber" aliases="ekutility_bulkcrate_organicfiber" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of organic fiber." >
 	
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.05"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.04"/>
     <Price baseprice="300" > <!-- 30 -->
       <Price locationtype="outpost" multiplier="1.3" sold="false"/>
@@ -791,7 +791,7 @@
   <Item name="Crate of Ballistic Fiber" identifier="ekutility_densifiedmaterial_ballisticfiber" aliases="ekutility_bulkcrate_ballisticfiber" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of ballistic fiber." >
 	
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.05"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.04"/>
     <Price baseprice="300" > <!-- 30 -->
       <Price locationtype="outpost" multiplier="1.3" sold="false"/>
@@ -942,12 +942,65 @@
     </Holdable>
   </Item>
   
+  <Item name="Crate of Depleted Uranium" identifier="ekutility_densifiedmaterial_depleteduranium" aliases="ekutility_bulkcrate_depleteduranium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
+    description="A bulk storage/transportation container of depleted uranium." >
+
+    <PreferredContainer primary="abandonedstoragecab" minamount="0" maxamount="1" spawnprobability="1"/>
+    <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.02"/>
+    <PreferredContainer primary="wreckreactorcab" minamount="0" maxamount="1" spawnprobability="0.08"/>
+
+    <Price baseprice="750" soldeverywhere="false" minleveldifficulty="15"> <!-- 31 -->
+      <Price locationtype="outpost" multiplier="1.3" sold="false"/>
+      <Price locationtype="city" multiplier="1.25" sold="false"/>
+      <Price locationtype="research" multiplier="1.1" sold="false"/>
+      <Price locationtype="military" multiplier="1.1" sold="false"/>
+      <Price locationtype="mine" multiplier="0.8" sold="true" minavailable="1"/>
+    </Price>
+	
+    <Deconstruct time="5">
+      <Item identifier="depletedfuel" mincondition="0.1"/> 
+      <Item identifier="depletedfuel" mincondition="0.2"/> 
+      <Item identifier="depletedfuel" mincondition="0.3"/> 
+      <Item identifier="depletedfuel" mincondition="0.4"/> 
+      <Item identifier="depletedfuel" mincondition="0.5"/> 
+      <Item identifier="depletedfuel" mincondition="0.6"/> 
+      <Item identifier="depletedfuel" mincondition="0.7"/> 
+      <Item identifier="depletedfuel" mincondition="0.8"/> 
+      <Item identifier="depletedfuel" mincondition="0.9"/> 
+      <Item identifier="depletedfuel" mincondition="0.99"/> 
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5" outcondition="0.5">
+	  <RequiredItem identifier="depletedfuel" />
+	  <RequiredItem identifier="depletedfuel" />
+	  <RequiredItem identifier="depletedfuel" />
+	  <RequiredItem identifier="depletedfuel" />
+	  <RequiredItem identifier="depletedfuel" />
+    </Fabricate>
+    <Sprite texture="Mods/EK Utilities/Items/Materials/ekutility_densifiedmaterials.png" depth="0.55" sourcerect="784,576,112,96" />
+    <Body width="110" height="80" density="25" />
+    <Holdable slots="RightHand+LeftHand" holdpos="50,0" handle1="4,22" handle2="4,22" aimable="false" msg="ItemMsgPickUpSelect" canBeCombined="true" removeOnCombined="true">
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.7" setvalue="true" />
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+	  <CustomInterface drawhudwhenequipped="true" canbeselected="false">
+		<GuiFrame style="ItemUI" absoluteoffset="0,150" anchor="BottomCenter" relativesize="0.06,0.08"/>
+		<Button text="Take One">
+		  <StatusEffect target="This,Character" type="OnUse" Condition="-10" disabledeltatime="true" >
+		    <Sound file="Content/Sounds/DropItem.ogg" type="OnUse" range="250" />
+			<SpawnItem identifiers="depletedfuel" spawnposition="This" />
+		  </StatusEffect>
+		</Button>
+	  </CustomInterface>
+    </Holdable>
+  </Item>
+  
   <!-- Chemical Resources -->
   
   <Item name="Crate of Flash Powder" identifier="ekutility_densifiedmaterial_flashpowder" aliases="ekutility_bulkcrate_flashpowder" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of flash powder." >
 	
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.05"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.04"/>
     <Price baseprice="900" soldeverywhere="false" minleveldifficulty="15"> <!-- 90 -->
       <Price locationtype="outpost" multiplier="1.3" sold="false"/>
@@ -999,7 +1052,7 @@
   <Item name="Crate of Lithium" identifier="ekutility_densifiedmaterial_lithium" aliases="ekutility_bulkcrate_lithium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of lithium." >
 	
-    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.03"/>
     <Price baseprice="880" soldeverywhere="false" minleveldifficulty="15"> <!-- 88 -->
@@ -1052,7 +1105,7 @@
   <Item name="Crate of Sodium" identifier="ekutility_densifiedmaterial_sodium" aliases="ekutility_bulkcrate_sodium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of sodium." >
 	
-    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.03"/>
     <Price baseprice="330" soldeverywhere="false" minleveldifficulty="15"> <!-- 33 -->
@@ -1105,7 +1158,7 @@
   <Item name="Crate of Magnesium" identifier="ekutility_densifiedmaterial_magnesium" aliases="ekutility_bulkcrate_magnesium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of magnesium." >
 	
-    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.03"/>
     <Price baseprice="330" soldeverywhere="false" minleveldifficulty="15"> <!-- 33 -->
@@ -1158,7 +1211,7 @@
   <Item name="Crate of Potassium" identifier="ekutility_densifiedmaterial_potassium" aliases="ekutility_bulkcrate_potassium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of potassium." >
 	
-    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.03"/>
     <Price baseprice="100" soldeverywhere="false" minleveldifficulty="15"> <!-- 10 -->
@@ -1211,7 +1264,7 @@
   <Item name="Crate of Chlorine" identifier="ekutility_densifiedmaterial_chlorine" aliases="ekutility_bulkcrate_chlorine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of chlorine." >
 	
-    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.03"/>
     <Price baseprice="110" soldeverywhere="false" minleveldifficulty="15"> <!-- 11 -->
@@ -1264,7 +1317,7 @@
   <Item name="Crate of Calcium" identifier="ekutility_densifiedmaterial_calcium" aliases="ekutility_bulkcrate_calcium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of calcium." >
 	
-    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.03"/>
     <Price baseprice="310" soldeverywhere="false" minleveldifficulty="15"> <!-- 31 -->
@@ -1317,7 +1370,7 @@
   <Item name="Crate of Phosphorus" identifier="ekutility_densifiedmaterial_phosphorus" aliases="ekutility_bulkcrate_phosphorus" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of phosphorus." >
 	
-    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.03"/>
     <Price baseprice="150" soldeverywhere="false" minleveldifficulty="15"> <!-- 15 -->
@@ -1370,7 +1423,7 @@
   <Item name="Crate of Ethanol" identifier="ekutility_densifiedmaterial_ethanol" aliases="ekutility_bulkcrate_ethanol" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of ethanol." >
 	
-    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="600" soldeverywhere="false" minleveldifficulty="15"> <!-- 60 -->
@@ -1423,7 +1476,7 @@
   <Item name="Crate of Sulphuric Acid" identifier="ekutility_densifiedmaterial_sulphuricacid" aliases="ekutility_bulkcrate_sulphuricacid" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of sulphuric acid." >
 	
-    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="medfabcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="800" soldeverywhere="false" minleveldifficulty="15"> <!-- 80 -->
       <Price locationtype="outpost" multiplier="1.25" sold="false"/>
@@ -1477,7 +1530,7 @@
   <Item name="Crate of UEX" identifier="ekutility_densifiedmaterial_uex" aliases="ekutility_bulkcrate_uex" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of UEX." >
 	
-    <PreferredContainer primary="secarmcab" minamount="0" maxamount="2" spawnprobability="0.2"/>
+    <PreferredContainer primary="secarmcab" minamount="0" maxamount="2" spawnprobability="0.1"/>
     <PreferredContainer primary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.04"/>
     <Price baseprice="750" > <!-- 75 -->
       <Price locationtype="outpost" multiplier="1.5" sold="false"/>
@@ -1529,7 +1582,7 @@
   <Item name="Crate of C-4" identifier="ekutility_densifiedmaterial_c4block" aliases="ekutility_bulkcrate_c4block" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of C-4." >
 	
-    <PreferredContainer primary="secarmcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="secarmcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.03"/>
     <Price baseprice="1600" > <!-- 160 -->
       <Price locationtype="outpost" multiplier="1.5" sold="false"/>
@@ -1581,7 +1634,7 @@
   <Item name="Crate of Compound-N" identifier="ekutility_densifiedmaterial_compoundn" aliases="ekutility_bulkcrate_compoundn" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of compound-N." >
 	
-    <PreferredContainer primary="secarmcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="secarmcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.02"/>
     <Price baseprice="1500" > <!-- 150 -->
       <Price locationtype="outpost" multiplier="1.5" sold="false"/>
@@ -1633,7 +1686,7 @@
   <Item name="Crate of IC-4" identifier="ekutility_densifiedmaterial_ic4block" aliases="ekutility_bulkcrate_ic4block" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of IC-4." >
 	
-    <PreferredContainer primary="secarmcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="secarmcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.02"/>
     <Price baseprice="4000" > <!-- 400 -->
       <Price locationtype="outpost" multiplier="1.5" sold="false"/>
@@ -1687,7 +1740,7 @@
   <Item name="Crate of Physicorium" identifier="ekutility_densifiedmaterial_physicorium" aliases="ekutility_bulkcrate_physicorium" category="Material,Alien" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of physicorium." >
 
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.05"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.02"/>
     <Price baseprice="2000" soldeverywhere="false" minleveldifficulty="15"> <!-- 200 -->
       <Price locationtype="outpost" multiplier="1.25" sold="false"/>
@@ -1739,7 +1792,7 @@
   <Item name="Crate of Fulgurium" identifier="ekutility_densifiedmaterial_fulgurium" aliases="ekutility_bulkcrate_fulgurium" category="Material,Alien" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of fulgurium." >
 
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.05"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.02"/>
     <Price baseprice="2000" soldeverywhere="false" minleveldifficulty="15"> <!-- 200 -->
       <Price locationtype="outpost" multiplier="1.25" sold="false"/>
@@ -1791,7 +1844,7 @@
   <Item name="Crate of Sulphurite" identifier="ekutility_densifiedmaterial_sulphuriteshard" aliases="ekutility_bulkcrate_sulphuriteshard" category="Material,Alien" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of sulphurite." >
 
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.05"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.03"/>
     <Price baseprice="2000" soldeverywhere="false" minleveldifficulty="15"> <!-- 200 -->
       <Price locationtype="outpost" multiplier="1.25" sold="false"/>
@@ -1843,7 +1896,7 @@
   <Item name="Crate of Oxygenite" identifier="ekutility_densifiedmaterial_oxygeniteshard" aliases="ekutility_bulkcrate_oxygeniteshard" category="Material,Alien" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of oxygenite." >
 
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.05"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.02"/>
     <Price baseprice="2000" soldeverywhere="false" minleveldifficulty="15"> <!-- 200 -->
       <Price locationtype="outpost" multiplier="1.25" sold="false"/>
@@ -1895,7 +1948,7 @@
   <Item name="Crate of Incendium" identifier="ekutility_densifiedmaterial_incendium" aliases="ekutility_bulkcrate_incendium" category="Material,Alien" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of incendium." >
 
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.05"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.02"/>
     <Price baseprice="2000" soldeverywhere="false" minleveldifficulty="15"> <!-- 200 -->
       <Price locationtype="outpost" multiplier="1.25" sold="false"/>
@@ -1947,7 +2000,7 @@
   <Item name="Crate of Dementonite" identifier="ekutility_densifiedmaterial_dementonite" aliases="ekutility_bulkcrate_dementonite" category="Material,Alien" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of dementonite." >
 
-    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.05"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.02"/>
     <Price baseprice="2000" soldeverywhere="false" minleveldifficulty="15"> <!-- 200 -->
       <Price locationtype="outpost" multiplier="1.25" sold="false"/>
@@ -2001,7 +2054,7 @@
   <Item name="Crate of Bandages" identifier="ekutility_densifiedmaterial_antibleeding1" aliases="ekutility_bulkcrate_antibleeding1" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of medical bandages." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="400" soldeverywhere="false" minleveldifficulty="15"> <!-- 40 -->
       <Price locationtype="outpost" multiplier="1" minavailable="1" />
@@ -2053,7 +2106,7 @@
   <Item name="Crate of Plastiseal" identifier="ekutility_densifiedmaterial_antibleeding2" aliases="ekutility_bulkcrate_antibleeding2" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of plastiseal." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="2" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="2" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="1000" soldeverywhere="false" minleveldifficulty="15"> <!-- 100 -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
@@ -2105,7 +2158,7 @@
   <Item name="Crate of Antibiotic Glue" identifier="ekutility_densifiedmaterial_antibleeding3" aliases="ekutility_bulkcrate_antibleeding3" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of antibiotic glue." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="1400" soldeverywhere="false" minleveldifficulty="15"> <!-- 140 -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
@@ -2157,7 +2210,7 @@
   <Item name="Crate of Tonic Liquid" identifier="ekutility_densifiedmaterial_tonicliquid" aliases="ekutility_bulkcrate_tonicliquid" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of tonic liquid." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="750" soldeverywhere="false" minleveldifficulty="15"> <!-- 75 -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
@@ -2209,7 +2262,7 @@
   <Item name="Crate of Saline" identifier="ekutility_densifiedmaterial_antibloodloss1" aliases="ekutility_bulkcrate_antibloodloss1" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of medical saline." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="500" soldeverywhere="false" minleveldifficulty="15"> <!-- 50 -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
@@ -2261,7 +2314,7 @@
   <Item name="Crate of Blood Packs" identifier="ekutility_densifiedmaterial_antibloodloss2" aliases="ekutility_bulkcrate_antibloodloss2" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A medical transport container of blood packs." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="2400" soldeverywhere="false" minleveldifficulty="15"> <!-- 240 -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
@@ -2313,7 +2366,7 @@
   <Item name="Crate of Adrenaline" identifier="ekutility_densifiedmaterial_adrenaline" aliases="ekutility_bulkcrate_adrenaline" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of medical adrenaline." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="600" soldeverywhere="false" minleveldifficulty="15"> <!-- 600 -->
       <Price locationtype="outpost" multiplier="1.25" sold="false"/>
@@ -2365,7 +2418,7 @@
   <Item name="Crate of Opium" identifier="ekutility_densifiedmaterial_opium" aliases="ekutility_bulkcrate_opium" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of opium." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="2" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="2" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="400" soldeverywhere="false" minleveldifficulty="15"> <!-- 40 -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
@@ -2417,7 +2470,7 @@
   <Item name="Crate of Elastin" identifier="ekutility_densifiedmaterial_elastin" aliases="ekutility_bulkcrate_elastin" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of elastin." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="400" soldeverywhere="false" minleveldifficulty="15"> <!-- 40 -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
@@ -2469,7 +2522,7 @@
   <Item name="Crate of Alien Blood" identifier="ekutility_densifiedmaterial_alienblood" aliases="ekutility_bulkcrate_alienblood" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A medical transport container of alien blood samples." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="1200" soldeverywhere="false" minleveldifficulty="15"> <!-- 120 -->
       <Price locationtype="outpost" multiplier="0.85" sold="false"/>
@@ -2521,7 +2574,7 @@
   <Item name="Crate of Adrenaline Glands" identifier="ekutility_densifiedmaterial_adrenalinegland" aliases="ekutility_bulkcrate_adrenalinegland" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A medical transport container of adrenaline gland samples." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="2500" soldeverywhere="false" minleveldifficulty="15"> <!-- 250 -->
       <Price locationtype="outpost" multiplier="0.9" sold="false"/>
@@ -2573,7 +2626,7 @@
   <Item name="Crate of Swim Bladder" identifier="ekutility_densifiedmaterial_swimbladder" aliases="ekutility_bulkcrate_swimbladder" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A medical transport container of swim bladder samples." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="2500" soldeverywhere="false" minleveldifficulty="15"> <!-- 250 -->
       <Price locationtype="outpost" multiplier="0.9" sold="false"/>
@@ -2625,7 +2678,7 @@
   <Item name="Crate of Paralyxis" identifier="ekutility_densifiedmaterial_paralyxis" aliases="ekutility_bulkcrate_paralyxis" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A medical transport container of paralyxis samples." >
 	
-    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="2000" soldeverywhere="false" minleveldifficulty="15"> <!-- 200 -->
       <Price locationtype="outpost" multiplier="0.9" sold="false"/>
@@ -2677,7 +2730,7 @@
   <Item name="Crate of Velonaceps Calyx" identifier="ekutility_densifiedmaterial_huskeggs" aliases="ekutility_bulkcrate_huskeggs" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A medical transport container of velonaceps calyx egg samples." >
 	
-    <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.35"/>-->
+    <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>-->
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="6000" soldeverywhere="false" minleveldifficulty="15"> <!-- 600 -->
       <Price locationtype="outpost" multiplier="1.2" sold="false"/>
@@ -2731,7 +2784,7 @@
   <Item name="Crate of Stabilozine" identifier="ekutility_densifiedmaterial_stabilozine" aliases="ekutility_bulkcrate_stabilozine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of stabilozine." >
 
-    <PreferredContainer primary="medcab" minamount="0" maxamount="2" spawnprobability="0.2"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="2" spawnprobability="0.1"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="400" soldeverywhere="false" minleveldifficulty="15"> <!-- 40-->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
@@ -2783,7 +2836,7 @@
   <Item name="Crate of Morphine" identifier="ekutility_densifiedmaterial_morphine" aliases="ekutility_bulkcrate_morphine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of morphine." >
 
-    <PreferredContainer primary="medcab" minamount="0" maxamount="2" spawnprobability="0.3"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="2" spawnprobability="0.15"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="1000" soldeverywhere="false" minleveldifficulty="15"> <!-- 100 -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
@@ -2887,7 +2940,7 @@
   <Item name="Crate of Deusizine" identifier="ekutility_densifiedmaterial_deusizine" aliases="ekutility_bulkcrate_deusizine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of deusizine." >
 
-    <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.1"/>-->
+    <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.05"/>-->
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="5000" soldeverywhere="false" minleveldifficulty="15"> <!-- 500 -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>
@@ -2939,7 +2992,7 @@
   <Item name="Crate of Naloxone" identifier="ekutility_densifiedmaterial_naloxone" aliases="ekutility_bulkcrate_naloxone" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3"
     description="A bulk storage/transportation container of naloxone." >
 
-    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.06"/>
     <Price baseprice="1600" soldeverywhere="false" minleveldifficulty="15"> <!-- 160 -->
       <Price locationtype="outpost" multiplier="1" sold="false"/>

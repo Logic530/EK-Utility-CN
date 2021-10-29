@@ -4,9 +4,9 @@
   <Item name="Reinforced Welding Fuel Tank" identifier="ekutility_reinforcedtank_weldingfuel" aliases="ekutility_heavytank_weldingfuel,heavy fuel tank,heavy welding fuel tank" category="Equipment" Tags="smallitem,weldingfuel,weldingtoolfuel,weldingfueltank" cargocontaineridentifier="metalcrate" scale="0.3" 
   description="High-pressure composite tank, resistant to puncture and heat." impactsoundtag="impact_metal_light" maxstacksize="4">
 
-    <PreferredContainer primary="weldingtool,flamer" spawnprobability="0.8"/>
+    <PreferredContainer primary="weldingtool,flamer" spawnprobability="0.5"/>
     <PreferredContainer primary="engcab" minamount="0" maxamount="4" spawnprobability="1"/>
-    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.25"/>
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.15"/>
 
     <!--<Price locationtype="City" buyprice="135" minavailable="6" />
     <Price locationtype="Research" buyprice="150" minavailable="2" />
@@ -98,7 +98,7 @@
     <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1"/>
     <PreferredContainer primary="engcab" minamount="1" maxamount="2" spawnprobability="1"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.125"/>
-    <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.1"/>
 	
     <Price baseprice="90" >
       <Price locationtype="outpost" multiplier="1" minavailable="3" />
@@ -154,18 +154,131 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
       <Containable identifiers="batterycell,fulguriumbatterycell" />
     </ItemContainer>
+    <Quality>
+      <QualityStat stattype="RepairToolStructureDamageMultiplier" value="0.15"/>
+      <QualityStat stattype="RepairToolDeattachTimeMultiplier" value="0.15"/>
+    </Quality>
   </Item>
 
-  <Item name="Metallic Foam Canister" identifier="ekutility_metalfoam_tank" aliases="metal foam canister, metal foam tank, metallic foam tank" category="Equipment" Tags="smallitem,weldingtoolfuel,tool" cargocontaineridentifier="metalcrate" scale="0.3" 
-  description="Contains an advanced metal-catalyst dissolution used to rapidly repair hull damage, for use in the Metallic Foam Sprayer. Danger: Highly toxic." impactsoundtag="impact_metal_light" maxstacksize="2">
+<!-- Unfortunately repair bonuses cannot be linked to conditionals.
+  <Item name="Torque Wrench" identifier="ekutility_poweredwrench" category="Equipment" maxstacksize="1" Tags="smallitem,tool,wrench" cargocontaineridentifier="metalcrate" 
+  description="Battery-powered wrench with articulating head. Allows for rapid mechanical repairs." Scale="0.32" impactsoundtag="impact_metal_light" addedrepairspeedmultiplier="1.5" hideconditionbar="true" hideconditionintooltip="true" >
+
+    <Price baseprice="175" minleveldifficulty="20" >
+      <Price locationtype="outpost" multiplier="1" minavailable="3" />
+      <Price locationtype="city" multiplier="0.9" minavailable="4" />
+      <Price locationtype="research" multiplier="1.25" minavailable="2" />
+      <Price locationtype="military" multiplier="1.25" minavailable="2" />
+      <Price locationtype="mine" multiplier="0.9" sold="false" />
+    </Price>
+	-->
+	<!--
+	10
+	20
+	65
+	80
+	-->
+	<!--
+    <Deconstruct time="10">
+      <Item identifier="wrench" />
+      <Item identifier="steel" />
+      <Item identifier="titanium" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="electrical" level="35" />
+      <RequiredItem identifier="wrench" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="titanium" />
+      <RequiredItem identifier="fpgacircuit" />
+    </Fabricate>
+
+    <InventoryIcon texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="128,0,64,64" />
+    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="48,128,272,128" depth="0.55" origin="0.5,0.5" />
+    <Body width="228" height="96" density="30" >
+	  <StatusEffect type="Always" target="This" setvalue="true" Condition="0" delay="0.2" stackable="false" disabledeltatime="true" />
+	</Body>
+    <Holdable slots="Any,RightHand+LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSuccess" target="Contained" targetidentifiers="batterycell" Condition="-20" />
+      <StatusEffect type="OnSuccess" target="Contained" targetidentifiers="fulguriumbatterycell" Condition="-10" />
+    </Holdable>
+    <ItemContainer autofill="True" capacity="1" maxstacksize="1" hideitems="true">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+      <Containable identifiers="batterycell,fulguriumbatterycell" >
+		<StatusEffect type="OnContaining" target="This" setvalue="true" Condition="100" />
+		<StatusEffect type="OnContaining" target="This" duration="0.1" stackable="false" tags="wrench" />
+	  </Containable>
+    </ItemContainer>
+  </Item>
+  -->
+	
+  <!--
+  <Item name="Soldering Omnitool" identifier="ekutility_poweredscrewdriver" category="Equipment" maxstacksize="1" Tags="smallitem,tool,screwdriver" cargocontaineridentifier="metalcrate" 
+  description="Multipurpose electrical soldering gun. Allows for rapid electrical repairs." Scale="0.32" impactsoundtag="impact_metal_light" addedrepairspeedmultiplier="1.5" hideconditionbar="true" hideconditionintooltip="true" >
+
+    <Price baseprice="225" minleveldifficulty="20" >
+      <Price locationtype="outpost" multiplier="1" minavailable="3" />
+      <Price locationtype="city" multiplier="0.9" minavailable="4" />
+      <Price locationtype="research" multiplier="1.25" minavailable="2" />
+      <Price locationtype="military" multiplier="1.25" minavailable="2" />
+      <Price locationtype="mine" multiplier="0.9" sold="false" />
+    </Price>
+	-->
+	
+	<!--
+	20
+	22
+	20
+	80
+	80
+	-->
+	
+	<!--
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="copper" />
+      <Item identifier="plastic" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="electrical" level="35" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+    </Fabricate>
+
+    <InventoryIcon texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="128,0,64,64" />
+    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="48,128,272,128" depth="0.55" origin="0.5,0.5" />
+    <Body width="228" height="96" density="30" >
+	  <StatusEffect type="Always" target="This" setvalue="true" Condition="0" delay="0.2" stackable="false" disabledeltatime="true" />
+	</Body>
+    <Holdable slots="Any,RightHand+LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSuccess" target="Contained" targetidentifiers="batterycell" Condition="-20" />
+      <StatusEffect type="OnSuccess" target="Contained" targetidentifiers="fulguriumbatterycell" Condition="-10" />
+    </Holdable>
+    <ItemContainer autofill="True" capacity="1" maxstacksize="1" hideitems="true">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+      <Containable identifiers="batterycell,fulguriumbatterycell" >
+		<StatusEffect type="OnContaining" target="This" setvalue="true" Condition="100" />
+		<StatusEffect type="OnContaining" target="This" duration="0.1" stackable="false" tags="screwdriver" />
+	  </Containable>
+    </ItemContainer>
+  </Item>
+  -->
+
+  <Item name="Metallic Foam Canister" identifier="ekutility_metalfoam_tank" aliases="metal foam canister, metal foam tank, metallic foam tank" category="Equipment" Tags="smallitem,weldingequipment,tool,explosive" cargocontaineridentifier="metalcrate" scale="0.3" 
+  description="Contains an advanced metal-catalyst dissolution used to rapidly repair hull damage, for use in the Metallic Foam Sprayer. Danger: Highly toxic, Do not open." impactsoundtag="impact_metal_light" maxstacksize="2">
     <!--<Price locationtype="Research" buyprice="175" />-->
 	
     <PreferredContainer primary="ekutility_metalfoam_gun" spawnprobability="1"/>
-    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.1"/>
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.05"/>
 	
-    <Price baseprice="175" soldeverywhere="false" minleveldifficulty="33">
-      <Price locationtype="outpost" multiplier="1.3" minavailable="1"/>
-      <Price locationtype="city" multiplier="1.2" minavailable="2"/>
+    <Price baseprice="175" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false"/>
+      <Price locationtype="city" multiplier="1.2" sold="false"/>
       <Price locationtype="research" multiplier="1" minavailable="5"/>
       <Price locationtype="military" multiplier="1.25" sold="false"/>
       <Price locationtype="mine" multiplier="1" sold="false"/>
@@ -194,17 +307,38 @@
     <InventoryIcon texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="128,256,64,64" />
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="272,448,80,128" depth="0.55" origin="0.5,0.5" />
     <Body width="72" height="112" density="15" />
-    <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" canBeCombined="true" />
+    <ItemComponent characterusable="false">
+      <StatusEffect type="OnUse" target="This" IsOn="True" disabledeltatime="true" />
+    </ItemComponent>
+    <Throwable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" throwforce="2.0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" IsOn="True" delay="3.0" disabledeltatime="true" checkconditionalalways="true" />
+    </Throwable>
+    <LightComponent LightColor="0.0,0.0,0.0,0.0" range="1" IsOn="false" castshadows="false">
+      <StatusEffect type="OnActive" targettype="This" Condition="-6">
+        <sound file="Content/Items/Tools/Extinguisher.ogg" range="1000" />
+		<ParticleEmitter particle="ekmetalfoamspray" anglemax="360" velocitymin="2000" velocitymax="3000" particlespersecond="40" scalemultiplier="1.50,1.50" />
+		<ParticleEmitter particle="ekmetalfoammuzzle" anglemax="360" velocitymin="500" velocitymax="3000" particlespersecond="40" scalemultiplier="1.25,1.25" />
+		<ParticleEmitter particle="ekmetalfoamlumps" anglemax="360" velocitymin="1000" velocitymax="3000" particlespersecond="40" scalemultiplier="1.25,1.25" />
+        <ParticleEmitter particle="fixfoam" anglemax="360" velocitymin="2000" velocitymax="4000" particlespersecond="20" colormultiplier="150,75,75,200" />
+	  </StatusEffect>
+	  <StatusEffect type="OnActive" targettype="This" disabledeltatime="true" stackable="false" delay="0.5" >
+		<Explosion range="1500" ballastfloradamage="7.5" structuredamage="-15" force="0.0" camerashake="0" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" playtinnitus="false" applyfireeffects="false" >
+		  <Affliction identifier="burn" strength="1.5" />
+          <Affliction identifier="organdamage" strength="1" />
+		</Explosion>
+	  </StatusEffect>
+      <StatusEffect type="OnBroken" targettype="This" IsOn="false" />
+    </LightComponent>
   </Item>
 
   <Item name="Metallic Foam Sprayer" aliases="metallic foam gun,metal foam sprayer,metal foam gun" identifier="ekutility_metalfoam_gun" category="Equipment" Tags="smallitem,weldingequipment,tools" preferredcontainers="suppliescabinet,locker" cargocontaineridentifier="metalcrate" 
   description="Advanced hull sealing technology. Utilizes a special chemical-metalloid formula extruded through a heated nozzle to rapidly repair fractured or punctured hull sections." Scale="0.32" impactsoundtag="impact_metal_light">
     <!--<Price locationtype="Research" buyprice="280" />-->
 	
-    <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.6"/>
-    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.15"/>
+    <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.3"/>
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
 	
-    <Price baseprice="280" soldeverywhere="false" minleveldifficulty="33">
+    <Price baseprice="280" soldeverywhere="false" minleveldifficulty="20">
       <Price locationtype="outpost" multiplier="1.3" minavailable="1"/>
       <Price locationtype="city" multiplier="1.2" minavailable="1"/>
       <Price locationtype="research" multiplier="1" minavailable="2"/>
@@ -230,7 +364,7 @@
     <Body width="256" height="92" density="40" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true"
 			  aimpos="50,0" handle1="-16,-64" handle2="8,-48" msg="ItemMsgPickUpSelect" />
-    <RepairTool firedamage="30.0" structurefixamount="5" extinguishamount="60.0" range="250" barrelpos="45,1" repairmultiple="true" repairthroughwalls="false" combatpriority="30" spread="35" unskilledspread="35">
+    <RepairTool firedamage="30.0" structurefixamount="7.5" extinguishamount="60.0" range="250" barrelpos="45,1" repairmultiple="true" repairthroughwalls="false" combatpriority="30" spread="35" unskilledspread="35">
       <RequiredItems identifier="ekutility_metalfoam_tank" type="Contained" msg="ItemMsgWeldingFuelRequired" />
       <StatusEffect type="OnUse" targettype="Contained" targets="ekutility_metalfoam_tank" Condition="-1.0" />
       <StatusEffect type="OnUse" targettype="UseTarget" targets="door,hatch,ductblock" Stuck="15.0" Condition="15.0" />
@@ -257,9 +391,12 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,96,120,24" />
       <Containable items="ekutility_metalfoam_tank" />
     </ItemContainer>
+    <Quality>
+      <QualityStat stattype="RepairToolStructureRepairMultiplier" value="0.2"/>
+    </Quality>
   </Item>
 
-  <Item name="Ion Pulse Cutter" identifier="ekutility_ioncutter" aliases="ion cutter,pulse cutter,ekutility_pulsecutter" category="Equipment" Tags="smallitem,cuttingequipment,tools,flashlight" cargocontaineridentifier="metalcrate" 
+  <Item name="Ion Pulse Cutter" identifier="ekutility_ioncutter" aliases="ion cutter,pulse cutter,ekutility_pulsecutter,ekutility_ioncutter" category="Equipment" Tags="smallitem,cuttingequipment,tools,flashlight" cargocontaineridentifier="metalcrate" 
   description="Heavy cutting tool which utilizes rapid pulses of accelerated charged particles. Effective against a range of materials but suffers from poor power efficiency." Scale="0.32" impactsoundtag="impact_metal_light">
     <!--<Price locationtype="Research" buyprice="320" />
     <Price locationtype="Military" buyprice="340" />
@@ -301,7 +438,7 @@
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="UseTarget" targets="door,ductblock,aliendoor" Stuck="-25.0" Condition="-13.0" />
 	  <StatusEffect type="OnUse" target="UseTarget" targetidentifiers="ore" DeattachTimer="0.6" />
-      <StatusEffect type="OnUse" target="Limb" severlimbsprobability="0.05">   
+      <StatusEffect type="OnUse" target="Limb" severlimbsprobability="0.05">
 		<!-- Go stand 2 inches in front of a welding torch, then we can talk about mercy. -->
         <Conditional EntityType="eq Limb"/>
         <Affliction identifier="lacerations" strength="4" />
@@ -596,7 +733,12 @@
     </RangedWeapon>
 	
 	<CustomInterface canbeselected="false" drawhudwhenequipped="true">
-      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,45" style="ItemUI" />
+      <GuiFrame relativesize="0.12,0.10" anchor="BottomCenter" absoluteoffset="0,45" style="ItemUI" />
+      <Button text="inputtype.ragdoll">
+        <StatusEffect type="OnUse" targettype="This" disabledeltatime="true" delay="1.2" stackable="false" allowwhenbroken="true">
+		  <Explosion range="30.0" structuredamage="0" itemdamage="0" force="-25" stun="0.25" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="0" playtinnitus="false" applyfireeffects="false" />
+        </StatusEffect>
+      </Button>
       <TickBox text="Rappel Mode" IsOn="true">
 		<sound file="Content\Items\Button\Switch1.ogg" type="OnUse" range="250.0" loop="true" volume="0.3" />
 		<sound file="Content\Items\Button\Switch1.ogg" type="OnSecondaryUse" range="250.0" loop="true" volume="0.3" />
@@ -640,8 +782,9 @@
   damagedbyexplosions="false" damagedbyprojectiles="false" damagedbyrepairtools="false" damagedbymeleeweapons="false" impactsoundtag="impact_metal_light">
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="560,560,88,64" depth="0.56" origin="0.5,0.5" />
     <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="656,560,48,96" depth="0.56" origin="0.5,0.5" maxcondition="90" />
-	<Body radius="115" density="1" />
-    <Rope targetpullforce="125" SourcePullForce="15" projectilepullforce="25" maxlength="1750" snaponcollision="false" spritewidth="4" >
+	<Body radius="115" density="1" friction="100000" restitution="0.01" />
+    <!-- <Rope targetpullforce="125" SourcePullForce="15" projectilepullforce="25" maxlength="2250" snaponcollision="false" spritewidth="4" > -->
+	<Rope targetpullforce="125" SourcePullForce="15" projectilepullforce="0" maxlength="2250" snaponcollision="false" spritewidth="4" >
       <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="537,576,14,32" depth="0.57" origin="0.5,0.5" />
       <EndSprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="0,0,1,1" depth="0.56" origin="0.5,0.5" />
       <StatusEffect type="OnUse" target="This" Snapped="true" delay="7.5"/>
@@ -668,7 +811,8 @@
 		<Sound file="Mods/EK Utilities/Items/Tools/grapplinghookimpact.ogg" range="2000" />
         <ParticleEmitter particle="weldspark" anglemin="0" anglemax="360" particleamount="5" velocitymin="100" velocitymax="500" scalemin="0.5" scalemax="1.0" />
       </StatusEffect>
-	  <StatusEffect type="Always" target="This" targetitemcomponent="Rope" setvalue="true" SourcePullForce="75" targetpullforce="85" disabledeltatime="true" stackable="false">
+	  <!--<StatusEffect type="Always" target="This" targetitemcomponent="Rope" setvalue="true" SourcePullForce="75" targetpullforce="85" disabledeltatime="true" stackable="false">-->
+	  <StatusEffect type="Always" target="This" targetitemcomponent="Rope" setvalue="true" SourcePullForce="55" targetpullforce="85" disabledeltatime="true" stackable="false">
         <Conditional targetitemcomponent="Projectile" IsStuckToTarget="true" />
       </StatusEffect>
     </Projectile>
@@ -678,8 +822,9 @@
   damagedbyexplosions="false" damagedbyprojectiles="false" damagedbyrepairtools="false" damagedbymeleeweapons="false" impactsoundtag="impact_metal_light" >
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="560,560,88,64" depth="0.56" origin="0.5,0.5" />
     <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="656,560,48,96" depth="0.56" origin="0.5,0.5" maxcondition="90" />
-	<Body radius="115" density="1" />
-    <Rope targetpullforce="125" SourcePullForce="15" projectilepullforce="25" maxlength="1750" snaponcollision="false" spritewidth="4" >
+	<Body radius="115" density="1" friction="100000" restitution="0.01" />
+    <!-- <Rope targetpullforce="125" SourcePullForce="15" projectilepullforce="25" maxlength="2250" snaponcollision="false" spritewidth="4" > -->
+	<Rope targetpullforce="125" SourcePullForce="15" projectilepullforce="0" maxlength="2250" snaponcollision="false" spritewidth="4" >
       <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="537,576,14,32" depth="0.57" origin="0.5,0.5" />
       <EndSprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="0,0,1,1" depth="0.56" origin="0.5,0.5" />
       <StatusEffect type="OnUse" target="This" Snapped="true" delay="7.5"/>
@@ -706,6 +851,7 @@
 		<Sound file="Mods/EK Utilities/Items/Tools/grapplinghookimpact.ogg" range="2000" />
         <ParticleEmitter particle="weldspark" anglemin="0" anglemax="360" particleamount="5" velocitymin="100" velocitymax="500" scalemin="0.5" scalemax="1.0" />
       </StatusEffect>
+	  <!-- <StatusEffect type="Always" target="This" targetitemcomponent="Rope" setvalue="true" SourcePullForce="30" targetpullforce="30" disabledeltatime="true" stackable="false"> -->
 	  <StatusEffect type="Always" target="This" targetitemcomponent="Rope" setvalue="true" SourcePullForce="30" targetpullforce="30" disabledeltatime="true" stackable="false">
         <Conditional targetitemcomponent="Projectile" IsStuckToTarget="true" />
       </StatusEffect>
@@ -714,7 +860,7 @@
   
   <Item name="Engineering Headset" identifier="ekutility_advancedheadset" scale="0.5" category="Equipment" tags="smallitem,headset" 
   description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
-    <!--<PreferredContainer primary="divingcab,crewcab" minamount="0" maxamount="2" spawnprobability="0.75"/>
+    <!--<PreferredContainer primary="divingcab,crewcab" minamount="0" maxamount="2" spawnprobability="0.5"/>
     <PreferredContainer primary="storagecab"/>-->
     <!--<Price locationtype="Research" buyprice="150" />
     <Price locationtype="Military" buyprice="150" />
@@ -852,8 +998,10 @@
         <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
       </StatusEffect>
 	  -->
-      <sprite name="Headset Wearable" texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inherittexturescale="true" hideotherwearables="false" sourcerect="512,112,64,80" origin="0.5,0.6" />
-      <sprite name="Backpack Wearable" texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" limb="Torso" hidelimb="false" inheritlimbdepth="true" inherittexturescale="true" hideotherwearables="false" sourcerect="575,0,80,256" origin="1.4,0.72" />
+      <sprite name="Headset Wearable" texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" limb="Head" hidelimb="false" 
+	  inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" sourcerect="512,112,64,80" origin="0.5,0.6" scale="0.35"/>
+      <sprite name="Backpack Wearable" texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" limb="Torso" hidelimb="false" 
+	  inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" sourcerect="575,0,80,256" origin="1.4,0.8" scale="0.35"/>
     </Wearable>
 
     <!--<CustomInterface canbeselected="false" drawhudwhenequipped="true">
@@ -956,7 +1104,7 @@
   <Item name="Status PDA" identifier="ekutility_pda" category="Equipment" Tags="smallitem,tool,sonar" 
   cargocontaineridentifier="metalcrate" description="Handheld computer which displays local structural and atmospheric information from the onboard diagnostics network."
   Scale="0.3" impactsoundtag="impact_metal_light">
-    <PreferredContainer primary="engcab" minamount="1" maxamount="1" spawnprobability="0.25"/>
+    <PreferredContainer primary="engcab" minamount="1" maxamount="1" spawnprobability="0.15"/>
     <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
     <Price baseprice="225" minleveldifficulty="25">
       <Price locationtype="outpost" multiplier="1" minavailable="1" />
@@ -981,20 +1129,75 @@
       <RequiredItem identifier="wificomponent" />
 	  <RequiredItem identifier="fpgacircuit" />
     </Fabricate>
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="112,672,96,112" depth="0.55" origin="0.6,0.65" />
+    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="112,672,96,112" depth="0.55" origin="0.55,0.65" />
     <Body width="88" height="72" density="15" />
     <Holdable slots="Any,RightHand+LeftHand" holdangle="30" handle1="-10,0" msg="ItemMsgPickUpSelect" >
-      <StatusEffect type="OnActive" targettype="Contained" Condition="-1.0">
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.5">
         <RequiredItem items="batterycell" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.6">
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.3">
         <RequiredItem items="fulguriumbatterycell" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnActive" targettype="Contained" Condition="-1.0">
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.5">
         <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
       </StatusEffect>
     </Holdable>
-    <MiniMap requirewaterdetectors="False" requireoxygendetectors="False" showhullintegrity="True" drawhudwhenequipped="true"
+    <MiniMap enableitemfinder="false" requirewaterdetectors="False" requireoxygendetectors="False" showhullintegrity="True" drawhudwhenequipped="true"
+	MinVoltage="0.5" PowerConsumption="500" canbeselected="true" msg="ItemMsgInteractSelect" allowuioverlap="true">
+      <GuiFrame relativesize="0.5,0.5" anchor="Center" style="ItemUI" />
+      <AlternativeLayout relativesize="0.2725,0.3" pivot="BottomLeft" relativeoffset="0.05,-0.001" />
+    </MiniMap>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" >
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+      <Containable items="mobilebattery,batterycell,fulguriumbatterycell" >
+        <StatusEffect type="OnContaining" targettype="This" Voltage="1.0" setvalue="true" />
+      </Containable>
+    </ItemContainer>
+  </Item>
+
+
+  <Item name="Logistics PDA" identifier="ekutility_pdacargo" category="Equipment" Tags="smallitem,tool,sonar" 
+  cargocontaineridentifier="metalcrate" description="Handheld computer which displays ship logistics and cargo information from the onboard diagnostics network."
+  Scale="0.3" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="engcab" minamount="1" maxamount="1" spawnprobability="0.15"/>
+    <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+    <Price baseprice="225" minleveldifficulty="25">
+      <Price locationtype="outpost" multiplier="1" minavailable="1" />
+      <Price locationtype="city" multiplier="0.9" minavailable="2" />
+      <Price locationtype="research" multiplier="1.25" minavailable="2" />
+      <Price locationtype="military" multiplier="1.25" minavailable="1" />
+      <Price locationtype="mine" multiplier="1" minavailable="2" />
+    </Price>
+	<!--
+	42
+	100
+	80
+	-->
+    <Deconstruct time="15">
+      <Item identifier="aluminium" />
+      <Item identifier="wificomponent" />
+	  <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="wificomponent" />
+	  <RequiredItem identifier="fpgacircuit" />
+    </Fabricate>
+    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="0,672,96,112" depth="0.55" origin="0.55,0.65" />
+    <Body width="88" height="72" density="15" />
+    <Holdable slots="Any,RightHand+LeftHand" holdangle="30" handle1="-10,0" msg="ItemMsgPickUpSelect" >
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.5">
+        <RequiredItem items="batterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.3">
+        <RequiredItem items="fulguriumbatterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.5">
+        <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
+      </StatusEffect>
+    </Holdable>
+    <MiniMap enableitemfinder="true" enablehullstatus="false" enablehullcondition="false" enableelectricalview="false" requirewaterdetectors="False" requireoxygendetectors="False" showhullintegrity="True" drawhudwhenequipped="true"
 	MinVoltage="0.5" PowerConsumption="500" canbeselected="true" msg="ItemMsgInteractSelect" allowuioverlap="true">
       <GuiFrame relativesize="0.5,0.5" anchor="Center" style="ItemUI" />
       <AlternativeLayout relativesize="0.2725,0.3" pivot="BottomLeft" relativeoffset="0.05,-0.001" />
@@ -1165,6 +1368,10 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
       <Containable items="mobilebattery,batterycell,fulguriumbatterycell" />
     </ItemContainer>
+    <Quality>
+      <QualityStat stattype="RepairToolStructureDamageMultiplier" value="0.15"/>
+      <QualityStat stattype="RepairToolDeattachTimeMultiplier" value="0.15"/>
+    </Quality>
   </Item>
 
 <!--
@@ -1183,9 +1390,9 @@
   description="A sturdy backpack with external frame, often used by mining outpost crews." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
 
     <PreferredContainer primary="engcab"/>
-    <PreferredContainer primary="divingcab" minamount="0" maxamount="2" spawnprobability="0.5"/>
+    <PreferredContainer primary="divingcab" minamount="0" maxamount="2" spawnprobability="0.25"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06"/>
-    <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.1"/>
 
     <Price baseprice="90" soldeverywhere="false" minleveldifficulty="15">
       <Price locationtype="outpost" multiplier="1" minavailable="1" />
@@ -1214,7 +1421,8 @@
     </ItemContainer>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
     <Wearable limbtype="Torso" slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
-      <sprite name="Backpack Wearable" texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" limb="Torso" hidelimb="false" inheritlimbdepth="true" inherittexturescale="true" hideotherwearables="false" sourcerect="656,0,96,160" origin="1.2,0.6" />
+      <sprite name="Backpack Wearable" texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" limb="Torso" hidelimb="false" 
+	  inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" sourcerect="656,0,96,160" origin="1.2,0.6" scale="0.35"/>
       <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.85" setvalue="true" disabledeltatime="true" />
     </Wearable>
   </Item>
@@ -1249,7 +1457,8 @@
     </ItemContainer>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
     <Wearable limbtype="Torso" slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
-      <sprite name="Backpack Wearable" texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" limb="Torso" hidelimb="false" inheritlimbdepth="true" inherittexturescale="true" hideotherwearables="false" sourcerect="672,160,80,112" origin="1.3,0.7" />
+      <sprite name="Backpack Wearable" texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" limb="Torso" hidelimb="false" 
+	  inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" sourcerect="672,160,80,112" origin="1.3,0.75" scale="0.35"/>
       <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.95" setvalue="true" disabledeltatime="true" />
       <SkillModifier skillidentifier="medical" skillvalue="10"/>
     </Wearable>
@@ -1336,9 +1545,9 @@
   <Item name="Arc Welder" identifier="ekutility_arcwelder" aliases="arcwelder" category="Equipment" Tags="smallitem,weldingequipment,tool,flashlight" cargocontaineridentifier="metalcrate" 
   description="Electrically powered welding tool which utilizes a heavy electrode to create arcs of plasma." Scale="0.32" impactsoundtag="impact_metal_light">
 
-    <PreferredContainer primary="engcab" minamount="0" maxamount="2" spawnprobability="0.5"/>
+    <PreferredContainer primary="engcab" minamount="0" maxamount="2" spawnprobability="0.25"/>
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.125"/>
-    <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.15"/>
+    <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.1"/>
 	
     <Price baseprice="175" minleveldifficulty="15">
       <Price locationtype="outpost" multiplier="1" minavailable="1" />
@@ -1411,6 +1620,9 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
       <Containable identifiers="mobilebattery,batterycell,fulguriumbatterycell" />
     </ItemContainer>
+    <Quality>
+      <QualityStat stattype="RepairToolStructureRepairMultiplier" value="0.2"/>
+    </Quality>
   </Item>
 
   <!-- Non-implemented item -->
@@ -1479,7 +1691,7 @@
   <Item name="Incendium Fuel Rod" identifier="ekutility_incendiumfuelrod" Tags="smallitem,reactorfuel,fulguriumfuelrod" cargocontaineridentifier="metalcrate" health="150" scale="0.5"
   description="A bar of enriched incendium, for use within a reactor. Generates significantly more heat and lasts longer than uranium fuel rods.">
     <PreferredContainer primary="reactorcab,storagecab" />
-    <PreferredContainer primary="wreckreactorcab" minamount="0" maxamount="1" spawnprobability="0.25"/>
+    <PreferredContainer primary="wreckreactorcab" minamount="0" maxamount="1" spawnprobability="0.15"/>
     <Price baseprice="250" soldeverywhere="false" minleveldifficulty="25">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="0.9" sold="false"/>
@@ -1541,7 +1753,7 @@
   description="A pouch for holding various small items such as tools or medicines." impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="engcab"/>
     <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.06"/>
-    <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.2"/>
+    <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.1"/>
     <Deconstruct time="7">
       <Item identifier="organicfiber" />
       <Item identifier="plastic" />
