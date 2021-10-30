@@ -210,7 +210,7 @@
   
   <Item name="" identifier="ekutility_portablespinkler" category="Equipment" Tags="smallitem,tool,signal" cargocontaineridentifier="metalcrate" requireaimtouse="true" characterusable="false"
    Scale="0.32" impactsoundtag="impact_metal_light" maxstacksize="2">
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="704,496,104,128" depth="0.55" canflipx="false" origin="0.38,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_tools.png" sourcerect="704,496,104,128" depth="0.55" canflipx="false" origin="0.38,0.5" />
     <Price baseprice="85" >
       <Price locationtype="outpost" multiplier="1" minavailable="2" />
       <Price locationtype="city" multiplier="1.2" minavailable="2" />
@@ -760,7 +760,7 @@
   
   <Item name="" identifier="ekutility_placeableterminal" category="Electrical" Tags="smallitem,logic" cargocontaineridentifier="metalcrate" scale="0.5"
 		 impactsoundtag="impact_metal_light" isshootable="true" >
-    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_placeablemachines.png" sourcerect="0,352,120,128" depth="0.78" canflipx="false" origin="0.5,0.5" />
+    <Sprite texture="Mods/EK Utility CN/Items/Tools/ekutility_placeablemachines.png" sourcerect="0,352,120,128" depth="0.78" canflipx="false" origin="0.5,0.5" />
     <Price baseprice="165" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="1.2" sold="false" />
