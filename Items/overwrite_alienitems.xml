@@ -53,7 +53,7 @@
     </Deconstruct>
     <Body radius="45" density="50" friction="0.95" />
     <Holdable slots="RightHand+LeftHand" holdpos="30,-15" handle1="0,10" handle2="0,-10" msg="ItemMsgPickUpSelect">
-      <StatusEffect type="NotInWater" stackable="false" delay="30">
+      <StatusEffect type="NotInWater" stackable="false" delay="10" checkconditionalalways="true">
         <Conditional hastag="neq artifactcontainer" targetcontainer="true"/>
         <ParticleEmitter particle="thermalSetFire" anglemax="360" scalemultiplier="3,3" particleamount="40" />
         <sound file="Content/Items/Alien/AlienTurret1.ogg" range="500.0" loop="false" />
@@ -97,7 +97,7 @@
       <StatusEffect type="Always">
         <sound file="Content/Items/Alien/AlienArtifactLoop1.ogg" range="500.0" loop="true" />
       </StatusEffect>
-      <StatusEffect type="OnBroken" target="This" Condition="100" delay="0.5">
+      <StatusEffect type="OnBroken" target="This" Condition="100" delay="0.5" checkconditionalalways="true">
         <Conditional hastag="neq artifactcontainer" targetcontainer="true"/>
         <Explosion range="200.0" empstrength="5" camerashake="0" stun="0" force="2.0" flames="false" smoke="false" shockwave="false" sparks="true" underwaterbubble="false" />
         <ParticleEmitter particle="faradayfx" anglemax="360" distancemax="80" scalemultiplier="2.6,2.6" particleamount="40" />
@@ -134,7 +134,7 @@
         <ParticleEmitter particle="nasonovsparkles" anglemax="360" distancemax="10" velocitymin="10" velocitymax="60" emitinterval="0.55" particleamount="5" particlespersecond="5" />
         <sound file="Content/Items/Alien/AlienArtifactLoop1.ogg" range="500.0" loop="true" />
       </StatusEffect>
-      <StatusEffect type="Always" target="This" Condition="0" delay="1.1" stackable="false" setvalue="true" />
+      <StatusEffect type="Always" target="This" Condition="0" delay="1.1" stackable="false" setvalue="true" checkconditionalalways="true" />
       <StatusEffect type="OnBroken" target="This" Condition="100" delay="0.4">
         <Conditional hastag="neq artifactcontainer" targetcontainer="true"/>
         <ParticleEmitter particle="nasonovfx" anglemax="360" particleamount="3" />

@@ -306,6 +306,7 @@
       <input name="power" displayname="connection.power" />
       <input name="toggle" displayname="connection.togglestate" />
       <input name="set_state" displayname="connection.setstate" />
+	  <output name="condition_out" displayname="connection.conditionout" />
     </ConnectionPanel>
 
 	<Repairable selectkey="Select" header="mechanicalrepairsheader" deteriorationspeed="0.05" mindeteriorationdelay="240" maxdeteriorationdelay="750" mindeteriorationcondition="0" RepairThreshold="90" fixDurationHighSkill="5" fixDurationLowSkill="25" msg="ItemMsgRepairWrench" hudpriority="10">
