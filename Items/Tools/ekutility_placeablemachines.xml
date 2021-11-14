@@ -168,6 +168,7 @@
       <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel"/>
       <requireditem items="screwdriver" type="Equipped"/>
       <input name="set_text" displayname="connection.set_text" fallbackdisplayname="connection.setoutput"/>
+      <input name="set_color" displayname="connection.setcolor" />
     </ConnectionPanel>
   </Item>
   
@@ -205,6 +206,7 @@
       <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel"/>
       <requireditem items="screwdriver" type="Equipped"/>
       <input name="set_text" displayname="connection.set_text" fallbackdisplayname="connection.setoutput"/>
+      <input name="set_color" displayname="connection.setcolor" />
     </ConnectionPanel>
   </Item>
   

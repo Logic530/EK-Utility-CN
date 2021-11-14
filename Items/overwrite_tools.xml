@@ -182,6 +182,71 @@
     </Quality>
   </Item>
 
+  <Item name="" identifier="fulguriumfuelrodvolatile" Tags="smallitem,reactorfuel" maxstacksize="8" cargocontaineridentifier="metalcrate" health="400" scale="0.5">
+    <Price baseprice="400" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1" sold="false" />
+      <Price locationtype="city" multiplier="0.9" sold="false" />
+      <Price locationtype="research" multiplier="1.25" sold="false" />
+      <Price locationtype="military" multiplier="1.25" sold="false" />
+      <Price locationtype="mine" multiplier="1.1" sold="false" />
+    </Price>
+    <Deconstruct time="15">
+      <Item identifier="steel" />
+      <Item identifier="lead" />
+      <Item identifier="fulgurium" copycondition="true" />
+      <Item identifier="thorium" copycondition="true" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="25" requiresrecipe="true">
+      <RequiredSkill identifier="electrical" level="70" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="lead" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="thorium" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="10" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="50" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="thorium" />
+      <RequiredItem identifier="fulguriumfuelrodvolatile" mincondition="0.0" usecondition="false" />
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/JobGear/TalentGear.png" sourcerect="67,176,62,61" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/JobGear/TalentGear.png" depth="0.55" sourcerect="190,60,20,71" origin="0.5,0.5" />
+    <Body radius="6" height="55" density="20" />
+    <LightComponent allowingameediting="false" lightcolor="60,200,150,150" canbeselected="false" range="300.0" ison="true" />
+    <Holdable handle1="0,0" slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect">
+      <!-- Something seems to be wrong with 'and' comparison
+	  <StatusEffect type="Always" target="This,NearbyCharacters" range="250" comparison="and" checkconditionalalways="true">
+        <Conditional hastag="neq reactor" targetcontainer="true"/>
+        <Conditional hastag="neq container" targetcontainer="true"/>
+        <Affliction identifier="radiationsickness" strength="0.2" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This,NearbyCharacters" range="100" comparison="and" checkconditionalalways="true">
+        <Conditional hastag="neq reactor" targetcontainer="true"/>
+        <Conditional hastag="neq container" targetcontainer="true"/>
+        <Affliction identifier="radiationsickness" strength="0.8" />
+      </StatusEffect>
+	  -->
+      <StatusEffect type="Always" target="This,NearbyCharacters" range="250" checkconditionalalways="true"> 
+        <Conditional hastag="neq reactor" targetcontainer="true"/>
+        <Affliction identifier="radiationsickness" strength="0.2" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This,NearbyCharacters" range="100" checkconditionalalways="true"> 
+        <Conditional hastag="neq reactor" targetcontainer="true"/>
+        <Affliction identifier="radiationsickness" strength="0.8" />
+      </StatusEffect>
+	  
+    </Holdable>
+    <ItemContainer hideitems="true" capacity="1" itemrotation="90" drawinventory="false" canbeselected="false" SpawnWithId="nucleargunbolt" removecontaineditemsondeconstruct="true" showcontainedstateindicator="false">
+      <Containable items="nucleargunbolt" />
+      <StatusEffect type="OnUse" target="This" condition="-20" disabledeltatime="true">
+        <SpawnItem identifiers="nucleargunbolt" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1" />
+    </Quality>
+  </Item>
+
 </Items>
 
 </Override>
