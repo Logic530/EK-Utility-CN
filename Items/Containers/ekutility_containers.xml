@@ -562,7 +562,7 @@
     </ItemContainer>
   </Item>
 
-  <Item name="" identifier="ekutility_handtruck_reactorfuel" category="Equipment" Tags="reactor" pickdistance="75" scale="0.6"
+  <Item name="" identifier="ekutility_handtruck_reactorfuel" category="Equipment" Tags="reactor,ekutility_compatiblefuelstorage" pickdistance="75" scale="0.6"
    >
 	
     <Price baseprice="100" >
