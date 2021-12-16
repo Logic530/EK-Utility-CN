@@ -199,7 +199,7 @@
     <entityname.ekutility_metalfoam_gun>金属泡沫喷雾机</entityname.ekutility_metalfoam_gun>
     <entitydescription.ekutility_metalfoam_gun>先进的船体修复科技。通过加热喷嘴喷出化学金属泡沫快速修复船体。</entitydescription.ekutility_metalfoam_gun>
     <entityname.ekutility_ioncutter>离子脉冲切割器</entityname.ekutility_ioncutter>
-    <entitydescription.ekutility_ioncutter>重型切割工具,利用高速带电粒子脉冲切割物体。可以切割大多数材料，但耗电量很大。</entitydescription.ekutility_ioncutter>
+    <entitydescription.ekutility_ioncutter>重型切割工具,利用高速带电粒子脉冲切割物体。可以切割大多数材料，但耗电量很大。危险：在切割器工作时阻挡离子束可能会导致残疾或严重伤害，例如 - 三度烧伤、断肢、汽化和死亡。</entitydescription.ekutility_ioncutter>
     <entityname.ekutility_redchemlight>化学荧光棒(红色)</entityname.ekutility_redchemlight>
     <entitydescription.ekutility_redchemlight></entitydescription.ekutility_redchemlight>
     <entityname.ekutility_greenchemlight>化学荧光棒(绿色)</entityname.ekutility_greenchemlight>
@@ -218,6 +218,8 @@
     <entitydescription.ekutility_grapplegunprojectile></entitydescription.ekutility_grapplegunprojectile>
     <entityname.ekutility_grapplegunprojectile_rappel>ekutility_grapplegunprojectile_rappel</entityname.ekutility_grapplegunprojectile_rappel>
     <entitydescription.ekutility_grapplegunprojectile_rappel></entitydescription.ekutility_grapplegunprojectile_rappel>
+    <entityname.ekutility_jetpack1>火箭腰带</entityname.ekutility_jetpack1>
+    <entitydescription.ekutility_jetpack1>一种曾经被地表甚至更远世界的探险家使用的新型设备。使用与标准焊接油罐相同的燃料成分运行。</entitydescription.ekutility_jetpack1>
     <entityname.ekutility_advancedheadset>工程耳机</entityname.ekutility_advancedheadset>
     <entitydescription.ekutility_advancedheadset></entitydescription.ekutility_advancedheadset>
     <entityname.ekutility_longrangeradio>远程无线电</entityname.ekutility_longrangeradio>
@@ -290,6 +292,8 @@
     <entitydescription.ekutility_placeablesonarmonitor>用于观察潜艇声纳反馈结果的仪器。 （按瞄准+使用即可放置）</entitydescription.ekutility_placeablesonarmonitor>
     <entityname.ekutility_placeablestatusmonitor>状态监控器</entityname.ekutility_placeablestatusmonitor>
     <entitydescription.ekutility_placeablestatusmonitor>可以用来查看潜艇结构图与每个房间状态的仪器。 （按瞄准+使用即可放置）</entitydescription.ekutility_placeablestatusmonitor>
+    <entityname.ekutility_chargingdock1>充电坞站</entityname.ekutility_chargingdock1>
+    <entitydescription.ekutility_chargingdock1>壁挂式电池充电坞。 （按瞄准+使用即可放置）</entitydescription.ekutility_chargingdock1>
 
     <!--./EK Utilities/Items/Containers/ekutility_labels.xml-->
     <entityname.ekutility_label_text>Text Label</entityname.ekutility_label_text>

@@ -199,7 +199,7 @@
 <entityname.ekutility_metalfoam_gun>Metallic Foam Sprayer</entityname.ekutility_metalfoam_gun>
 <entitydescription.ekutility_metalfoam_gun>Advanced hull sealing technology. Utilizes a special chemical-metalloid formula extruded through a heated nozzle to rapidly repair fractured or punctured hull sections.</entitydescription.ekutility_metalfoam_gun>
 <entityname.ekutility_ioncutter>Ion Pulse Cutter</entityname.ekutility_ioncutter>
-<entitydescription.ekutility_ioncutter>Heavy cutting tool which utilizes rapid pulses of accelerated charged particles. Effective against a range of materials but suffers from poor power efficiency.</entitydescription.ekutility_ioncutter>
+<entitydescription.ekutility_ioncutter>Heavy cutting tool which utilizes rapid pulses of accelerated charged particles. Effective against a range of materials but suffers from poor power efficiency. Danger: Obstructing the ion beam while active may cause disability or serious injury such as - third degree burns, limb loss, vaporization, and death.</entitydescription.ekutility_ioncutter>
 <entityname.ekutility_redchemlight>Chemlight (Red)</entityname.ekutility_redchemlight>
 <entitydescription.ekutility_redchemlight></entitydescription.ekutility_redchemlight>
 <entityname.ekutility_greenchemlight>Chemlight (Green)</entityname.ekutility_greenchemlight>
@@ -218,6 +218,8 @@
 <entitydescription.ekutility_grapplegunprojectile></entitydescription.ekutility_grapplegunprojectile>
 <entityname.ekutility_grapplegunprojectile_rappel>ekutility_grapplegunprojectile_rappel</entityname.ekutility_grapplegunprojectile_rappel>
 <entitydescription.ekutility_grapplegunprojectile_rappel></entitydescription.ekutility_grapplegunprojectile_rappel>
+<entityname.ekutility_jetpack1>Rocketbelt</entityname.ekutility_jetpack1>
+<entitydescription.ekutility_jetpack1>A novel device once used by explorers of the surface and even worlds beyond. Runs using the same fuel composition as a standard welding tank.</entitydescription.ekutility_jetpack1>
 <entityname.ekutility_advancedheadset>Engineering Headset</entityname.ekutility_advancedheadset>
 <entitydescription.ekutility_advancedheadset></entitydescription.ekutility_advancedheadset>
 <entityname.ekutility_longrangeradio>Long Range Radio</entityname.ekutility_longrangeradio>
@@ -290,6 +292,8 @@
 <entitydescription.ekutility_placeablesonarmonitor>Usable device for observing the sub's sonar. ( Place by pressing aim + use )</entitydescription.ekutility_placeablesonarmonitor>
 <entityname.ekutility_placeablestatusmonitor>Status Monitor</entityname.ekutility_placeablestatusmonitor>
 <entitydescription.ekutility_placeablestatusmonitor>Usable device for viewing a schematic of the sub as well as the status of each room. ( Place by pressing aim + use )</entitydescription.ekutility_placeablestatusmonitor>
+<entityname.ekutility_chargingdock1>Charging Dock</entityname.ekutility_chargingdock1>
+<entitydescription.ekutility_chargingdock1>A wall-mounted battery cell charging dock. ( Place by pressing aim + use )</entitydescription.ekutility_chargingdock1>
 
 <!--./Items/Containers/ekutility_labels.xml-->
 <entityname.ekutility_label_text>Text Label</entityname.ekutility_label_text>
