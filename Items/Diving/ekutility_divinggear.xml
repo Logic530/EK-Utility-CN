@@ -44,6 +44,9 @@
     <Sprite texture="Mods/EK Utility CN/Items/Diving/ekutility_divinggear.png" sourcerect="0,0,48,112" depth="0.55" origin="0.5,0.5" />
     <Body width="42" height="108" density="8" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect"/>
+    <Quality>
+      <QualityStat stattype="Condition" value="0.15"/>
+    </Quality>
   </Item>
 
   <Item name="" identifier="ekutility_reinforcedtank_oxygenite" aliases="ekutility_heavytank_oxygenite,heavy oxygenite tank" category="Equipment,Misc" Tags="smallitem,oxygensource,oxygenitetank" scale="0.3" 
@@ -82,6 +85,9 @@
     <Sprite texture="Mods/EK Utility CN/Items/Diving/ekutility_divinggear.png" sourcerect="0,112,48,112" depth="0.55" origin="0.5,0.5" />
     <Body width="42" height="108" density="8" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect"/>
+    <Quality>
+      <QualityStat stattype="Condition" value="0.15"/>
+    </Quality>
   </Item> 
 
   <Item name="" identifier="ekutility_rebreatherunit" aliases="rebreather,ekutility_rebreather" category="Equipment,Misc" Tags="smallitem,oxygensource,oxygentank,refillableoxygensource" cargocontaineridentifier="metalcrate" scale="0.3" 
@@ -106,7 +112,6 @@
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" outcondition="0.2" requiredtime="30">
       <RequiredSkill identifier="mechanical" level="30" />
-      <RequiredSkill identifier="medical" level="60" />
       <RequiredSkill identifier="medical" level="60" />
       <RequiredItem identifier="titaniumaluminiumalloy" />
       <RequiredItem identifier="fpgacircuit" />
@@ -360,6 +365,7 @@
 
   <Item name="" identifier="ekutility_Utility_hardsuit" aliases="utility_hardsuit,industrial hardsuit,industrial_hardsuit" category="Equipment" tags="diving,provocative,deepdiving,divingsuit,light,ekutility_utility_hardsuit" scale="0.5" fireproof="true" 
    allowdroppingonswap="true" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="divingsuitcontainer" />
     <!--
 	"A rugged pressure suit designed for construction, mining, and salvage operations."
 	
@@ -570,8 +576,13 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,96,120,24" />
       <Containable identifiers="oxygentank,weldingfueltank,oxygeniteshard,oxygenitetank,incendiumfueltank,oxygensource" />
       <StatusEffect type="OnWearing" target="Contained">
-        <RequiredItem identifier="oxygensource" type="Contained" matchonempty="true"/>
+        <RequiredItem items="oxygensource" type="Contained" />
         <Conditional condition="lt 5.0" />
+        <Sound file="Content/Items/WarningBeepSlow.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained" playsoundonrequireditemfailure="true">
+        <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+        <Conditional condition="lte 0.0" />
         <Sound file="Content/Items/WarningBeep.ogg" range="500" />
       </StatusEffect>
     </ItemContainer>
@@ -584,6 +595,7 @@
 
   <Item name="" identifier="ekutility_utility_hardsuit_paintmechanic" aliases="utility_hardsuit,industrial hardsuit,industrial_hardsuit" category="Equipment" tags="diving,provocative,deepdiving,divingsuit,light,ekutility_utility_hardsuit" scale="0.5" fireproof="true" 
    allowdroppingonswap="true" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="divingsuitcontainer" />
     <!--
 	"A rugged pressure suit designed for construction, mining, and salvage operations."
 	
@@ -784,8 +796,13 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,96,120,24" />
       <Containable identifiers="oxygentank,weldingfueltank,oxygeniteshard,oxygenitetank,incendiumfueltank,oxygensource" />
       <StatusEffect type="OnWearing" target="Contained">
-        <RequiredItem identifier="oxygensource" type="Contained" matchonempty="true"/>
+        <RequiredItem items="oxygensource" type="Contained" />
         <Conditional condition="lt 5.0" />
+        <Sound file="Content/Items/WarningBeepSlow.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained" playsoundonrequireditemfailure="true">
+        <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+        <Conditional condition="lte 0.0" />
         <Sound file="Content/Items/WarningBeep.ogg" range="500" />
       </StatusEffect>
     </ItemContainer>
@@ -831,6 +848,9 @@
     <Sprite texture="Mods/EK Utility CN/Items/Diving/ekutility_divinggear.png" sourcerect="0,224,48,112" depth="0.55" origin="0.5,0.5" />
     <Body width="22" height="64" density="9.9" />
     <Holdable canbecombined="true" slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect"/>
+    <Quality>
+      <QualityStat stattype="Condition" value="0.15"/>
+    </Quality>
   </Item>
 
   <Item name="" identifier="ekutility_oxygencell2" category="Equipment,Misc" maxstacksize="3" Tags="smallitem,oxygensource,tag_oxygencell2" cargocontaineridentifier="metalcrate" scale="0.3"
@@ -868,6 +888,9 @@
     <Sprite texture="Mods/EK Utility CN/Items/Diving/ekutility_divinggear.png" sourcerect="64,224,48,112" depth="0.55" origin="0.5,0.5" />
     <Body width="22" height="64" density="9.9" />
     <Holdable canbecombined="true" slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect"/>
+    <Quality>
+      <QualityStat stattype="Condition" value="0.15"/>
+    </Quality>
   </Item>
 
 </Items>
