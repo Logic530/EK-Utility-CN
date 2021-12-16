@@ -519,7 +519,7 @@
     <ItemContainer autofill="False" hideitems="false" drawinventory="true" capacity="4" slotsperrow="2" maxstacksize="1" itempos="-40,16" iteminterval="80,1" itemrotation="90" itemsperrow="2" canbeselected="true" msg="ItemMsgInteractSelect" keepopenwhenequipped="true" movableframe="true">
       <!--<GuiFrame relativesize="0.15,0.2" anchor="Center" style="ItemUI" /> containedspritedepth="0.58"-->
       <Containable identifiers="depthchargeammo,crate,metalcrate,ek_ammocrate_small,coilgunammobox,coilgunammo,chaingunammo,pulselaserammo,ammobox,
-								divingsuit,combatdivingsuit,abyssdivingsuit,ita_cratebulk,duffelbag,ita_duffelbag1,ek_densifiedresource" />
+								divingsuit,combatdivingsuit,abyssdivingsuit,pucs,slipsuit,ita_cratebulk,duffelbag,ita_duffelbag1,ek_densifiedresource" />
     </ItemContainer>
   </Item>
 
@@ -814,7 +814,7 @@
     <ItemContainer autofill="False" hideitems="false" drawinventory="true" capacity="4" slotsperrow="2" maxstacksize="1" itempos="-74,8" iteminterval="152,1" itemrotation="0" itemsperrow="2" canbeselected="true" msg="ItemMsgInteractSelect" keepopenwhenequipped="true" movableframe="true">
       <!--<Containable identifiers="depthchargeammo,crate,ek_ammocrate_small,coilgunammobox,coilgunammo,divingsuit,ita_cratebulk,duffelbag,ita_duffelbag1,ek_densifiedresource" />-->
       <Containable identifiers="depthchargeammo,crate,metalcrate,ek_ammocrate_small,coilgunammobox,coilgunammo,chaingunammo,pulselaserammo,ammobox,
-								divingsuit,combatdivingsuit,abyssdivingsuit,ita_cratebulk,duffelbag,ita_duffelbag1,ek_densifiedresource" />
+								divingsuit,combatdivingsuit,abyssdivingsuit,pucs,slipsuit,ita_cratebulk,duffelbag,ita_duffelbag1,ek_densifiedresource" />
     </ItemContainer>
   </Item>
 

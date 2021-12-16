@@ -49,6 +49,9 @@
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="0,0,48,112" depth="0.55" origin="0.5,0.5" />
     <Body width="42" height="108" density="8" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" />
+    <Quality>
+      <QualityStat stattype="Condition" value="0.15"/>
+    </Quality>
   </Item>
 
   <Item name="" identifier="ekutility_heavytank_incendium" aliases="heavy incendium tank,heavy incendium fuel tank" category="Equipment" Tags="smallitem,weldingfuel,weldingtoolfuel,weldingfueltank,incendiumfueltank" cargocontaineridentifier="metalcrate" scale="0.3" 
@@ -84,6 +87,9 @@
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="0,112,48,112" depth="0.55" origin="0.5,0.5" />
     <Body width="42" height="108" density="8" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" />
+    <Quality>
+      <QualityStat stattype="Condition" value="0.15"/>
+    </Quality>
   </Item>
 
   <Item name="" identifier="ekutility_miningdrill" aliases="drill,mining drill" category="Equipment" Tags="smallitem,cuttingequipment,tools,flashlight" cargocontaineridentifier="metalcrate" 
@@ -322,13 +328,16 @@
         <ParticleEmitter particle="fixfoam" anglemax="360" velocitymin="2000" velocitymax="4000" particlespersecond="20" colormultiplier="150,75,75,200" />
 	  </StatusEffect>
 	  <StatusEffect type="OnActive" targettype="This" disabledeltatime="true" stackable="false" delay="0.5" >
-		<Explosion range="1500" ballastfloradamage="7.5" structuredamage="-15" force="0.0" camerashake="0" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" playtinnitus="false" applyfireeffects="false" >
+		<Explosion range="1500" ballastfloradamage="7.5" structuredamage="-17.5" force="0.0" camerashake="0" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" playtinnitus="false" applyfireeffects="false" >
 		  <Affliction identifier="burn" strength="1.5" />
           <Affliction identifier="organdamage" strength="1" />
 		</Explosion>
 	  </StatusEffect>
       <StatusEffect type="OnBroken" targettype="This" IsOn="false" />
     </LightComponent>
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1"/>
+    </Quality>
   </Item>
 
   <Item name="" aliases="metallic foam gun,metal foam sprayer,metal foam gun" identifier="ekutility_metalfoam_gun" category="Equipment" Tags="smallitem,weldingequipment,tools" preferredcontainers="suppliescabinet,locker" cargocontaineridentifier="metalcrate" 
@@ -734,11 +743,13 @@
 	
 	<CustomInterface canbeselected="false" drawhudwhenequipped="true">
       <GuiFrame relativesize="0.12,0.10" anchor="BottomCenter" absoluteoffset="0,45" style="ItemUI" />
-      <Button text="inputtype.ragdoll">
+      <!--
+	  <Button text="inputtype.ragdoll">
         <StatusEffect type="OnUse" targettype="This" disabledeltatime="true" delay="1.2" stackable="false" allowwhenbroken="true">
 		  <Explosion range="30.0" structuredamage="0" itemdamage="0" force="-25" stun="0.25" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="0" playtinnitus="false" applyfireeffects="false" />
         </StatusEffect>
       </Button>
+	  -->
       <TickBox text="Rappel Mode" IsOn="true">
 		<sound file="Content\Items\Button\Switch1.ogg" type="OnUse" range="250.0" loop="true" volume="0.3" />
 		<sound file="Content\Items\Button\Switch1.ogg" type="OnSecondaryUse" range="250.0" loop="true" volume="0.3" />
@@ -782,12 +793,13 @@
   damagedbyexplosions="false" damagedbyprojectiles="false" damagedbyrepairtools="false" damagedbymeleeweapons="false" impactsoundtag="impact_metal_light">
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="560,560,88,64" depth="0.56" origin="0.5,0.5" />
     <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="656,560,48,96" depth="0.56" origin="0.5,0.5" maxcondition="90" />
-	<Body radius="115" density="1" friction="100000" restitution="0.01" />
+	<Body radius="75" density="0.5" friction="80000" restitution="0.01" />
     <!-- <Rope targetpullforce="125" SourcePullForce="15" projectilepullforce="25" maxlength="2250" snaponcollision="false" spritewidth="4" > -->
-	<Rope targetpullforce="125" SourcePullForce="15" projectilepullforce="0" maxlength="2250" snaponcollision="false" spritewidth="4" >
+	<!-- Harpoon values sourcepullforce="300" targetpullforce="80" projectilepullforce="5" -->
+	<Rope targetpullforce="1" SourcePullForce="1" projectilepullforce="0" maxlength="2250" snaponcollision="false" spritewidth="4" >
       <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="537,576,14,32" depth="0.57" origin="0.5,0.5" />
       <EndSprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="0,0,1,1" depth="0.56" origin="0.5,0.5" />
-      <StatusEffect type="OnUse" target="This" Snapped="true" delay="7.5"/>
+	  <StatusEffect type="OnUse" target="This" Snapped="true" delay="7.5"/>
       <StatusEffect type="Always" target="This" delay="0.5" checkconditionalalways="true">
         <Conditional Snapped="true" />
         <Remove />
@@ -812,7 +824,7 @@
         <ParticleEmitter particle="weldspark" anglemin="0" anglemax="360" particleamount="5" velocitymin="100" velocitymax="500" scalemin="0.5" scalemax="1.0" />
       </StatusEffect>
 	  <!--<StatusEffect type="Always" target="This" targetitemcomponent="Rope" setvalue="true" SourcePullForce="75" targetpullforce="85" disabledeltatime="true" stackable="false">-->
-	  <StatusEffect type="Always" target="This" targetitemcomponent="Rope" setvalue="true" SourcePullForce="55" targetpullforce="85" disabledeltatime="true" stackable="false">
+	  <StatusEffect type="Always" target="This" targetitemcomponent="Rope" setvalue="true" SourcePullForce="125" targetpullforce="85" disabledeltatime="true" stackable="false">
         <Conditional targetitemcomponent="Projectile" IsStuckToTarget="true" />
       </StatusEffect>
     </Projectile>
@@ -822,9 +834,9 @@
   damagedbyexplosions="false" damagedbyprojectiles="false" damagedbyrepairtools="false" damagedbymeleeweapons="false" impactsoundtag="impact_metal_light" >
     <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="560,560,88,64" depth="0.56" origin="0.5,0.5" />
     <BrokenSprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="656,560,48,96" depth="0.56" origin="0.5,0.5" maxcondition="90" />
-	<Body radius="115" density="1" friction="100000" restitution="0.01" />
+	<Body radius="75" density="0.5" friction="100000" restitution="0.01" />
     <!-- <Rope targetpullforce="125" SourcePullForce="15" projectilepullforce="25" maxlength="2250" snaponcollision="false" spritewidth="4" > -->
-	<Rope targetpullforce="125" SourcePullForce="15" projectilepullforce="0" maxlength="2250" snaponcollision="false" spritewidth="4" >
+	<Rope targetpullforce="1" SourcePullForce="1" projectilepullforce="0" maxlength="2250" snaponcollision="false" spritewidth="4" >
       <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="537,576,14,32" depth="0.57" origin="0.5,0.5" />
       <EndSprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="0,0,1,1" depth="0.56" origin="0.5,0.5" />
       <StatusEffect type="OnUse" target="This" Snapped="true" delay="7.5"/>
@@ -852,10 +864,89 @@
         <ParticleEmitter particle="weldspark" anglemin="0" anglemax="360" particleamount="5" velocitymin="100" velocitymax="500" scalemin="0.5" scalemax="1.0" />
       </StatusEffect>
 	  <!-- <StatusEffect type="Always" target="This" targetitemcomponent="Rope" setvalue="true" SourcePullForce="30" targetpullforce="30" disabledeltatime="true" stackable="false"> -->
-	  <StatusEffect type="Always" target="This" targetitemcomponent="Rope" setvalue="true" SourcePullForce="30" targetpullforce="30" disabledeltatime="true" stackable="false">
+	  <StatusEffect type="Always" target="This" targetitemcomponent="Rope" setvalue="true" SourcePullForce="75" targetpullforce="40" disabledeltatime="true" stackable="false">
         <Conditional targetitemcomponent="Projectile" IsStuckToTarget="true" />
       </StatusEffect>
     </Projectile>
+  </Item>
+  
+  <Item name="" identifier="ekutility_jetpack1" aliases="Jetpack" category="Equipment" Tags="mediumitem,weldingequipment,tool" cargocontaineridentifier="metalcrate" 
+   Scale="0.32" impactsoundtag="impact_metal_light">
+
+    <PreferredContainer primary="engcab,divingcab"/>
+    <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.05"/>
+    <PreferredContainer primary="abandonedstoragecab" minamount="0" maxamount="1" spawnprobability="0.05"/>
+	
+    <Price baseprice="325" minleveldifficulty="15">
+      <Price locationtype="outpost" multiplier="1" sold="false"/> />
+      <Price locationtype="city" multiplier="0.9" sold="false"/> />
+      <Price locationtype="research" multiplier="1.25" minavailable="2" />
+      <Price locationtype="military" multiplier="1.25" minavailable="1" />
+      <Price locationtype="mine" multiplier="0.9" sold="false"/> />
+    </Price>
+
+	<!--
+	20
+	42
+	150
+	
+	80
+	-->
+	
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="aluminium" />
+      <Item identifier="ballisticfiber" />
+      <Item identifier="oxygentank" outcondition="0" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="mechanical" level="50" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="titanium" />
+      <RequiredItem identifier="oxygentank" />
+      <RequiredItem identifier="fpgacircuit" />
+    </Fabricate>
+    <InventoryIcon texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="832,512,64,64" />
+    <Sprite texture="Mods/EK Utilities/Items/Tools/ekutility_tools.png" sourcerect="0,784,240,208" depth="0.55" origin="0.5,0.5" />
+    <Body width="180" height="85" density="30" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="15,4" aimpos="25,0" handle1="50,65" handle2="50,65" holdangle="-90" msg="ItemMsgPickUpSelect" />
+    <RepairTool firedamage="20.0" structurefixamount="0" range="500" barrelpos="40,-10" spread="55" unskilledspread="55" usablein="Air" repairmultiple="false" repairthroughwalls="false" combatpriority="0" levelwallfixamount="0" targetforce="40">
+      <RequiredItems items="weldingtoolfuel,oxygensource" type="Contained" msg="ItemMsgWeldingFuelRequired" />
+      <ParticleEmitter particle="impactfirearm" particlespersecond="60" copyentityangle="true" anglemin="-35" anglemax="35" velocitymin="200" velocitymax="500" scalemin="3" scalemax="5" colormultiplier="255,225,200,100" />
+      <ParticleEmitterHitStructure particle="ekutilitysmokefixed" particlespersecond="20" anglemin="-180" anglemax="180" velocitymin="10" velocitymax="100" scalemin="1" scalemax="1.5" colormultiplier="125,125,125,200" />
+      <ParticleEmitterHitItem identifiers="door,hatch,ductblock" particle="ekutilitysmokefixed" particlespersecond="20" anglemin="-180" anglemax="180" velocitymin="10" velocitymax="100" scalemin="1" scalemax="1.5" colormultiplier="125,125,125,200" />
+      <ParticleEmitterHitCharacter particle="ekutilitysmokefixed" particlespersecond="20" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="100" scalemin="1" scalemax="1.5" colormultiplier="125,125,125,200" />
+      <sound file="Mods/EK Utilities/Items/Tools/jetpackloop1.ogg" type="OnUse" range="1250.0" loop="true" selectionmode="All"/>
+	  <sound file="Mods/EK Utilities/Items/Tools/jetpackburst1.ogg" type="OnUse" range="600.0" volume="0.75" loop="false" selectionmode="All"/>
+      <!-- <sound file="Content/Items/Tools/Sprayer.ogg" type="OnUse" range="625.0" volume="0.75" loop="true" selectionmode="All"/> -->
+      <StatusEffect type="OnUse" targettype="Contained" targets="weldingfueltank" Condition="-3.0" />
+      <StatusEffect type="OnUse" targettype="Contained" targets="incendiumfueltank" Condition="-1.5" />
+      <StatusEffect type="OnUse" targettype="Contained" Condition="-3.0">
+        <RequiredItem excludedidentifiers="weldingfueltank,incendiumfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" targettype="Limb">
+	    <!-- " point away from face " -->
+        <Affliction identifier="burn" amount="2.0" />
+		<Affliction identifier="explosiondamage" amount="0.75" />
+      </StatusEffect>
+	  <Fixable identifier="structure" />
+      <LightComponent LightColor="255,200,175,75" range="400" Flicker="0.3" flickerspeed="0.6" >
+        <sprite texture="Content/Items/Electricity/lightsprite.png" origin="0.5,0.5" />
+      </LightComponent>
+    </RepairTool>
+    <Propulsion force="-42" usablein="Air">
+      <!--
+	  <StatusEffect type="InWater" target="This" condition="-100" disabledeltatime="true" stackable="false" />
+      <StatusEffect type="NotInWater" target="This" condition="100" disabledeltatime="true" stackable="false" />
+	  -->
+      <RequiredItems items="weldingtoolfuel,oxygensource" type="Contained" />
+    </Propulsion>
+    <ItemContainer autofill="True" capacity="1" maxstacksize="1" hideitems="false" itempos="-21,-73" itemrotation="90" containedspritedepth="0.56" containedstateindicatorstyle="tank">
+      <!--<ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />-->
+      <Containable identifiers="weldingtoolfuel" />
+    </ItemContainer>
   </Item>
   
   <Item name="" identifier="ekutility_advancedheadset" scale="0.5" category="Equipment" tags="smallitem,headset" 
@@ -1612,7 +1703,7 @@
       <StatusEffect type="OnUse" targettype="UseTarget" Condition="-3.0" />
       <Fixable identifier="structure" />
       <RequiredSkill identifier="mechanical" level="20" />
-      <LightComponent LightColor="1.0,0.9,0.7,1.0" Flicker="0.5">
+      <LightComponent LightColor="0.7,0.9,1.0,1.0" Flicker="0.5">
         <sprite texture="Content/Items/Electricity/lightsprite.png" origin="0.5,0.5" />
       </LightComponent>
     </RepairTool>
@@ -1626,6 +1717,7 @@
   </Item>
 
   <!-- Non-implemented item -->
+  <!-- 9/Dec/2021 Devs have fixed the constant power consumption bug and has as been added to vanilla -->
   <Item name="" identifier="ekutility_portablepump" aliases="portable pump,portable drain" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,light" Scale="0.32" 
    impactsoundtag="impact_soft" hideinmenus="true">
 
