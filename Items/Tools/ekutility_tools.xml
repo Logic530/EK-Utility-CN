@@ -1780,7 +1780,7 @@
   
   </Item>
   
-  <Item name="" identifier="ekutility_incendiumfuelrod" Tags="smallitem,reactorfuel,fulguriumfuelrod" cargocontaineridentifier="metalcrate" health="150" scale="0.5"
+  <Item name="" identifier="ekutility_incendiumfuelrod" Tags="smallitem,reactorfuel,fulguriumfuelrod" maxstacksize="8" cargocontaineridentifier="metalcrate" health="150" scale="0.5"
   >
     <PreferredContainer primary="reactorcab,storagecab" />
     <PreferredContainer primary="wreckreactorcab" minamount="0" maxamount="1" spawnprobability="0.15"/>
