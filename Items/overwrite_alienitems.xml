@@ -27,8 +27,6 @@
         <Conditional hastag="neq artifactcontainer" targetcontainer="true"/>
         <ParticleEmitter particle="skyholderfx2" anglemax="360" distancemin="100" distancemax="300" velocitymin="-700" velocitymax="-1200" particlespersecond="100" />
         <ParticleEmitter particle="skyholderfx" anglemax="360" particlespersecond="2" />
-      </StatusEffect>
-      <StatusEffect type="Always">
         <sound file="Content/Items/Alien/AlienArtifactLoop1.ogg" range="500.0" loop="true" />
       </StatusEffect>
     </Holdable>
@@ -62,8 +60,6 @@
       <StatusEffect type="Always" target="This">
         <Conditional hastag="neq artifactcontainer" targetcontainer="true"/>
         <ParticleEmitter particle="thermalfx" anglemax="360" distancemax="5" particlespersecond="40" />
-      </StatusEffect>
-      <StatusEffect type="Always">
         <sound file="Content/Items/Alien/AlienArtifactLoop1.ogg" range="500.0" loop="true" />
       </StatusEffect>
       <StatusEffect type="OnContained" target="This,Character" targetlimbs="LeftHand,RightHand">
@@ -94,9 +90,6 @@
     <Holdable slots="RightHand+LeftHand" holdpos="30,-15" handle1="0,10" handle2="0,-10" msg="ItemMsgPickUpSelect">
       <!-- EMP explosion every 15 seconds -->
       <StatusEffect type="Always" target="This" Condition="0" delay="15" stackable="false" setvalue="true" />
-      <StatusEffect type="Always">
-        <sound file="Content/Items/Alien/AlienArtifactLoop1.ogg" range="500.0" loop="true" />
-      </StatusEffect>
       <StatusEffect type="OnBroken" target="This" Condition="100" delay="0.5" checkconditionalalways="true">
         <Conditional hastag="neq artifactcontainer" targetcontainer="true"/>
         <Explosion range="200.0" empstrength="5" camerashake="0" stun="0" force="2.0" flames="false" smoke="false" shockwave="false" sparks="true" underwaterbubble="false" />
@@ -104,6 +97,7 @@
       </StatusEffect>
       <StatusEffect type="Always" target="This">
         <Conditional hastag="neq artifactcontainer" targetcontainer="true"/>
+        <sound file="Content/Items/Alien/AlienArtifactLoop1.ogg" range="500.0" loop="true" />
         <ParticleEmitter particle="faradayfx" anglemax="360" distancemax="10" particlespersecond="10" />
       </StatusEffect>
     </Holdable>
@@ -130,11 +124,9 @@
     <Body radius="45" density="50" friction="0.95" />
     <Holdable slots="RightHand+LeftHand" holdpos="30,-15" handle1="0,10" handle2="0,-10" msg="ItemMsgPickUpSelect">
       <StatusEffect type="Always" target="This">
-        <sound file="Content/Items/Alien/AlienArtifactLoop1.ogg" range="500.0" loop="true" />
-      </StatusEffect>
-      <StatusEffect type="Always" target="This">
         <Conditional hastag="neq artifactcontainer" targetcontainer="true"/>
         <ParticleEmitter particle="nasonovsparkles" anglemax="360" distancemax="10" velocitymin="10" velocitymax="60" emitinterval="0.55" particleamount="5" particlespersecond="5" />
+        <sound file="Content/Items/Alien/AlienArtifactLoop1.ogg" range="500.0" loop="true" />
       </StatusEffect>
       <StatusEffect type="Always" target="This" Condition="0" delay="1.1" stackable="false" setvalue="true" checkconditionalalways="true" />
       <StatusEffect type="OnBroken" target="This" Condition="100" delay="0.4">
@@ -163,11 +155,9 @@
     </Deconstruct>
     <Body radius="45" density="50" friction="0.95" />
     <Holdable slots="RightHand+LeftHand" holdpos="30,-15" handle1="0,10" handle2="0,-10" msg="ItemMsgPickUpSelect">
-      <StatusEffect type="Always">
-        <sound file="Content/Items/Alien/AlienArtifactLoop1.ogg" range="500.0" loop="true" />
-      </StatusEffect>
       <StatusEffect type="Always" target="This,NearbyCharacters" range="450">
         <Conditional hastag="neq artifactcontainer" targetcontainer="true"/>
+        <sound file="Content/Items/Alien/AlienArtifactLoop1.ogg" range="500.0" loop="true" />
         <ParticleEmitter particle="nasonovsparkles" anglemax="360" distancemax="10" velocitymin="10" velocitymax="60" emitinterval="0.55" particleamount="5" particlespersecond="5" />
         <ParticleEmitter particle="psychosisfx" scalemultiplier="0.7,0.7" anglemax="360" emitinterval="1.1" particleamount="1" particlespersecond="1" />
         <Affliction identifier="psychosis" strength="0.5" />
